@@ -1,0 +1,44 @@
+name: Update Thesaurus
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # Daily 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-thesaurus:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Download spreadsheet
+        run: wget -O thesaurus.xlsx 'https://docs.google.com/spreadsheets/d/13854_uWoaLNa-iniXYkgwhylPAk8xZ15kiUnD_eHDpU/export?format=xlsx'
+
+      - name: Download JAR binary
+        run: wget -O xls2rdf.jar 'https://github.com/sparna-git/xls2rdf/releases/download/2.2.0/xls2rdf-app-2.2.0-onejar.jar'
+
+      - name: Run xls2rdf conversion
+        run: java -jar xls2rdf.jar convert -i thesaurus.xlsx -o thesaurus.trig -l en
+
+      - name: Check for changes
+        id: thesaurus-changed
+        run: |
+          git fetch
+          if [[ $(git diff HEAD@{1} thesaurus.trig) ]]; then
+            echo "File has changed"
+            echo "::set-output name=changed::true"
+          else
+            echo "File has not changed"
+            echo "::set-output name=changed::false"
+          fi
+
+      - name: Commit and push changes
+        if: steps.thesaurus-changed.outputs.changed == 'true'
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add thesaurus.trig
+          git commit -m "Update thesaurus.trig"
+          git push
