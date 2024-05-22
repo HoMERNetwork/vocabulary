@@ -22,20 +22,18 @@ jobs:
       - name: Run xls2rdf conversion
         run: java -jar xls2rdf.jar convert -i thesaurus.xlsx -o thesaurus.trig -l en
 
-      - name: Check for changes
+      - name: Check if thesaurus.trig has changed
         id: thesaurus-changed
         run: |
           git fetch
-          if [[ $(git diff HEAD@{1} thesaurus.trig) ]]; then
-            echo "File has changed"
-            echo "::set-output name=changed::true"
+          if git diff --quiet HEAD@{1} thesaurus.trig; then
+            echo "changed=false" >> $GITHUB_STATE
           else
-            echo "File has not changed"
-            echo "::set-output name=changed::false"
+            echo "changed=true" >> $GITHUB_STATE
           fi
 
       - name: Commit and push changes
-        if: steps.thesaurus-changed.outputs.changed == 'true'
+        if: ${{ steps.thesaurus-changed.outputs.changed == 'true' }}
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
