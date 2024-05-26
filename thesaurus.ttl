@@ -121,7 +121,7 @@ venues:Kinematographentheater sem:hasEarliestBeginTimeStamp "1700-01-01"^^xsd:da
   sem:hasLatestEndTimeStamp "1950-12-31"^^xsd:date;
   skos:altLabel "Kinematographentheater"@de;
   skos:broader venues:Venue;
-  skos:closematch <https://homernetwork.github.io/vocabulary/venues/Cinema\u0020theatre>;
+  skos:closematch venues:Cinema_theatre;
   skos:prefLabel "Kinematographentheater"@en;
   skos:scopeNote "historical term used for https://homernetwork.github.io/vocabulary/venues/Cinema theatre"@en .
 
