@@ -509,11 +509,11 @@ venues:Programmkino skos:broader programmings:ProgrammingType .
 
 projectors:ProjectorType a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/projectors/>;
-  skos:narrower <https://homernetwork.github.io/vocabulary/venues/Kinematograf\u0020(equipment)>;
+  skos:narrower <https://homernetwork.github.io/vocabulary/venues/Kinematograf_(equipment)>;
   skos:prefLabel "ProjectorType"@en;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/projectors/> .
 
-<https://homernetwork.github.io/vocabulary/venues/Kinematograf\u0020(equipment)> skos:broader
+<https://homernetwork.github.io/vocabulary/venues/Kinematograf_(equipment)> skos:broader
     projectors:ProjectorType .
 
 <https://homernetwork.github.io/vocabulary/categories/> a skos:ConceptScheme;
