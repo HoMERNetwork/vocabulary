@@ -24,7 +24,6 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 
-<https://vocabulary.homernetwork.org/venues/> {
   <https://vocabulary.homernetwork.org/venues/> dct:title "HoMER Vocabulary of Moviegoing - Venues"@en;
     dct:description "Terms to describe venues."@en .
   
@@ -475,9 +474,9 @@ Multi-screen cinema"""@en;
   
   <https://vocabulary.homernetwork.org/venues/Warehouse\u0020building> skos:topConceptOf
       <https://vocabulary.homernetwork.org/venues/> .
-}
 
-<https://vocabulary.homernetwork.org/identifiers/> {
+
+
   <https://vocabulary.homernetwork.org/identifiers/> dct:title "HoMER Vocabulary of Moviegoing - Identifier"@en .
   
   identifiers:IdentifierType skos:prefLabel "IdentifierType"@en .
@@ -529,9 +528,7 @@ Multi-screen cinema"""@en;
     skos:hasTopConcept identifiers:IdentifierType .
   
   identifiers:IdentifierType skos:topConceptOf <https://vocabulary.homernetwork.org/identifiers/> .
-}
 
-<https://vocabulary.homernetwork.org/ownership/> {
   <https://vocabulary.homernetwork.org/ownership/> dct:title "HoMER Vocabulary of Moviegoing - Ownership"@en .
   
   <https://vocabulary.homernetwork.org/ownerships/Cinema\u0020chainownerships:> skos:prefLabel
@@ -658,9 +655,7 @@ Multi-screen cinema"""@en;
     skos:inScheme <https://vocabulary.homernetwork.org/ownership/> .
   
   <https://vocabulary.homernetwork.org/ownership/> a skos:ConceptScheme .
-}
 
-<https://vocabulary.homernetwork.org/programmings/> {
   <https://vocabulary.homernetwork.org/programmings/> dct:title "HoMER Vocabulary of Moviegoing - Programming"@en .
   
   programmings:ProgrammingType skos:prefLabel "ProgrammingType"@en;
@@ -687,9 +682,7 @@ Multi-screen cinema"""@en;
     skos:hasTopConcept programmings:ProgrammingType .
   
   programmings:ProgrammingType skos:topConceptOf <https://vocabulary.homernetwork.org/programmings/> .
-}
 
-<https://vocabulary.homernetwork.org/projectors/> {
   <https://vocabulary.homernetwork.org/projectors/> dct:title "HoMER Vocabulary of Moviegoing - Projector"@en .
   
   projectors:ProjectorType skos:prefLabel "ProjectorType"@en;
@@ -705,9 +698,7 @@ Multi-screen cinema"""@en;
     skos:hasTopConcept projectors:ProjectorType .
   
   projectors:ProjectorType skos:topConceptOf <https://vocabulary.homernetwork.org/projectors/> .
-}
 
-<https://vocabulary.homernetwork.org/categories/> {
   <https://vocabulary.homernetwork.org/categories/> dct:title "HoMER Vocabulary of Moviegoing - Category"@en .
   
   categories:Category skos:prefLabel "Category"@it;
@@ -720,9 +711,7 @@ Multi-screen cinema"""@en;
     skos:hasTopConcept categories:Category .
   
   categories:Category skos:topConceptOf <https://vocabulary.homernetwork.org/categories/> .
-}
 
-<https://vocabulary.homernetwork.org/rooms/> {
   <https://vocabulary.homernetwork.org/rooms/> dct:title "HoMER Vocabulary of Moviegoing - Room"@en .
   
   rooms:RoomType skos:prefLabel "RoomType"@en .
@@ -765,4 +754,4 @@ Multi-screen cinema"""@en;
     skos:hasTopConcept rooms:RoomType .
   
   rooms:RoomType skos:topConceptOf <https://vocabulary.homernetwork.org/rooms/> .
-}
+
