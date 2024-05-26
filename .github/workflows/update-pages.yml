@@ -1,0 +1,37 @@
+name: Publish SkoHub Static Pages to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Setup public folder
+        run: mkdir -p public && chmod 777 public
+
+      - name: Run Docker container
+        run: |
+          docker run -v ${{ github.workspace }}/public:/app/public \
+          -v ${{ github.workspace }}/thesaurus.ttl:/app/data/thesaurus.ttl \
+          -v ${{ github.workspace }}/skohub-pages/config.yaml:/app/config.yaml \
+          -v ${{ github.workspace }}/skohub-pages/homer.png:/app/static/img/homer.png \
+          -e "BASEURL=/vocabulary" \
+          -e "GATSBY_RESPOSITORY_URL=https://github.com/HoMERNetwork/vocabulary" \
+          skohub/skohub-vocabs-docker:latest
+
+      - name: Upload output to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
