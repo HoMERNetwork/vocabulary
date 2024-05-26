@@ -1,0 +1,399 @@
+{
+  "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+  "type": "Concept",
+  "prefLabel": {
+    "en": "Venue"
+  },
+  "altLabel": {
+    "en": [
+      "Movie Theatre",
+      "Picture House",
+      "Picture Palace",
+      "Picture Theatre",
+      "Theatre",
+      "Venue"
+    ],
+    "sv": [
+      "Biograf"
+    ],
+    "fr": [
+      "Salle de cinéma",
+      "Salle obscure"
+    ]
+  },
+  "definition": {
+    "en": "#1: A building where films were shown, not necessarily on a regular basis. It does not matter whether this was on a regular basis or not. Also a cinema can be an open air space (not a building) where a film is screened. This can be a square, a courtyard, a field. #2: A cinema operation that was active at a certain period, run by a specific person or company (both in buildings called cinema theatres, see below, or at temporary events, as in the case of travelling cinemas) #3: A cinema (biograf, in Swedish) is the venue, that has been listed by film companies (also known as 'cinemas' in the Swedish industry records, ie Filmägarnas kontrollbyrå) for more or less regular exhibition of film. It is a geographically fixed (with a street address) building. The frequency of film exhibition in a cinema varies from once every other month to 14 screenings a week (or more). Cinema can be one function of many in a multipurpose venue or a stand-alone purpose-built venue. Cinema can be owned by the organisation or company that owns the venue or it can be a company who rents the venue (multi-purpose of stand-alone) for exhibition. Sources: https://tmgonline.nl/articles/10.18146/tmg.601 https://www.cinemahistories.org/projects/swedish-cinema-everyday-life/ #4: A venue, usually a building, for viewing films #5: A venue (hierarchy) #6 cinema is a place where films are shown on a regular basis to a paying audience. Theoretically it would not need to be limited to a specific place in that I would understand portable cinemas (exhibiting films in different places) #7 A cinema is a place where audiences select/choose to watch particular films at a specific time and date for a price. #8 Cinema is an environmental space where films are exhibited #9 our dataset considers “cinema” buildings and open-air locations where films were publicly projected, either regularly or occasionally. Single-purpose or multi-purpose venues, commercial, parish, afterwork and recreational cinemas are all included. Italian - Cinema-teatro – A venue in which either films are projected or live performances are staged. italiancinex.com (forthcoming) #10 Cinemas are official theatre buildings(ie built for cinema use) Cinemas are club houses (labour associations, temperance clubs etc.) Cinemas are warehouse buildings taken over during the war Cinemas are dugouts that were built for protection during the war (frontline cinema) Cinemas can also be tents #11 Building (Physical location). In Spanish Cines, Salas de Cine o Teatros #12 Buildings expressly devoted to the screening of films (although allowing also for occasional live events, like music, plays, vaudeville, bingo, etc., either as part of the programming of films or in independent programming). When buildings were originally devoted to live theatre plays, concerts, opera, vaudeville, etc. and they alternated with film screenings, we use the word \"theatre\" (in Latin America the word \"teatro\" is mostly used for live entertainment events and \"cine\" for film screenings, unlike American English which tend to use \"theatre\" also for movie venues. In our work, when we refer to humble neighborhood cinema places with no roof, we tend to qualify the description, saying \"open-air cinemas\" or \"terrazas.\" DOI: https://doi.org/10.1007/978-3-031-38789-0_5, DOI: 10.1386/slac.14.3.277_1 In Mexican or US Spanish-language newspapers a weird term was frequently used as a synonym to refer to cinema houses: \"coliseums.\" The term \"terraza\" (terrace) was also frequently used to refer to open-air, humble neighborhood cinemas. #13 \"List of venues includes \"\"places were films were shown with some regularity\"\" https://earlycinema.gla.ac.uk/venues-list/ Cinema is \"\"an arrangement of things in space (including tools and information carriers); an arrangement of activity in time; and a discursive practice that produces a public\"\" (https://doi.org/10.2307/j.ctv12sdvk3.4.)\""
+  },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Kommunales_Kino",
+      "prefLabel": {
+        "en": "Kommunales Kino"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Filmhuis",
+      "prefLabel": {
+        "en": "Filmhuis"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Folkbiografer",
+      "prefLabel": {
+        "en": "Folkbiografer"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Folkets_bio",
+      "prefLabel": {
+        "en": "Folkets bio"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Warehouses",
+      "prefLabel": {
+        "en": "Warehouses"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Filmstaden",
+      "prefLabel": {
+        "en": "Filmstaden"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/School",
+      "prefLabel": {
+        "en": "School"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Open-air",
+      "prefLabel": {
+        "en": "Open-air"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Carattere",
+      "prefLabel": {
+        "en": "Carattere"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Kinematograf_(equipment)",
+      "prefLabel": {
+        "en": "Kinematograf (equipment)"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Folkets_Hus_Biografer",
+      "prefLabel": {
+        "en": "Folkets Hus Biografer"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Biograf",
+      "prefLabel": {
+        "en": "Biograf"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Bioscope_theatre",
+      "prefLabel": {
+        "en": "Bioscope theatre"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Cinema_theatre",
+      "prefLabel": {
+        "en": "Cinema theatre"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Kinematographentheater",
+      "prefLabel": {
+        "en": "Kinematographentheater"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Cinematograph_theatre",
+      "prefLabel": {
+        "en": "Cinematograph theatre"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Club_house",
+      "prefLabel": {
+        "en": "Club house"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Commercial_building_converted_into_cinema",
+      "prefLabel": {
+        "en": "Commercial building converted into cinema"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Converted_premises",
+      "prefLabel": {
+        "en": "Converted premises"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Drive-in_cinema",
+      "prefLabel": {
+        "en": "Drive-in cinema"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Electric_theatre",
+      "prefLabel": {
+        "en": "Electric theatre"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)",
+      "prefLabel": {
+        "en": "Kinematograf (venue)"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Multiplex_and_Multi-screen_cinema",
+      "prefLabel": {
+        "en": "Multiplex and Multi-screen cinema"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Multipurpose_venue",
+      "prefLabel": {
+        "en": "Multipurpose venue"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Picture_House",
+      "prefLabel": {
+        "en": "Picture House"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Picture_palace",
+      "prefLabel": {
+        "en": "Picture palace"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Picture_theatre",
+      "prefLabel": {
+        "en": "Picture theatre"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Private_homes",
+      "prefLabel": {
+        "en": "Private homes"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Sala_cinematografica",
+      "prefLabel": {
+        "en": "Sala cinematografica"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Stand-alone_purpose-build_venue",
+      "prefLabel": {
+        "en": "Stand-alone purpose-build venue"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Theatre",
+      "prefLabel": {
+        "en": "Theatre"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Travelling_cinema",
+      "prefLabel": {
+        "en": "Travelling cinema"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Virtual_Venue",
+      "prefLabel": {
+        "en": "Virtual Venue"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
+      "prefLabel": {
+        "en": "Cinema"
+      }
+    }
+  ],
+  "inScheme": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/",
+      "title": {
+        "en": "Venues"
+      }
+    }
+  ],
+  "inSchemeAll": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/",
+      "title": {
+        "en": "Venues"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}
