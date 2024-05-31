@@ -1,3 +1,4 @@
+@prefix audiences: <https://homernetwork.github.io/vocabulary/audiences/> .
 @prefix categories: <https://homernetwork.github.io/vocabulary/categories/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
@@ -6,6 +7,7 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix identifiers: <https://homernetwork.github.io/vocabulary/identifiers/> .
 @prefix org: <http://www.w3.org/ns/org#> .
+@prefix organisations: <https://homernetwork.github.io/vocabulary/organisations/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix ownerships: <https://homernetwork.github.io/vocabulary/ownerships/> .
 @prefix programmings: <https://homernetwork.github.io/vocabulary/programmings/> .
@@ -14,7 +16,7 @@
 @prefix qb: <http://purl.org/linked-data/cube#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rooms: <https://homernetwork.github.io/vocabulary/rooms/> .
+@prefix salas: <https://homernetwork.github.io/vocabulary/salas/> .
 @prefix schema: <https://schema.org/> .
 @prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
@@ -27,46 +29,48 @@
 <https://homernetwork.github.io/vocabulary/venues/> dct:description "Terms to describe venues."@en;
   dct:title "Venues"@en .
 
-venues:Venue skos:altLabel "Biograf"@sv, "Movie Theatre"@en, "Picture House"@en, "Picture Palace"@en,
-    "Picture Theatre"@en, "Salle de cinéma"@fr, "Salle obscure"@fr, "Theatre"@en, "Venue"@en;
-  skos:definition "#1: A building where films were shown, not necessarily on a regular basis. It does not matter whether this was on a regular basis or not. Also a cinema can be an open air space (not a building) where a film is screened. This can be a square, a courtyard, a field. #2: A cinema operation that was active at a certain period, run by a specific person or company (both in buildings called cinema theatres, see below, or at temporary events, as in the case of travelling cinemas) #3: A cinema (biograf, in Swedish) is the venue, that has been listed by film companies (also known as 'cinemas' in the Swedish industry records, ie Filmägarnas kontrollbyrå) for more or less regular exhibition of film. It is a geographically fixed (with a street address) building. The frequency of film exhibition in a cinema varies from once every other month to 14 screenings a week (or more). Cinema can be one function of many in a multipurpose venue or a stand-alone purpose-built venue. Cinema can be owned by the organisation or company that owns the venue or it can be a company who rents the venue (multi-purpose of stand-alone) for exhibition. Sources: https://tmgonline.nl/articles/10.18146/tmg.601 https://www.cinemahistories.org/projects/swedish-cinema-everyday-life/ #4: A venue, usually a building, for viewing films #5: A venue (hierarchy) #6 cinema is a place where films are shown on a regular basis to a paying audience. Theoretically it would not need to be limited to a specific place in that I would understand portable cinemas (exhibiting films in different places) #7 A cinema is a place where audiences select/choose to watch particular films at a specific time and date for a price. #8 Cinema is an environmental space where films are exhibited #9 our dataset considers “cinema” buildings and open-air locations where films were publicly projected, either regularly or occasionally. Single-purpose or multi-purpose venues, commercial, parish, afterwork and recreational cinemas are all included. Italian - Cinema-teatro – A venue in which either films are projected or live performances are staged. italiancinex.com (forthcoming) #10 Cinemas are official theatre buildings(ie built for cinema use) Cinemas are club houses (labour associations, temperance clubs etc.) Cinemas are warehouse buildings taken over during the war Cinemas are dugouts that were built for protection during the war (frontline cinema) Cinemas can also be tents #11 Building (Physical location). In Spanish Cines, Salas de Cine o Teatros #12 Buildings expressly devoted to the screening of films (although allowing also for occasional live events, like music, plays, vaudeville, bingo, etc., either as part of the programming of films or in independent programming). When buildings were originally devoted to live theatre plays, concerts, opera, vaudeville, etc. and they alternated with film screenings, we use the word \"theatre\" (in Latin America the word \"teatro\" is mostly used for live entertainment events and \"cine\" for film screenings, unlike American English which tend to use \"theatre\" also for movie venues. In our work, when we refer to humble neighborhood cinema places with no roof, we tend to qualify the description, saying \"open-air cinemas\" or \"terrazas.\" DOI: https://doi.org/10.1007/978-3-031-38789-0_5, DOI: 10.1386/slac.14.3.277_1 In Mexican or US Spanish-language newspapers a weird term was frequently used as a synonym to refer to cinema houses: \"coliseums.\" The term \"terraza\" (terrace) was also frequently used to refer to open-air, humble neighborhood cinemas. #13 \"List of venues includes \"\"places were films were shown with some regularity\"\" https://earlycinema.gla.ac.uk/venues-list/ Cinema is \"\"an arrangement of things in space (including tools and information carriers); an arrangement of activity in time; and a discursive practice that produces a public\"\" (https://doi.org/10.2307/j.ctv12sdvk3.4.)\""@en;
-  skos:prefLabel "Venue"@en .
+venues:Venue skos:altLabel "Movie Theatre"@en, "Picture House"@en, "Picture Palace"@en,
+    "Picture Theatre"@en, "Theatre"@en, "Venue"@en;
+  skos:definition "A place"@en;
+  skos:prefLabel "Biograf"@sv, "Salle de cinéma"@fr, "Salle obscure"@fr, "Venue"@en .
 
 venues:Kommunales_Kino skos:altLabel "Kommunales Kino"@de;
-  skos:broader venues:Venue;
+  skos:broader venues:Public_venue;
   skos:definition "Cinema financed by a municipality, non-commercial, dedicated to art cinema and retrospectives of classics and other historically relevant films"@en;
-  skos:prefLabel "Kommunales Kino"@en .
+  skos:prefLabel "Kommunales Kino"@de, "Kommunales Kino"@en .
 
-venues:Filmhuis skos:altLabel "Filmhuis"@nl;
-  skos:broader venues:Venue;
+venues:Filmhuis skos:broader venues:Public_venue;
   skos:definition "Art cinema, sometimes with financial support by the municipality"@en;
-  skos:prefLabel "Filmhuis"@en .
+  skos:prefLabel "Filmhuis"@en, "Filmhuis"@nl .
 
-venues:Folkbiografer skos:altLabel "Folkbiografer"@sv;
-  skos:broader venues:Venue;
-  skos:prefLabel "Folkbiografer"@en .
+venues:Folkbiografer skos:broader venues:Public_venue;
+  skos:prefLabel "Folkbiografer"@en, "Folkbiografer"@sv .
 
-venues:Folkets_bio skos:altLabel "Folkets bio"@sv;
-  skos:broader venues:Venue;
-  skos:prefLabel "Folkets bio"@en .
+venues:Folkets_bio skos:broader venues:Public_venue;
+  skos:prefLabel "Folkets bio"@en, "Folkets bio"@sv .
 
-venues:Frontline_cinema skos:altLabel "Frontline cinema"@en;
+venues:Frontline_cinema sem:hasEarliestBeginTimeStamp "1939-01-01"^^xsd:date;
+  sem:hasLatestBeginTimeStamp "1941-12-31"^^xsd:date;
+  skos:altLabel "Frontline cinema"@en;
+  skos:broader venues:Private_venue;
   skos:definition "Finland: dugouts that were built for protection during the war (frontline cinema) Viipuri during the Winter War. To add: period"@en;
   skos:prefLabel "Frontline cinema"@en;
   schema:spatialCoverage "Finland"@en .
 
-venues:Warehouses skos:altLabel "Warehouses"@en;
-  skos:broader venues:Venue;
+venues:Warehouses sem:hasEarliestBeginTimeStamp "1939-01-01"^^xsd:date;
+  sem:hasLatestBeginTimeStamp "1941-12-31"^^xsd:date;
+  skos:altLabel "Warehouses"@en;
+  skos:broader venues:Venue_with_fixed_location;
   skos:definition "Cinemas are warehouse buildings taken over during the war. To add: period."@en;
-  skos:prefLabel "Warehouses"@en .
+  skos:prefLabel "Warehouses"@en;
+  schema:spatialCoverage "Finland"@en .
 
 venues:Filmstaden skos:altLabel "Filmstaden"@en;
-  skos:broader venues:Venue;
   skos:definition "A multiplex belonging to a large chain of cinemas"@en;
   skos:prefLabel "Filmstaden"@en .
 
 venues:School skos:altLabel "School"@en;
-  skos:broader venues:Venue;
+  skos:broader venues:Private_venue;
   skos:definition "Indoor space for education where sometimes a film is shown"@en;
   skos:prefLabel "School"@en .
 
@@ -75,161 +79,120 @@ venues:Arena skos:altLabel "Arena"@en;
   skos:definition "An open air cinema, often temporary"@en;
   skos:prefLabel "Arena"@en .
 
-venues:Terraza skos:altLabel "Terraza"@it;
-  skos:broader venues:Open-air;
+venues:Terraza skos:broader venues:Open-air;
   skos:definition "when we refer to humble neighborhood cinema places with no roof, we tend to qualify the description, saying \"open-air cinemas\" or \"terrazas.\" DOI: https://doi.org/10.1007/978-3-031-38789-0_5, DOI: 10.1386/slac.14.3.277_1"@en;
-  skos:prefLabel "Terraza"@en .
+  skos:prefLabel "Terraza"@en, "Terraza"@es, "Terraza"@it .
 
-venues:Utomhusbio skos:altLabel "Utomhusbio"@sv;
-  skos:broader venues:Open-air;
-  skos:definition "Outdoor cinema, temporary"@en;
-  skos:prefLabel "Utomhusbio"@en .
+venues:Utomhusbio skos:definition "Outdoor cinema, temporary"@en;
+  skos:prefLabel "Utomhusbio"@en, "Utomhusbio"@sv .
 
-venues:Carattere skos:altLabel "Carattere"@it, "Nature"@en;
-  skos:broader venues:Venue;
-  skos:definition "Nature of a cinema, also slackly defined by Italian authorities to distinguish between commercial, parish, and cultural venues"@en;
-  skos:prefLabel "Carattere"@en .
-
-<https://homernetwork.github.io/vocabulary/venues/Kinematograf_(equipment)> skos:altLabel
-    "Kinematograf (equipment)"@de;
-  skos:broader venues:Venue;
-  skos:definition "Projection equipment"@en;
-  skos:prefLabel "Kinematograf (equipment)"@en .
-
-venues:Folkets_Hus_Biografer skos:altLabel "Folkets Hus Biografer"@sv;
-  skos:broader venues:Venue;
+venues:Folkets_Hus_Biografer skos:broader venues:Public_venue;
   skos:definition "Cinemas driven by temperence societies and other independent cinemas and a smaller number of other kinds of grassroots organisations, such as local youth and sports clubs. This kind of ownership could involve a single cinema or a chain of cinemas."@en;
-  skos:prefLabel "Folkets Hus Biografer"@en .
+  skos:prefLabel "Folkets Hus Biografer"@en, "Folkets Hus Biografer"@sv .
 
-venues:Biograf skos:altLabel "Biograf"@sv;
-  skos:broader venues:Venue;
-  skos:definition "a venue, usually a building, for viewing films that has been listed by film companies (also known as 'cinemas' in the Swedish industry records, ie Filmägarnas kontrollbyrå) for more or less regular exhibition of film. It is a geographically fixed (with a street address) building. The frequency of film exhibition in a cinema varies from once every other month to 14 screenings a week (or more). Cinema can be one function of many in a multipurpose venue or a stand-alone purpose-built venue. Cinema can be owned by the organisation or company that owns the venue or it can be a company who rents the venue (multi-purpose of stand-alone) for exhibition. Sources: https://tmgonline.nl/articles/10.18146/tmg.601 https://www.cinemahistories.org/projects/swedish-cinema-everyday-life/"@en;
-  skos:prefLabel "Biograf"@en .
+venues:Biograf skos:definition "a venue, usually a building, for viewing films that has been listed by film companies (also known as 'cinemas' in the Swedish industry records, ie Filmägarnas kontrollbyrå) for more or less regular exhibition of film. It is a geographically fixed (with a street address) building. The frequency of film exhibition in a cinema varies from once every other month to 14 screenings a week (or more). Cinema can be one function of many in a multipurpose venue or a stand-alone purpose-built venue. Cinema can be owned by the organisation or company that owns the venue or it can be a company who rents the venue (multi-purpose of stand-alone) for exhibition. Sources: https://tmgonline.nl/articles/10.18146/tmg.601 https://www.cinemahistories.org/projects/swedish-cinema-everyday-life/"@en;
+  skos:prefLabel "Biograf"@en, "Biograf"@sv .
 
 venues:Bioscope_theatre skos:altLabel "Bioscope theatre"@en;
-  skos:broader venues:Venue;
+  skos:broader venues:Public_venue;
   skos:definition "Similar to cinematograph theatre but less common becasue bioscope did not become the most common word for projector. The London-based trade journal The Bioscope kept it in circulation."@en;
   skos:prefLabel "Bioscope theatre"@en .
 
-venues:Cinema_theatre skos:altLabel "Cinema theatre"@en, "Kino"@de, "Lichtspieltheater"@de,
-    "Sala cinematografica"@it;
-  skos:broader venues:Venue;
-  skos:definition "#1: A venue, usually a building, for viewing films. #2: A building in which films were shown for a public that pays an entrance fee (so commercial cinema operations, in our data restricted to members of the national cinema union NBB)"@en;
-  skos:prefLabel "Cinema theatre"@en .
+venues:Cinema_theatre skos:altLabel "Cinema theatre"@en, "Kino"@de;
+  skos:broader venues:Public_venue;
+  skos:definition "A building in which films were shown for a public that pays an entrance fee (so commercial cinema operations, in our data restricted to members of the national cinema union NBB)"@en;
+  skos:prefLabel "Cinema theatre"@en, "Lichtspieltheater"@de, "Sala cinematografica"@it .
 
 venues:Kinematographentheater sem:hasEarliestBeginTimeStamp "1700-01-01"^^xsd:date;
   sem:hasLatestEndTimeStamp "1950-12-31"^^xsd:date;
-  skos:altLabel "Kinematographentheater"@de;
-  skos:broader venues:Venue;
-  skos:closematch venues:Cinema_theatre;
-  skos:prefLabel "Kinematographentheater"@en;
-  skos:scopeNote "historical term used for https://homernetwork.github.io/vocabulary/venues/Cinema theatre"@en .
+  skos:prefLabel "Kinematographentheater"@de, "Kinematographentheater"@en;
+  skos:scopeNote "Historical term used for Cinema theatre"@en .
 
 venues:Cinematograph_theatre skos:altLabel "Cinematograph theatre"@en;
-  skos:broader venues:Venue;
+  skos:broader venues:Public_venue;
   skos:definition "Cinematograph was the term used for projector in official discourse in the UK/Ireland, such as in the Cinematograph Act, 1909, and the licences that were issued by urban councils on foot of it. As a result, the premises that focused on showing films using one of these devices were often officially referred to as cinematograph theatres."@en;
   skos:prefLabel "Cinematograph theatre"@en .
 
 venues:Club_house skos:altLabel "Club house"@en;
-  skos:broader venues:Venue;
   skos:definition "labour associations, temperance clubs etc."@en;
   skos:prefLabel "Club house"@en .
 
 venues:Commercial_building_converted_into_cinema skos:altLabel "Commercial building converted into cinema"@en;
-  skos:broader venues:Venue;
   skos:definition "Commercial buildings converted into cinemas - shops, theatres, railway arches etc"@en;
   skos:prefLabel "Commercial building converted into cinema"@en .
 
 venues:Converted_premises skos:altLabel "Converted premises"@en;
-  skos:broader venues:Venue;
   skos:definition "Unlike the premises above, in which the buildings did not become cinemas, converted premises changed over to film exhibition but sometimes retained a connection to their previous use, often in the naming of the premises. This happened with converted theatres, churches and roller-skating rinks, hence the Rink Picture Palace."@en;
-  skos:prefLabel "Converted premises"@en;
-  a skos:Concept .
+  skos:prefLabel "Converted premises"@en .
 
-venues:Drive-in_cinema a skos:Concept;
-  skos:altLabel "Autokino"@de, "Drive-in cinema"@en;
-  skos:broader venues:Venue;
+venues:Drive-in_cinema skos:altLabel "Autokino"@de, "Drive-in cinema"@en;
   skos:definition "Drive-ins are outdoor venues where audiences watch movies from their own vehicles. These locations provide all the necessary screening facilities for enjoying films."@en;
-  skos:prefLabel "Drive-in cinema"@en .
+  skos:prefLabel "Autokino"@de, "Drive-in cinema"@en .
 
-venues:Electric_theatre a skos:Concept;
-  skos:altLabel "Electric theatre"@en;
-  skos:broader venues:Venue;
+venues:Electric_theatre skos:altLabel "Electric theatre"@en;
+  skos:broader venues:Public_venue;
   skos:definition "A company called Electric Theatres existed, but other unaffiliated proprietors referred to their premises as an electric theatre."@en;
   skos:prefLabel "Electric theatre"@en .
 
-<https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)> a skos:Concept;
-  skos:altLabel "Kinematograf (venue)"@de;
-  skos:broader venues:Venue;
+<https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)> skos:altLabel
+    "Kinematograf (venue)"@de;
+  skos:broader venues:Public_venue;
   skos:definition "The projection equipment and the term could also refer to the venue of film exhibition (used in the first decades of cinema)"@en;
-  skos:prefLabel "Kinematograf (venue)"@en .
+  skos:prefLabel "Kinematograf (venue)"@de, "Kinematograf (venue)"@en .
 
-venues:Multiplex_and_Multi-screen_cinema a skos:Concept;
-  skos:altLabel "Multi-screen cinema"@en, "Multiplex"@en, "multisala"@it;
-  skos:broader venues:Venue;
+venues:Multiplex_and_Multi-screen_cinema skos:altLabel "Multi-screen cinema"@en, "Multiplex"@en;
   skos:definition "A multiplex is a facility that accommodates multiple theaters for the simultaneous screening of several films. Multiplex (Italian: multisala) (alternative labels) Multi-screen cinema"@en;
   skos:narrower venues:Filmstaden;
-  skos:prefLabel "Multiplex and Multi-screen cinema"@en .
+  skos:prefLabel "Multiplex and Multi-screen cinema"@en, "multisala"@it .
 
-venues:Multipurpose_venue a skos:Concept;
-  skos:altLabel "Multipurpose venue"@en;
-  skos:broader venues:Venue;
+venues:Multipurpose_venue skos:altLabel "Multipurpose venue"@en;
   skos:definition "The most important of these were town halls, often serving as the main film exhibition venue in smaller towns or villages.Church halls were also important but may have served only part of the local community."@en;
   skos:narrower venues:School;
   skos:prefLabel "Multipurpose venue"@en .
 
-venues:Open-air a skos:Concept;
-  skos:altLabel "Open-air"@en;
-  skos:broader venues:Venue;
+venues:Open-air skos:altLabel "Open-air"@en;
   skos:definition "It can be a square, a courtyard, a field. source: Europeancinemaaudiences.org"@en;
-  skos:narrower venues:Arena, venues:Terraza, venues:Utomhusbio;
   skos:prefLabel "Open-air"@en .
 
-venues:Picture_House a skos:Concept;
-  skos:altLabel "Picture House"@en;
-  skos:broader venues:Venue;
+venues:Picture_House skos:altLabel "Picture House"@en;
   skos:definition "in the early cinema period (1890s-c.1915), most things were in flux, and \"cinema\" was not the generic term for a premises exhibiting films; several other terms were used, the most common of which I have found in my research - which focuses on Ireland, still part of the UK at this time - was \"picture house\". But this was not a neutrally descriptive term; it and its alternatives often encoded class/commercial issues."@en;
   skos:prefLabel "Picture House"@en .
 
-venues:Picture_palace a skos:Concept;
-  skos:altLabel "Picture palace"@en;
-  skos:broader venues:Venue;
+venues:Picture_palace skos:altLabel "Picture palace"@en;
   skos:definition "in certain contexts, this may have indicated a more salubrious venue than competitors or sometimes just the suggestion rather than the reality."@en;
   skos:prefLabel "Picture palace"@en .
 
-venues:Picture_theatre a skos:Concept;
-  skos:altLabel "Picture theatre"@en;
-  skos:broader venues:Venue;
+venues:Picture_theatre skos:altLabel "Picture theatre"@en;
+  skos:broader venues:Public_venue;
   skos:definition "Probably the second most common term in Ireland in the 1910s."@en;
   skos:prefLabel "Picture theatre"@en .
 
-venues:Private_homes a skos:Concept;
-  skos:altLabel "Private homes"@en;
-  skos:broader venues:Venue;
-  skos:prefLabel "Private homes"@en .
+venues:Private_homes skos:altLabel "Private homes"@en;
+  skos:broader venues:Private_venue;
+  skos:prefLabel "Private homes"@en;
+  a skos:Concept .
 
 venues:Sala_cinematografica a skos:Concept;
-  skos:altLabel "Sala"@it, "Sala cinematografica"@it;
-  skos:broader venues:Venue;
-  skos:definition "#1: Every single place where a movie was shown. It could be a real movie theatre, a theatre, a cinema-theatre, a multipurpose venue, a building used for something else (e.g. hospital), an open-air cinema, etc. It is an address, usually, and correspond to specific geographic coordinates. The building, the management, the architecture, the name, etc., all can change, but it stays the same 'sala cinematografica' as long as it shows movies. Travelling cinemas are exluded for now. To account for moving exhibitors, societies etc, we have other categories (such as people and companies). #2: A venue, usually a building, for viewing films - alternative label: cinema"@en;
-  skos:prefLabel "Sala cinematografica"@en .
+  skos:broader venues:Venue_with_fixed_location;
+  skos:definition "Every single place, usually a building, where a movie was shown. It could be a real movie theatre, a theatre, a cinema-theatre, a multipurpose venue, a building used for something else (e.g. hospital), an open-air cinema, etc. It is an address, usually, and correspond to specific geographic coordinates. The building, the management, the architecture, the name, etc., all can change, but it stays the same 'sala cinematografica' as long as it shows movies. Travelling cinemas are exluded for now. To account for moving exhibitors, societies etc, we have other categories (such as people and companies)."@en;
+  skos:prefLabel "Sala"@it, "Sala cinematografica"@en, "Sala cinematografica"@it .
 
-venues:Stand-alone_purpose-build_venue a skos:Concept;
-  skos:altLabel "Stand-alone purpose-build venue"@en;
-  skos:broader venues:Venue;
-  skos:definition "In UK since 1910"@en;
-  skos:prefLabel "Stand-alone purpose-build venue"@en .
+venues:Stand-alone_purpose-built_venue a skos:Concept;
+  skos:altLabel "Stand-alone purpose-built venue"@en;
+  skos:editorialNote "In UK since 1910"@en;
+  skos:prefLabel "Stand-alone purpose-built venue"@en .
 
 venues:Theatre a skos:Concept;
   skos:altLabel "Theatre"@en;
-  skos:broader venues:Venue;
+  skos:broader venues:Public_venue;
   skos:definition "Theatre - here referring not in the US synonym for cinema but to a theatre which mostly hosted live shows but showed films occasionally or in the case of variety theatres, incorporated film into its offerings on a regular basis for a substantial period (years), particularly if the proprietors had invested in a projector."@en;
   skos:prefLabel "Theatre"@en .
 
 venues:Travelling_cinema a skos:Concept;
   skos:altLabel "Travelling cinema"@en;
-  skos:broader venues:Venue;
-  skos:definition "A temporary setup for screening films to an audience at a venue that is not a purpose built building (e.g., fairs, community halls, etc.)"@en;
+  skos:broader venues:Public_venue, venues:Venue;
+  skos:definition "A temporary setup for screening films to an audience at a venue that is not a purpose built building (e.g., fairs, community halls, etc.)"@en,
+    "Mobile venue."@en;
   skos:prefLabel "Travelling cinema"@en .
 
 venues:Virtual_Venue a skos:Concept;
@@ -244,33 +207,85 @@ venues:Warehouse_building a skos:Concept;
   sem:hasLatestEndTimeStamp "1940-12-31"^^xsd:date;
   skos:altLabel "Warehouse building"@en;
   skos:definition "Warehouse buildings taken over during the war. Viipuri during the Winter War, 1939-1940"@en;
-  skos:prefLabel "Warehouse building"@en .
+  skos:prefLabel "Warehouse building"@en;
+  schema:spatialCoverage "Finland"@en .
 
 venues:Streaming_Platform a skos:Concept;
   skos:altLabel "Streaming Platform"@en;
-  skos:broader venues:Virtual_Venue;
   skos:prefLabel "Streaming Platform"@en .
 
 venues:Cinema a skos:Concept;
   sem:hasEarliestBeginTimeStamp "1915-01-01"^^xsd:date;
-  skos:altLabel "Cinema"@en;
+  skos:altLabel "Cinema"@en, "Salas de Cine"@es, "Teatros"@es;
+  skos:broader venues:Public_venue;
+  skos:definition "A building where films were shown, not necessarily on a regular basis. It does not matter whether this was on a regular basis or not. Also a cinema can be an open air space (not a building) where a film is screened. This can be a square, a courtyard, a field. Cinema is \"\"an arrangement of things in space (including tools and information carriers); an arrangement of activity in time. Cf definition of Picture House"@en;
+  skos:narrower venues:Adult_cinema;
+  skos:prefLabel "Cinema"@en, "Cines"@es;
+  skos:narrower venues:Cinema_house, venues:Single_screen_cinema;
+  schema:spatialCoverage "UK,Ireland"@en .
+
+venues:Tent a skos:Concept;
+  skos:broader venues:Public_venue;
+  skos:prefLabel "Tent"@en, "Tent"@nl .
+
+venues:Registered_cinema a skos:Concept;
+  skos:broader venues:Public_venue;
+  skos:definition "A venue, that has been listed by film companies (also known as 'cinemas' in the Swedish industry records, ie Filmägarnas kontrollbyrå"@en;
+  skos:prefLabel "Registered cinema"@en .
+
+venues:Venue_with_fixed_location a skos:Concept;
   skos:broader venues:Venue;
-  skos:definition "cf definition of Picture House"@en;
+  skos:definition "Geographically fixed (with a street address) building"@en;
+  skos:narrower venues:Sala_cinematografica, venues:Warehouses;
+  skos:prefLabel "Venue with fixed location"@en .
+
+venues:Adult_cinema a skos:Concept;
+  skos:broader venues:Cinema;
+  skos:prefLabel "Adult cinema"@en .
+
+venues:Public_venue a skos:Concept;
+  skos:broader venues:Venue;
+  skos:narrower venues:Bioscope_theatre, venues:Cinema, venues:Cinema_theatre, venues:Cinematograph_theatre,
+    venues:Electric_theatre, venues:Filmhuis, venues:Folkbiografer, venues:Folkets_Hus_Biografer,
+    venues:Folkets_bio, <https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)>,
+    venues:Kommunales_Kino, venues:Picture_theatre, venues:Registered_cinema, venues:Tent,
+    venues:Theatre, venues:Travelling_cinema;
+  skos:prefLabel "Public venue"@en .
+
+venues:Private_venue a skos:Concept;
+  skos:broader venues:Venue;
+  skos:narrower venues:Frontline_cinema, venues:Private_homes, venues:School;
+  skos:prefLabel "Private venue"@en .
+
+venues:Single_purpose_venue a skos:Concept;
+  skos:broader venues:Venue;
+  skos:prefLabel "Single purpose venue"@en .
+
+venues:Teatro a skos:Concept;
+  skos:broader venues:Venue;
+  skos:definition "In Latin America the word \"teatro\" is mostly used for live entertainment events and \"cine\" for film screenings, unlike American English which tend to use \"theatre\" also for movie venue"@en;
+  skos:prefLabel "Teatro"@en;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
-  skos:prefLabel "Cinema"@en .
+  skos:prefLabel "Teatro"@es;
+  schema:spatialCoverage "Latin America"@en .
+
+venues:Cinema_house a skos:Concept;
+  skos:broader venues:Cinema;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:prefLabel "Cinema house"@en, "Coliseum"@es;
+  skos:scopeNote "US only Spanish language areas"@en;
+  schema:spatialCoverage "Mexico, US"@en .
+
+venues:Single_screen_cinema a skos:Concept;
+  skos:broader venues:Cinema;
+  skos:definition "Cinema with 1 screen."@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:prefLabel "Single screen cinema"@en .
 
 venues:Venue a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
-  skos:narrower venues:Biograf, venues:Bioscope_theatre, venues:Carattere, venues:Cinema,
-    venues:Cinema_theatre, venues:Cinematograph_theatre, venues:Club_house, venues:Commercial_building_converted_into_cinema,
-    venues:Converted_premises, venues:Drive-in_cinema, venues:Electric_theatre, venues:Filmhuis,
-    venues:Filmstaden, venues:Folkbiografer, venues:Folkets_Hus_Biografer, venues:Folkets_bio,
-    <https://homernetwork.github.io/vocabulary/venues/Kinematograf_(equipment)>, <https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)>,
-    venues:Kinematographentheater, venues:Kommunales_Kino, venues:Multiplex_and_Multi-screen_cinema,
-    venues:Multipurpose_venue, venues:Open-air, venues:Picture_House, venues:Picture_palace,
-    venues:Picture_theatre, venues:Private_homes, venues:Sala_cinematografica, venues:School,
-    venues:Stand-alone_purpose-build_venue, venues:Theatre, venues:Travelling_cinema,
-    venues:Virtual_Venue, venues:Warehouses;
+  skos:narrower venues:Private_venue, venues:Public_venue, venues:Single_purpose_venue,
+    venues:Teatro, venues:Travelling_cinema, venues:Venue_with_fixed_location, venues:Virtual_Venue;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Kommunales_Kino a skos:Concept;
@@ -286,8 +301,7 @@ venues:Folkets_bio a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Frontline_cinema a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Warehouses a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
@@ -307,19 +321,15 @@ venues:Terraza a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Utomhusbio a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
-
-venues:Carattere a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
-
-<https://homernetwork.github.io/vocabulary/venues/Kinematograf_(equipment)> a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Folkets_Hus_Biografer a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Biograf a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Bioscope_theatre a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
@@ -328,43 +338,67 @@ venues:Cinema_theatre a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Kinematographentheater a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Cinematograph_theatre a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Club_house a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Commercial_building_converted_into_cinema a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
+
+venues:Converted_premises a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
+
+venues:Drive-in_cinema a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
+
+venues:Electric_theatre a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
-venues:Converted_premises skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+<https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)> a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
-venues:Drive-in_cinema skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+venues:Multiplex_and_Multi-screen_cinema a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
-venues:Electric_theatre skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+venues:Multipurpose_venue a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
-<https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)> skos:inScheme
-    <https://homernetwork.github.io/vocabulary/venues/> .
+venues:Open-air a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:narrower venues:Arena, venues:Terraza;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
-venues:Multiplex_and_Multi-screen_cinema skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+venues:Picture_House a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
-venues:Multipurpose_venue skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+venues:Picture_palace a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
-venues:Open-air skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+venues:Picture_theatre a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
-venues:Picture_House skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
-
-venues:Picture_palace skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
-
-venues:Picture_theatre skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+venues:Streaming_Platform skos:broader venues:Virtual_Venue;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Private_homes skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Sala_cinematografica skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
-venues:Stand-alone_purpose-build_venue skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+venues:Stand-alone_purpose-built_venue skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Theatre skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
@@ -375,49 +409,73 @@ venues:Virtual_Venue skos:inScheme <https://homernetwork.github.io/vocabulary/ve
 venues:Warehouse_building skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
-venues:Streaming_Platform skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+venues:Cinema skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+
+venues:Tent skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+
+venues:Registered_cinema skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+
+venues:Venue_with_fixed_location skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+
+venues:Adult_cinema skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+
+venues:Public_venue skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+
+venues:Private_venue skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+
+venues:Single_purpose_venue skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 <https://homernetwork.github.io/vocabulary/venues/> a skos:ConceptScheme;
-  skos:hasTopConcept venues:Frontline_cinema, venues:Venue, venues:Warehouse_building .
+  skos:hasTopConcept venues:Biograf, venues:Club_house, venues:Commercial_building_converted_into_cinema,
+    venues:Converted_premises, venues:Drive-in_cinema, venues:Kinematographentheater,
+    venues:Multiplex_and_Multi-screen_cinema, venues:Multipurpose_venue, venues:Open-air,
+    venues:Picture_House, venues:Picture_palace, venues:Stand-alone_purpose-built_venue,
+    venues:Utomhusbio, venues:Venue, venues:Warehouse_building .
+
+<https://homernetwork.github.io/vocabulary/audiences/> a skos:ConceptScheme;
+  dct:title "audience"@en .
 
 <https://homernetwork.github.io/vocabulary/identifiers/> a skos:ConceptScheme;
-  dct:title "Identifier"@en;
-  skos:hasTopConcept identifiers:IdentifierType .
+  dct:title "Identifier"@en .
 
-identifiers:IdentifierType a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/identifiers/>;
-  skos:prefLabel "IdentifierType"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/identifiers/> .
+<https://homernetwork.github.io/vocabulary/organisation/> a skos:ConceptScheme;
+  dct:title "Organisation"@en;
+  skos:hasTopConcept organisations:Army, organisations:Church, organisations:Club, organisations:Community,
+    organisations:Private, organisations:State .
 
-identifiers:Address a skos:Concept;
-  skos:broader venues:IdentifierType;
-  skos:definition "addresses of the cinema venues and their geolocation. In some cases it contains a link to information on the buildings located at these addresses."@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/identifiers/>;
-  skos:prefLabel "Address"@en .
+organisations:Army a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:prefLabel "Army"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
 
-identifiers:Cinema_Context_ID a skos:Concept;
-  skos:broader venues:IdentifierType;
-  skos:definition "ID of the movie in Cinema Context"@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/identifiers/>;
-  skos:prefLabel "Cinema Context ID"@en .
+organisations:State a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:prefLabel "State"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
 
-identifiers:IMDb_ID a skos:Concept;
-  skos:broader venues:IdentifierType;
-  skos:definition "IMDb ID without TT or leading zeroes."@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/identifiers/>;
-  skos:prefLabel "IMDb ID"@en .
+organisations:Church a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:prefLabel "Church"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
 
-identifiers:Location_Point a skos:Concept;
-  skos:broader venues:IdentifierType;
-  skos:definition "Latitude and longitude"@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/identifiers/>;
-  skos:prefLabel "Location Point"@en .
+organisations:Community a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:prefLabel "Community"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
 
-venues:IdentifierType skos:narrower identifiers:Address, identifiers:Cinema_Context_ID,
-    identifiers:IMDb_ID, identifiers:Location_Point .
+organisations:Club a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:prefLabel "Club"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
+
+organisations:Private a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:prefLabel "Private"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
 
 <https://homernetwork.github.io/vocabulary/ownership/> a skos:ConceptScheme;
-  dct:title "Ownership"@en .
+  dct:title "Ownership"@en;
+  skos:hasTopConcept venues:Carattere .
 
 ownerships:Cinema_chain a skos:Concept;
   skos:broader venues:OwnershipType;
@@ -479,6 +537,14 @@ ownerships:Commercially_run_or_owned a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/ownership/>;
   skos:prefLabel "Commercially run or owned"@en .
 
+venues:Carattere a skos:Concept;
+  skos:LatestBeginDate "Venue"@en;
+  skos:closematch "Carattere"@en;
+  skos:editorialNote "Nature of a cinema, also slackly defined by Italian authorities to distinguish between commercial, parish, and cultural venues"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/ownership/>;
+  skos:prefLabel "Carattere"@en, "Nature"@sv;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/ownership/> .
+
 venues:OwnershipType skos:narrower ownerships:Cinema_chain, ownerships:Cinema_owned_and_run_by_municipalities,
     ownerships:Cinema_sometimes_financially_supported_by_municipality, ownerships:Commercially_run_or_owned,
     ownerships:Culturally_run_or_owned, ownerships:Independent, ownerships:Major_company_cinema,
@@ -489,6 +555,40 @@ venues:VenueType skos:narrower ownerships:Military_cinema .
 venues:Kommunales_Kino skos:broader ownerships:Cinema_owned_and_run_by_municipalities .
 
 venues:Filmhuis skos:broader ownerships:Cinema_sometimes_financially_supported_by_municipality .
+
+identifiers:IdentifierType a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/identifiers/>;
+  skos:prefLabel "IdentifierType"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/identifiers/> .
+
+identifiers:Address a skos:Concept;
+  skos:broader venues:IdentifierType;
+  skos:definition "addresses of the cinema venues and their geolocation. In some cases it contains a link to information on the buildings located at these addresses."@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/identifiers/>;
+  skos:prefLabel "Address"@en .
+
+identifiers:Cinema_Context_ID a skos:Concept;
+  skos:broader venues:IdentifierType;
+  skos:definition "ID of the movie in Cinema Context"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/identifiers/>;
+  skos:prefLabel "Cinema Context ID"@en .
+
+identifiers:IMDb_ID a skos:Concept;
+  skos:broader venues:IdentifierType;
+  skos:definition "IMDb ID without TT or leading zeroes."@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/identifiers/>;
+  skos:prefLabel "IMDb ID"@en .
+
+identifiers:Location_Point a skos:Concept;
+  skos:broader venues:IdentifierType;
+  skos:definition "Latitude and longitude"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/identifiers/>;
+  skos:prefLabel "Location Point"@en .
+
+venues:IdentifierType skos:narrower identifiers:Address, identifiers:Cinema_Context_ID,
+    identifiers:IMDb_ID, identifiers:Location_Point .
+
+<https://homernetwork.github.io/vocabulary/identifiers/> skos:hasTopConcept identifiers:IdentifierType .
 
 <https://homernetwork.github.io/vocabulary/programmings/> a skos:ConceptScheme;
   dct:title "Programming"@en;
@@ -505,45 +605,22 @@ venues:Programmkino skos:broader programmings:ProgrammingType .
 
 <https://homernetwork.github.io/vocabulary/projectors/> a skos:ConceptScheme;
   dct:title "Projector"@en;
-  skos:hasTopConcept projectors:ProjectorType .
+  skos:hasTopConcept projectors:Projector .
 
-projectors:ProjectorType a skos:Concept;
+projectors:Projector a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/projectors/>;
-  skos:narrower <https://homernetwork.github.io/vocabulary/venues/Kinematograf_(equipment)>;
-  skos:prefLabel "ProjectorType"@en;
+  skos:prefLabel "Projector"@en;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/projectors/> .
 
-<https://homernetwork.github.io/vocabulary/venues/Kinematograf_(equipment)> skos:broader
-    projectors:ProjectorType .
+<https://homernetwork.github.io/vocabulary/venues/Kinematograf_(equipment)> a skos:Concept;
+  skos:broader "Projector"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/projectors/>;
+  skos:prefLabel "Kinematograf (equipment)"@en, "Kinematograf (equipment)"@it, "Kinematograf (equipment)"@nl;
+  skos:related <https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)>;
+  skos:scopeNote "Projection equipment"@en .
 
 <https://homernetwork.github.io/vocabulary/categories/> a skos:ConceptScheme;
   dct:title "Category"@en .
 
 <https://homernetwork.github.io/vocabulary/rooms/> a skos:ConceptScheme;
-  dct:title "Room"@en;
-  skos:hasTopConcept rooms:RoomType .
-
-rooms:RoomType a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/rooms/>;
-  skos:prefLabel "RoomType"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/rooms/> .
-
-rooms:Distributor_screening_room a skos:Concept;
-  skos:broader venues:RoomType;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/rooms/>;
-  skos:prefLabel "Distributor screening room"@en .
-
-rooms:Home_cinema a skos:Concept;
-  skos:broader venues:RoomType;
-  skos:definition "a specific area within a house furnished with the essential equipment for enjoying cinematic works. These spaces emulate the atmosphere of public cinemas while being located within a private home."@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/rooms/>;
-  skos:prefLabel "Home cinema"@en .
-
-rooms:Screening_room a skos:Concept;
-  skos:broader venues:RoomType;
-  skos:definition "A screening room is a facility equipped with a screen and a projector for viewing movies."@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/rooms/>;
-  skos:prefLabel "Screening room"@en, "sala di proiezione"@it .
-
-venues:RoomType skos:narrower rooms:Distributor_screening_room, rooms:Home_cinema,
-    rooms:Screening_room .
+  dct:title "Sala"@en .
