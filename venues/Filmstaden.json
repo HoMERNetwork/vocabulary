@@ -12,6 +12,13 @@
   "definition": {
     "en": "A multiplex belonging to a large chain of cinemas"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/venues/Multiplex_and_Multi-screen_cinema",
+    "prefLabel": {
+      "en": "Multiplex and Multi-screen cinema",
+      "it": "multisala"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",

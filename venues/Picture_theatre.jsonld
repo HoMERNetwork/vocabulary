@@ -13,9 +13,9 @@
     "en": "Probably the second most common term in Ireland in the 1910s."
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {
-      "en": "Venue"
+      "en": "Public venue"
     }
   },
   "inScheme": [

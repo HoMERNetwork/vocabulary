@@ -12,12 +12,6 @@
   "definition": {
     "en": "in certain contexts, this may have indicated a more salubrious venue than competitors or sometimes just the suggestion rather than the reality."
   },
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-    "prefLabel": {
-      "en": "Venue"
-    }
-  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",
@@ -29,6 +23,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/",
+      "title": {
+        "en": "Venues"
+      }
     }
   ],
   "@context": {

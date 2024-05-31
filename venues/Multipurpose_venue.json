@@ -20,12 +20,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-    "prefLabel": {
-      "en": "Venue"
-    }
-  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",
@@ -37,6 +31,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/",
+      "title": {
+        "en": "Venues"
+      }
     }
   ],
   "@context": {

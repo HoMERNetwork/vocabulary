@@ -2,7 +2,8 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Kommunales_Kino",
   "type": "Concept",
   "prefLabel": {
-    "en": "Kommunales Kino"
+    "en": "Kommunales Kino",
+    "de": "Kommunales Kino"
   },
   "altLabel": {
     "de": [

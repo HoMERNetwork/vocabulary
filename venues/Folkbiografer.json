@@ -2,17 +2,13 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Folkbiografer",
   "type": "Concept",
   "prefLabel": {
-    "en": "Folkbiografer"
-  },
-  "altLabel": {
-    "sv": [
-      "Folkbiografer"
-    ]
+    "en": "Folkbiografer",
+    "sv": "Folkbiografer"
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {
-      "en": "Venue"
+      "en": "Public venue"
     }
   },
   "inScheme": [

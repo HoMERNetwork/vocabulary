@@ -10,9 +10,9 @@
     ]
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Private_venue",
     "prefLabel": {
-      "en": "Venue"
+      "en": "Private venue"
     }
   },
   "inScheme": [

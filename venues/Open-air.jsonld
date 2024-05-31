@@ -22,22 +22,12 @@
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/Terraza",
       "prefLabel": {
-        "en": "Terraza"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Utomhusbio",
-      "prefLabel": {
-        "en": "Utomhusbio"
+        "en": "Terraza",
+        "es": "Terraza",
+        "it": "Terraza"
       }
     }
   ],
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-    "prefLabel": {
-      "en": "Venue"
-    }
-  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",
@@ -49,6 +39,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/",
+      "title": {
+        "en": "Venues"
+      }
     }
   ],
   "@context": {

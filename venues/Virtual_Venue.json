@@ -23,7 +23,8 @@
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
     "prefLabel": {
-      "en": "Venue"
+      "en": "Venue",
+      "sv": "Biograf"
     }
   },
   "inScheme": [

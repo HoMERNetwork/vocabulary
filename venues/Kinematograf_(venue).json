@@ -2,7 +2,8 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)",
   "type": "Concept",
   "prefLabel": {
-    "en": "Kinematograf (venue)"
+    "en": "Kinematograf (venue)",
+    "de": "Kinematograf (venue)"
   },
   "altLabel": {
     "de": [
@@ -13,11 +14,21 @@
     "en": "The projection equipment and the term could also refer to the venue of film exhibition (used in the first decades of cinema)"
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {
-      "en": "Venue"
+      "en": "Public venue"
     }
   },
+  "related": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Kinematograf_(equipment)",
+      "prefLabel": {
+        "en": "Kinematograf (equipment)",
+        "nl": "Kinematograf (equipment)",
+        "it": "Kinematograf (equipment)"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",

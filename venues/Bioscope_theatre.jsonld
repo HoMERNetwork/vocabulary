@@ -13,9 +13,9 @@
     "en": "Similar to cinematograph theatre but less common becasue bioscope did not become the most common word for projector. The London-based trade journal The Bioscope kept it in circulation."
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {
-      "en": "Venue"
+      "en": "Public venue"
     }
   },
   "inScheme": [

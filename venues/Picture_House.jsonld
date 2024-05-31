@@ -12,12 +12,6 @@
   "definition": {
     "en": "in the early cinema period (1890s-c.1915), most things were in flux, and \"cinema\" was not the generic term for a premises exhibiting films; several other terms were used, the most common of which I have found in my research - which focuses on Ireland, still part of the UK at this time - was \"picture house\". But this was not a neutrally descriptive term; it and its alternatives often encoded class/commercial issues."
   },
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-    "prefLabel": {
-      "en": "Venue"
-    }
-  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",
@@ -29,6 +23,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/",
+      "title": {
+        "en": "Venues"
+      }
     }
   ],
   "@context": {

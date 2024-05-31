@@ -2,21 +2,11 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Utomhusbio",
   "type": "Concept",
   "prefLabel": {
-    "en": "Utomhusbio"
-  },
-  "altLabel": {
-    "sv": [
-      "Utomhusbio"
-    ]
+    "en": "Utomhusbio",
+    "sv": "Utomhusbio"
   },
   "definition": {
     "en": "Outdoor cinema, temporary"
-  },
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Open-air",
-    "prefLabel": {
-      "en": "Open-air"
-    }
   },
   "inScheme": [
     {
@@ -29,6 +19,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/",
+      "title": {
+        "en": "Venues"
+      }
     }
   ],
   "@context": {

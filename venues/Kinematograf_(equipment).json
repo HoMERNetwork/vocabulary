@@ -2,27 +2,35 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Kinematograf_(equipment)",
   "type": "Concept",
   "prefLabel": {
-    "en": "Kinematograf (equipment)"
+    "en": "Kinematograf (equipment)",
+    "nl": "Kinematograf (equipment)",
+    "it": "Kinematograf (equipment)"
   },
-  "altLabel": {
-    "de": [
-      "Kinematograf (equipment)"
+  "scopeNote": {
+    "en": [
+      "Projection equipment"
     ]
   },
-  "definition": {
-    "en": "Projection equipment"
-  },
+  "related": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)",
+      "prefLabel": {
+        "en": "Kinematograf (venue)",
+        "de": "Kinematograf (venue)"
+      }
+    }
+  ],
   "inScheme": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/venues/",
+      "id": "https://homernetwork.github.io/vocabulary/projectors/",
       "title": {
-        "en": "Venues"
+        "en": "Projector"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/venues/"
+      "id": "https://homernetwork.github.io/vocabulary/projectors/"
     }
   ],
   "@context": {

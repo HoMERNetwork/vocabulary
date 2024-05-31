@@ -2,7 +2,8 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Drive-in_cinema",
   "type": "Concept",
   "prefLabel": {
-    "en": "Drive-in cinema"
+    "en": "Drive-in cinema",
+    "de": "Autokino"
   },
   "altLabel": {
     "en": [
@@ -15,12 +16,6 @@
   "definition": {
     "en": "Drive-ins are outdoor venues where audiences watch movies from their own vehicles. These locations provide all the necessary screening facilities for enjoying films."
   },
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-    "prefLabel": {
-      "en": "Venue"
-    }
-  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",
@@ -32,6 +27,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/",
+      "title": {
+        "en": "Venues"
+      }
     }
   ],
   "@context": {

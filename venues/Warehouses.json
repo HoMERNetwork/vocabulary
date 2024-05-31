@@ -13,9 +13,9 @@
     "en": "Cinemas are warehouse buildings taken over during the war. To add: period."
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Venue_with_fixed_location",
     "prefLabel": {
-      "en": "Venue"
+      "en": "Venue with fixed location"
     }
   },
   "inScheme": [

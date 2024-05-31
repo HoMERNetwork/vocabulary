@@ -2,20 +2,16 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Folkets_Hus_Biografer",
   "type": "Concept",
   "prefLabel": {
-    "en": "Folkets Hus Biografer"
-  },
-  "altLabel": {
-    "sv": [
-      "Folkets Hus Biografer"
-    ]
+    "en": "Folkets Hus Biografer",
+    "sv": "Folkets Hus Biografer"
   },
   "definition": {
     "en": "Cinemas driven by temperence societies and other independent cinemas and a smaller number of other kinds of grassroots organisations, such as local youth and sports clubs. This kind of ownership could involve a single cinema or a chain of cinemas."
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {
-      "en": "Venue"
+      "en": "Public venue"
     }
   },
   "inScheme": [

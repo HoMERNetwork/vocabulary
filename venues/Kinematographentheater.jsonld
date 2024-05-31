@@ -2,23 +2,13 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Kinematographentheater",
   "type": "Concept",
   "prefLabel": {
-    "en": "Kinematographentheater"
-  },
-  "altLabel": {
-    "de": [
-      "Kinematographentheater"
-    ]
+    "en": "Kinematographentheater",
+    "de": "Kinematographentheater"
   },
   "scopeNote": {
     "en": [
-      "historical term used for https://homernetwork.github.io/vocabulary/venues/Cinema theatre"
+      "Historical term used for Cinema theatre"
     ]
-  },
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-    "prefLabel": {
-      "en": "Venue"
-    }
   },
   "inScheme": [
     {
@@ -31,6 +21,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/",
+      "title": {
+        "en": "Venues"
+      }
     }
   ],
   "@context": {

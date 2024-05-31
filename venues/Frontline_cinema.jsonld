@@ -12,6 +12,12 @@
   "definition": {
     "en": "Finland: dugouts that were built for protection during the war (frontline cinema) Viipuri during the Winter War. To add: period"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/venues/Private_venue",
+    "prefLabel": {
+      "en": "Private venue"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",
@@ -23,14 +29,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/",
-      "title": {
-        "en": "Venues"
-      }
     }
   ],
   "@context": {

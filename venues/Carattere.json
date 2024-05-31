@@ -2,36 +2,33 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Carattere",
   "type": "Concept",
   "prefLabel": {
-    "en": "Carattere"
+    "en": "Carattere",
+    "sv": "Nature"
   },
-  "altLabel": {
+  "editorialNote": {
     "en": [
-      "Nature"
-    ],
-    "it": [
-      "Carattere"
+      "Nature of a cinema, also slackly defined by Italian authorities to distinguish between commercial, parish, and cultural venues"
     ]
-  },
-  "definition": {
-    "en": "Nature of a cinema, also slackly defined by Italian authorities to distinguish between commercial, parish, and cultural venues"
-  },
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-    "prefLabel": {
-      "en": "Venue"
-    }
   },
   "inScheme": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/venues/",
+      "id": "https://homernetwork.github.io/vocabulary/ownership/",
       "title": {
-        "en": "Venues"
+        "en": "Ownership"
       }
     }
   ],
   "inSchemeAll": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/venues/"
+      "id": "https://homernetwork.github.io/vocabulary/ownership/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/ownership/",
+      "title": {
+        "en": "Ownership"
+      }
     }
   ],
   "@context": {

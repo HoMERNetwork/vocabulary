@@ -2,20 +2,46 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
   "type": "Concept",
   "prefLabel": {
-    "en": "Cinema"
+    "en": "Cinema",
+    "es": "Cines"
   },
   "altLabel": {
     "en": [
       "Cinema"
+    ],
+    "es": [
+      "Salas de Cine",
+      "Teatros"
     ]
   },
   "definition": {
-    "en": "cf definition of Picture House"
+    "en": "A building where films were shown, not necessarily on a regular basis. It does not matter whether this was on a regular basis or not. Also a cinema can be an open air space (not a building) where a film is screened. This can be a square, a courtyard, a field. Cinema is \"\"an arrangement of things in space (including tools and information carriers); an arrangement of activity in time. Cf definition of Picture House"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Adult_cinema",
+      "prefLabel": {
+        "en": "Adult cinema"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Cinema_house",
+      "prefLabel": {
+        "en": "Cinema house",
+        "es": "Coliseum"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
+      "prefLabel": {
+        "en": "Single screen cinema"
+      }
+    }
+  ],
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {
-      "en": "Venue"
+      "en": "Public venue"
     }
   },
   "inScheme": [

@@ -2,12 +2,8 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Filmhuis",
   "type": "Concept",
   "prefLabel": {
-    "en": "Filmhuis"
-  },
-  "altLabel": {
-    "nl": [
-      "Filmhuis"
-    ]
+    "en": "Filmhuis",
+    "nl": "Filmhuis"
   },
   "definition": {
     "en": "Art cinema, sometimes with financial support by the municipality"

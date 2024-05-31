@@ -13,9 +13,9 @@
     "en": "A company called Electric Theatres existed, but other unaffiliated proprietors referred to their premises as an electric theatre."
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {
-      "en": "Venue"
+      "en": "Public venue"
     }
   },
   "inScheme": [

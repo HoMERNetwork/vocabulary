@@ -13,9 +13,9 @@
     "en": "Cinematograph was the term used for projector in official discourse in the UK/Ireland, such as in the Cinematograph Act, 1909, and the licences that were issued by urban councils on foot of it. As a result, the premises that focused on showing films using one of these devices were often officially referred to as cinematograph theatres."
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {
-      "en": "Venue"
+      "en": "Public venue"
     }
   },
   "inScheme": [

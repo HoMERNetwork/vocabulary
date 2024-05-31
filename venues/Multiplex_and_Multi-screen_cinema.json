@@ -2,15 +2,13 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Multiplex_and_Multi-screen_cinema",
   "type": "Concept",
   "prefLabel": {
-    "en": "Multiplex and Multi-screen cinema"
+    "en": "Multiplex and Multi-screen cinema",
+    "it": "multisala"
   },
   "altLabel": {
     "en": [
       "Multi-screen cinema",
       "Multiplex"
-    ],
-    "it": [
-      "multisala"
     ]
   },
   "definition": {
@@ -24,12 +22,6 @@
       }
     }
   ],
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
-    "prefLabel": {
-      "en": "Venue"
-    }
-  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",
@@ -41,6 +33,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/",
+      "title": {
+        "en": "Venues"
+      }
     }
   ],
   "@context": {

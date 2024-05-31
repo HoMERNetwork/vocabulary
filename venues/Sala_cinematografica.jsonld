@@ -4,19 +4,13 @@
   "prefLabel": {
     "en": "Sala cinematografica"
   },
-  "altLabel": {
-    "it": [
-      "Sala cinematografica",
-      "Sala"
-    ]
-  },
   "definition": {
-    "en": "#1: Every single place where a movie was shown. It could be a real movie theatre, a theatre, a cinema-theatre, a multipurpose venue, a building used for something else (e.g. hospital), an open-air cinema, etc. It is an address, usually, and correspond to specific geographic coordinates. The building, the management, the architecture, the name, etc., all can change, but it stays the same 'sala cinematografica' as long as it shows movies. Travelling cinemas are exluded for now. To account for moving exhibitors, societies etc, we have other categories (such as people and companies). #2: A venue, usually a building, for viewing films - alternative label: cinema"
+    "en": "Every single place, usually a building, where a movie was shown. It could be a real movie theatre, a theatre, a cinema-theatre, a multipurpose venue, a building used for something else (e.g. hospital), an open-air cinema, etc. It is an address, usually, and correspond to specific geographic coordinates. The building, the management, the architecture, the name, etc., all can change, but it stays the same 'sala cinematografica' as long as it shows movies. Travelling cinemas are exluded for now. To account for moving exhibitors, societies etc, we have other categories (such as people and companies)."
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Venue_with_fixed_location",
     "prefLabel": {
-      "en": "Venue"
+      "en": "Venue with fixed location"
     }
   },
   "inScheme": [

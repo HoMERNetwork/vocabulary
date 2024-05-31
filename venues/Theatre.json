@@ -13,9 +13,9 @@
     "en": "Theatre - here referring not in the US synonym for cinema but to a theatre which mostly hosted live shows but showed films occasionally or in the case of variety theatres, incorporated film into its offerings on a regular basis for a substantial period (years), particularly if the proprietors had invested in a projector."
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {
-      "en": "Venue"
+      "en": "Public venue"
     }
   },
   "inScheme": [
