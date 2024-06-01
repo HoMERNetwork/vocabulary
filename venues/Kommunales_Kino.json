@@ -13,6 +13,12 @@
   "definition": {
     "en": "Cinema financed by a municipality, non-commercial, dedicated to art cinema and retrospectives of classics and other historically relevant films"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+    "prefLabel": {
+      "en": "Public venue"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",

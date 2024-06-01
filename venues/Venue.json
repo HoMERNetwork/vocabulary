@@ -38,12 +38,6 @@
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Travelling_cinema",
-      "prefLabel": {
-        "en": "Travelling cinema"
-      }
-    },
-    {
       "id": "https://homernetwork.github.io/vocabulary/venues/Virtual_Venue",
       "prefLabel": {
         "en": "Virtual Venue"
@@ -60,6 +54,12 @@
       "prefLabel": {
         "en": "Teatro",
         "es": "Teatro"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Travelling_venue",
+      "prefLabel": {
+        "en": "Travelling venue"
       }
     }
   ],

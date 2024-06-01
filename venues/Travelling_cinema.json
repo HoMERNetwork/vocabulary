@@ -9,6 +9,15 @@
       "Travelling cinema"
     ]
   },
+  "definition": {
+    "en": "A temporary setup for screening films to an audience at a venue that is not a purpose built building (e.g., fairs, community halls, etc.)"
+  },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+    "prefLabel": {
+      "en": "Public venue"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",

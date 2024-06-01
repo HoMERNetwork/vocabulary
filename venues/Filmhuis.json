@@ -8,6 +8,12 @@
   "definition": {
     "en": "Art cinema, sometimes with financial support by the municipality"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
+    "prefLabel": {
+      "en": "Public venue"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",

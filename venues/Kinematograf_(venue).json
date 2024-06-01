@@ -19,16 +19,6 @@
       "en": "Public venue"
     }
   },
-  "related": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Kinematograf_(equipment)",
-      "prefLabel": {
-        "en": "Kinematograf (equipment)",
-        "nl": "Kinematograf (equipment)",
-        "it": "Kinematograf (equipment)"
-      }
-    }
-  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",
