@@ -1,18 +1,12 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/venues/Multiplex_and_Multi-screen_cinema",
+  "id": "https://homernetwork.github.io/vocabulary/venues/Multiplex",
   "type": "Concept",
   "prefLabel": {
-    "en": "Multiplex and Multi-screen cinema",
-    "it": "multisala"
-  },
-  "altLabel": {
-    "en": [
-      "Multiplex",
-      "Multi-screen cinema"
-    ]
+    "en": "Multiplex",
+    "sv": "Filmstaden"
   },
   "definition": {
-    "en": "A multiplex is a facility that accommodates multiple theaters for the simultaneous screening of several films. Multiplex (Italian: multisala) (alternative labels) Multi-screen cinema"
+    "en": "A multiplex belonging to a large chain of cinemas"
   },
   "inScheme": [
     {

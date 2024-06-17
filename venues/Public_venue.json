@@ -82,13 +82,15 @@
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/Theatre",
       "prefLabel": {
-        "en": "Theatre"
+        "en": "Theatre",
+        "de": "Varieté"
       }
     },
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/Travelling_cinema",
       "prefLabel": {
-        "en": "Travelling cinema"
+        "en": "Travelling cinema",
+        "de": "Wanderkino"
       }
     },
     {
