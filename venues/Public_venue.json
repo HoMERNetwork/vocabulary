@@ -34,10 +34,44 @@
       }
     },
     {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Multiplex",
+      "prefLabel": {
+        "en": "Multiplex",
+        "sv": "Filmstaden"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Multiplex_and_Multi-screen_cinema",
+      "prefLabel": {
+        "en": "Multiplex and Multi-screen cinema",
+        "it": "multisala"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Open-air",
+      "prefLabel": {
+        "en": "Open-air"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Utomhusbio",
+      "prefLabel": {
+        "en": "Utomhusbio",
+        "sv": "Utomhusbio"
+      }
+    },
+    {
       "id": "https://homernetwork.github.io/vocabulary/venues/Folkets_Hus_Biografer",
       "prefLabel": {
         "en": "Folkets Hus Biografer",
         "sv": "Folkets Hus Biografer"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Biograf",
+      "prefLabel": {
+        "en": "Biograf",
+        "sv": "Biograf"
       }
     },
     {
@@ -55,9 +89,35 @@
       }
     },
     {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Kinematographentheater",
+      "prefLabel": {
+        "en": "Kinematographentheater",
+        "de": "Kinematographentheater"
+      }
+    },
+    {
       "id": "https://homernetwork.github.io/vocabulary/venues/Cinematograph_theatre",
       "prefLabel": {
         "en": "Cinematograph theatre"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Commercial_building_converted_into_cinema",
+      "prefLabel": {
+        "en": "Commercial building converted into cinema"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Converted_premises",
+      "prefLabel": {
+        "en": "Converted premises"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Drive-in_cinema",
+      "prefLabel": {
+        "en": "Drive-in cinema",
+        "de": "Autokino"
       }
     },
     {
@@ -74,9 +134,33 @@
       }
     },
     {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Multipurpose_venue",
+      "prefLabel": {
+        "en": "Multipurpose venue"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Picture_House",
+      "prefLabel": {
+        "en": "Picture House"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Picture_palace",
+      "prefLabel": {
+        "en": "Picture palace"
+      }
+    },
+    {
       "id": "https://homernetwork.github.io/vocabulary/venues/Picture_theatre",
       "prefLabel": {
         "en": "Picture theatre"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Stand-alone_purpose-built_venue",
+      "prefLabel": {
+        "en": "Stand-alone purpose-built venue"
       }
     },
     {
@@ -91,6 +175,12 @@
       "prefLabel": {
         "en": "Travelling cinema",
         "de": "Wanderkino"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Warehouse_building",
+      "prefLabel": {
+        "en": "Warehouse building"
       }
     },
     {

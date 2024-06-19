@@ -26,6 +26,13 @@
         "es": "Terraza",
         "it": "Terraza"
       }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Utomhusbio",
+      "prefLabel": {
+        "en": "Utomhusbio",
+        "sv": "Utomhusbio"
+      }
     }
   ],
   "inScheme": [
@@ -39,14 +46,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/",
-      "title": {
-        "en": "Venues"
-      }
     }
   ],
   "@context": {

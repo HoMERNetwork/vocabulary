@@ -18,6 +18,12 @@
       }
     },
     {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Club_house",
+      "prefLabel": {
+        "en": "Club house"
+      }
+    },
+    {
       "id": "https://homernetwork.github.io/vocabulary/venues/Private_home",
       "prefLabel": {
         "en": "Private home"

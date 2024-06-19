@@ -17,6 +17,15 @@
   "definition": {
     "en": "A building in which films were shown for a public that pays an entrance fee (so commercial cinema operations, in our data restricted to members of the national cinema union NBB)"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Kinematographentheater",
+      "prefLabel": {
+        "en": "Kinematographentheater",
+        "de": "Kinematographentheater"
+      }
+    }
+  ],
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {
