@@ -4,6 +4,12 @@
   "prefLabel": {
     "en": "fascist audience"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_ideology",
+    "prefLabel": {
+      "en": "audience per ideology"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/",
@@ -15,14 +21,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/audiences/",
-      "title": {
-        "en": "Audiences"
-      }
     }
   ],
   "@context": {

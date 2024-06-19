@@ -38,15 +38,15 @@
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Virtual_Venue",
+      "id": "https://homernetwork.github.io/vocabulary/venues/Travelling_venue",
       "prefLabel": {
-        "en": "Virtual Venue"
+        "en": "Travelling venue"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Streaming_Platform",
+      "id": "https://homernetwork.github.io/vocabulary/venues/Virtual_Venue",
       "prefLabel": {
-        "en": "Streaming Platform"
+        "en": "Virtual Venue"
       }
     },
     {
@@ -60,12 +60,6 @@
       "prefLabel": {
         "en": "Teatro",
         "es": "Teatro"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Travelling_venue",
-      "prefLabel": {
-        "en": "Travelling venue"
       }
     },
     {

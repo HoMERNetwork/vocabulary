@@ -4,6 +4,32 @@
   "prefLabel": {
     "en": "audience per ideology"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/communist_audience",
+      "prefLabel": {
+        "en": "communist audience"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/fascist_audience",
+      "prefLabel": {
+        "en": "fascist audience"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/religious_audience",
+      "prefLabel": {
+        "en": "religious audience"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/socialist_audience",
+      "prefLabel": {
+        "en": "socialist audience"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/",

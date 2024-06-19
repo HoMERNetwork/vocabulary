@@ -4,6 +4,20 @@
   "prefLabel": {
     "en": "audience per age category"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/adults",
+      "prefLabel": {
+        "en": "adults"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/children",
+      "prefLabel": {
+        "en": "children"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/",

@@ -9,6 +9,12 @@
       "Streaming Platform"
     ]
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/venues/Virtual_Venue",
+    "prefLabel": {
+      "en": "Virtual Venue"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",

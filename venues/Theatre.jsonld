@@ -13,6 +13,14 @@
   "definition": {
     "en": "Theatre - here referring not in the US synonym for cinema but to a theatre which mostly hosted live shows but showed films occasionally or in the case of variety theatres, incorporated film into its offerings on a regular basis for a substantial period (years), particularly if the proprietors had invested in a projector."
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Mixed_programming_theatre_and_film",
+      "prefLabel": {
+        "en": "Mixed programming theatre and film"
+      }
+    }
+  ],
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {

@@ -165,13 +165,6 @@
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Travelling_cinema",
-      "prefLabel": {
-        "en": "Travelling cinema",
-        "de": "Wanderkino"
-      }
-    },
-    {
       "id": "https://homernetwork.github.io/vocabulary/venues/Warehouse_building",
       "prefLabel": {
         "en": "Warehouse building"

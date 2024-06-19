@@ -7,6 +7,15 @@
   "definition": {
     "en": "Mobile venue."
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Travelling_cinema",
+      "prefLabel": {
+        "en": "Travelling cinema",
+        "de": "Wanderkino"
+      }
+    }
+  ],
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
     "prefLabel": {

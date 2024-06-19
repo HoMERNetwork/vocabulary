@@ -16,9 +16,9 @@
     }
   ],
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue_ownership_category",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Venue_by_ownership",
     "prefLabel": {
-      "en": "Venue ownership category"
+      "en": "Venue by ownership"
     }
   },
   "inScheme": [

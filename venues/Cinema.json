@@ -36,6 +36,12 @@
       "prefLabel": {
         "en": "Single screen cinema"
       }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Mixed_programming_theatre_and_film",
+      "prefLabel": {
+        "en": "Mixed programming theatre and film"
+      }
     }
   ],
   "broader": {

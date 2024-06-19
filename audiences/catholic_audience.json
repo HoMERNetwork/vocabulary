@@ -4,6 +4,12 @@
   "prefLabel": {
     "en": "catholic audience"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/audiences/religious_audience",
+    "prefLabel": {
+      "en": "religious audience"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/",
@@ -15,14 +21,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/audiences/",
-      "title": {
-        "en": "Audiences"
-      }
     }
   ],
   "@context": {

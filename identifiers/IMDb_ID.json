@@ -7,12 +7,6 @@
   "definition": {
     "en": "IMDb ID without TT or leading zeroes."
   },
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/identifiers/Movie_identifier",
-    "prefLabel": {
-      "en": "Movie identifier"
-    }
-  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/identifiers/",
@@ -24,6 +18,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/identifiers/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/identifiers/",
+      "title": {
+        "en": "Identifiers"
+      }
     }
   ],
   "@context": {
