@@ -4,6 +4,20 @@
   "prefLabel": {
     "en": "Opening type"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/categories/Seasonal",
+      "prefLabel": {
+        "en": "Seasonal"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/categories/Year-round",
+      "prefLabel": {
+        "en": "Year-round"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/categories/",

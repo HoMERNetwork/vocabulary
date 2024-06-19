@@ -4,6 +4,26 @@
   "prefLabel": {
     "en": "Movie identifier"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/identifiers/Cinema_Context_ID_(Movie)",
+      "prefLabel": {
+        "en": "Cinema Context ID (Movie)"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/identifiers/IMDb_ID",
+      "prefLabel": {
+        "en": "IMDb ID"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/identifiers/Wikidata_ID_(Movie)",
+      "prefLabel": {
+        "en": "Wikidata ID (Movie)"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/identifiers/",

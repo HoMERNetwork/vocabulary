@@ -4,6 +4,12 @@
   "prefLabel": {
     "en": "Seasonal"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/categories/Opening_type",
+    "prefLabel": {
+      "en": "Opening type"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/categories/",

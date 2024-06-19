@@ -4,6 +4,14 @@
   "prefLabel": {
     "en": "Church"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Parish",
+      "prefLabel": {
+        "en": "Parish"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisation/",

@@ -4,6 +4,26 @@
   "prefLabel": {
     "en": "Company"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Corporation",
+      "prefLabel": {
+        "en": "Corporation"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Platform",
+      "prefLabel": {
+        "en": "Platform"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/organisations/Private",
+    "prefLabel": {
+      "en": "Private"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisation/",

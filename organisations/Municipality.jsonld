@@ -4,6 +4,12 @@
   "prefLabel": {
     "en": "Municipality"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/organisations/State",
+    "prefLabel": {
+      "en": "State"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisation/",

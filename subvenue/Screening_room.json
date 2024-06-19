@@ -22,6 +22,14 @@
       "id": "https://homernetwork.github.io/vocabulary/subvenue/"
     }
   ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/subvenue/",
+      "title": {
+        "en": "subvenue"
+      }
+    }
+  ],
   "@context": {
     "@version": 1.1,
     "id": "@id",

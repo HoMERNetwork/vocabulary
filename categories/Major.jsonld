@@ -4,6 +4,12 @@
   "prefLabel": {
     "en": "Major"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/categories/ECA-Rank",
+    "prefLabel": {
+      "en": "ECA-Rank"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/categories/",

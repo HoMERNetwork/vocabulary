@@ -4,6 +4,38 @@
   "prefLabel": {
     "en": "ECA-Rank"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/categories/Elite",
+      "prefLabel": {
+        "en": "Elite"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/categories/Inactive",
+      "prefLabel": {
+        "en": "Inactive"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/categories/Intermediate",
+      "prefLabel": {
+        "en": "Intermediate"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/categories/Major",
+      "prefLabel": {
+        "en": "Major"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/categories/Minor",
+      "prefLabel": {
+        "en": "Minor"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/categories/",

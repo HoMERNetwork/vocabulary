@@ -4,6 +4,14 @@
   "prefLabel": {
     "en": "Private"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Company",
+      "prefLabel": {
+        "en": "Company"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisation/",

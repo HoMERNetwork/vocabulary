@@ -4,6 +4,20 @@
   "prefLabel": {
     "en": "Venue identifier"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/identifiers/Cinema_Context_ID_(Venue)",
+      "prefLabel": {
+        "en": "Cinema Context ID (Venue)"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/identifiers/Wikidata_ID_(Venue)",
+      "prefLabel": {
+        "en": "Wikidata ID (Venue)"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/identifiers/",
