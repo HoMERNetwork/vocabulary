@@ -1,3 +1,4 @@
+@prefix audiences: <https://homernetwork.github.io/vocabulary/audiences/> .
 @prefix categories: <https://homernetwork.github.io/vocabulary/categories/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
@@ -14,13 +15,14 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
+@prefix screenings: <https://homernetwork.github.io/vocabulary/screenings/> .
 @prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
-@prefix subvenue: <https://homernetwork.github.io/vocabulary/subvenue/> .
-@prefix venues: <https://homernetwork.github.io/vocabulary/audiences/> .
+@prefix subvenue: <https://homernetwork.github.io/vocabulary/subvenues/> .
+@prefix venues: <https://homernetwork.github.io/vocabulary/venues/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://homernetwork.github.io/vocabulary/venues/> dct:description "Terms to describe venues."@en;
@@ -139,7 +141,7 @@ venues:Electric_theatre skos:altLabel "Electric theatre"@en;
   skos:definition "A company called Electric Theatres existed, but other unaffiliated proprietors referred to their premises as an electric theatre."@en;
   skos:prefLabel "Electric theatre"@en .
 
-<https://homernetwork.github.io/vocabulary/audiences/Kinematograf_(venue)> skos:altLabel
+<https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)> skos:altLabel
     "Kinematograf (venue)"@de;
   skos:broader venues:Public_venue;
   skos:definition "The projection equipment and the term could also refer to the venue of film exhibition (used in the first decades of cinema)"@en;
@@ -211,8 +213,8 @@ venues:Warehouse_building sem:hasEarliestBeginTimeStamp "1939-01-01"^^xsd:date;
   skos:altLabel "Warehouse building"@en;
   skos:broader venues:Public_venue, venues:Venue_with_fixed_location;
   skos:definition "Warehouse buildings taken over during the war. Viipuri during the Winter War, 1939-1940"@en;
-  skos:prefLabel "Warehouse building"@en;
   a skos:Concept;
+  skos:prefLabel "Warehouse building"@en;
   schema:spatialCoverage "Finland"@en .
 
 venues:Streaming_Platform a skos:Concept;
@@ -249,12 +251,12 @@ venues:Adult_cinema a skos:Concept;
 
 venues:Public_venue a skos:Concept;
   skos:broader venues:Venue;
-  skos:narrower venues:Filmhuis, venues:Folkbiografer, venues:Biograf, venues:Bioscope_theatre,
-    venues:Cinema_theatre, venues:Folkets_Hus_Biografer, venues:Folkets_bio, venues:Cinematograph_theatre,
-    venues:Kinematographentheater, venues:Kommunales_Kino, venues:Multiplex, venues:Commercial_building_converted_into_cinema,
-    venues:Utomhusbio, venues:Converted_premises;
+  skos:narrower venues:Filmhuis, venues:Biograf, venues:Bioscope_theatre, venues:Cinema_theatre,
+    venues:Folkbiografer, venues:Folkets_Hus_Biografer, venues:Cinematograph_theatre,
+    venues:Folkets_bio, venues:Kinematographentheater, venues:Kommunales_Kino, venues:Commercial_building_converted_into_cinema,
+    venues:Multiplex, venues:Converted_premises, venues:Utomhusbio, venues:Drive-in_cinema;
   skos:prefLabel "Public venue"@en;
-  skos:narrower venues:Drive-in_cinema .
+  skos:narrower venues:Electric_theatre, <https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)> .
 
 venues:Private_venue a skos:Concept;
   skos:broader venues:Venue;
@@ -294,8 +296,9 @@ venues:Saal a skos:Concept;
   skos:prefLabel "Saal"@en .
 
 venues:Venue_ownership_category a skos:Concept;
-  skos:broader venues:Venue;
-  skos:prefLabel "Venue ownership category"@en .
+  skos:narrower venues:Independent;
+  skos:prefLabel "Venue ownership category"@en;
+  skos:narrower venues:Dependent .
 
 venues:Cinema_chain a skos:Concept;
   skos:broader venues:Independent;
@@ -324,8 +327,8 @@ venues:Dependent a skos:Concept;
 venues:Venue a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
   skos:narrower venues:Private_venue, venues:Public_venue, venues:Saal, venues:Single_purpose_venue,
-    venues:Streaming_Platform, venues:Teatro, venues:Travelling_venue, venues:Venue_ownership_category,
-    venues:Venue_with_fixed_location, venues:Virtual_Venue .
+    venues:Streaming_Platform, venues:Teatro, venues:Travelling_venue, venues:Venue_with_fixed_location,
+    venues:Virtual_Venue .
 
 venues:Kommunales_Kino a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
@@ -396,7 +399,7 @@ venues:Drive-in_cinema a skos:Concept;
 venues:Electric_theatre a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
-<https://homernetwork.github.io/vocabulary/audiences/Kinematograf_(venue)> a skos:Concept;
+<https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)> a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Multiplex_and_Multi-screen_cinema a skos:Concept;
@@ -444,19 +447,16 @@ venues:Venue_with_fixed_location skos:inScheme <https://homernetwork.github.io/v
     venues:Sala_cinematografica, venues:Stand-alone_purpose-built_venue, venues:Warehouse_building .
 
 venues:Public_venue skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
-  skos:narrower venues:Cinema, venues:Electric_theatre, <https://homernetwork.github.io/vocabulary/audiences/Kinematograf_(venue)>,
-    venues:Multiplex_and_Multi-screen_cinema, venues:Open-air, venues:Picture_House, venues:Picture_palace,
-    venues:Picture_theatre, venues:Registered_cinema, venues:Stand-alone_purpose-built_venue,
-    venues:Tent, venues:Theatre, venues:Travelling_cinema, venues:Warehouse_building .
+  skos:narrower venues:Cinema, venues:Multiplex_and_Multi-screen_cinema, venues:Open-air,
+    venues:Picture_House, venues:Picture_palace, venues:Picture_theatre, venues:Registered_cinema,
+    venues:Stand-alone_purpose-built_venue, venues:Tent, venues:Theatre, venues:Travelling_cinema,
+    venues:Warehouse_building .
 
 venues:Private_venue skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
   skos:narrower venues:Private_home .
 
 venues:Cinema skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
   skos:narrower venues:Adult_cinema, venues:Cinema_house, venues:Single_screen_cinema .
-
-venues:Venue_ownership_category skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
-  skos:narrower venues:Dependent, venues:Independent .
 
 venues:Streaming_Platform skos:broader venues:Virtual_Venue;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
@@ -481,6 +481,9 @@ venues:Travelling_venue skos:inScheme <https://homernetwork.github.io/vocabulary
 
 venues:Saal skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
+venues:Venue_ownership_category skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
+
 venues:Cinema_chain skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Independent skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
@@ -492,19 +495,145 @@ venues:Vertically_integrated_company skos:inScheme <https://homernetwork.github.
 venues:Dependent skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 <https://homernetwork.github.io/vocabulary/venues/> a skos:ConceptScheme;
-  skos:hasTopConcept venues:Venue .
+  skos:hasTopConcept venues:Venue, venues:Venue_ownership_category .
 
 venues:Venue skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
 <https://homernetwork.github.io/vocabulary/audiences/> a skos:ConceptScheme;
   dct:description "Terms to describe audeiences."@en;
-  dct:title "Venues"@en .
+  dct:title "Audiences"@en;
+  skos:hasTopConcept audiences:adults, audiences:audience_per_age_category, audiences:audience_per_ethnicity,
+    audiences:audience_per_gender, audiences:audience_per_ideology, audiences:audience_per_language,
+    audiences:catholic_audience, audiences:children, audiences:communist_audience, audiences:fascist_audience,
+    audiences:religious_audience, audiences:socialist_audience .
 
-<https://homernetwork.github.io/vocabulary/identifiers/> a skos:ConceptScheme;
-  dct:title "Identifier"@en .
+audiences:audience_per_age_category a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "audience per age category"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:adults a skos:Concept;
+  skos:closematch "audience per age category"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "adults"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:children a skos:Concept;
+  skos:closematch "audience per age category"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "children"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:audience_per_gender a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "audience per gender"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:audience_per_ethnicity a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "audience per ethnicity"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:audience_per_language a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "audience per language"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:audience_per_ideology a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "audience per ideology"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:communist_audience a skos:Concept;
+  skos:closematch "audience per ideology"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "communist audience"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:socialist_audience a skos:Concept;
+  skos:closematch "audience per ideology"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "socialist audience"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:fascist_audience a skos:Concept;
+  skos:closematch "audience per ideology"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "fascist audience"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:religious_audience a skos:Concept;
+  skos:closematch "audience per ideology"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "religious audience"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:catholic_audience a skos:Concept;
+  skos:closematch "religious audience"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "catholic audience"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+<https://homernetwork.github.io/vocabulary/screenings/> a skos:ConceptScheme;
+  dct:title "Screenings"@en;
+  skos:hasTopConcept screenings:Part_of_double_bill, screenings:Première, screenings:Screening_by_admission_price,
+    screenings:Screening_per_audience, screenings:Screening_per_event .
+
+screenings:Paid_screening a skos:Concept;
+  skos:broader screenings:Screening_by_admission_price;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
+  skos:prefLabel "Paid screening"@en .
+
+screenings:Screening_by_admission_price a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
+  skos:narrower screenings:Free_screening, screenings:Paid_screening;
+  skos:prefLabel "Screening by admission price"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/screenings/> .
+
+screenings:Première a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
+  skos:prefLabel "Première"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/screenings/> .
+
+screenings:Part_of_double_bill a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
+  skos:prefLabel "Part of double bill"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/screenings/> .
+
+screenings:Free_screening a skos:Concept;
+  skos:broader screenings:Screening_by_admission_price;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
+  skos:prefLabel "Free screening"@en .
+
+screenings:Educational_screening a skos:Concept;
+  skos:broader screenings:Screening_per_audience;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
+  skos:prefLabel "Educational screening"@en .
+
+screenings:Propaganda_screening a skos:Concept;
+  skos:broader screenings:Screening_per_audience;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
+  skos:prefLabel "Propaganda screening"@en .
+
+screenings:Screening_per_audience a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
+  skos:narrower screenings:Educational_screening, screenings:Propaganda_screening;
+  skos:prefLabel "Screening per audience"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/screenings/> .
+
+screenings:Screening_per_event a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
+  skos:narrower screenings:Festival;
+  skos:prefLabel "Screening per event"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/screenings/> .
+
+screenings:Festival a skos:Concept;
+  skos:broader screenings:Screening_per_event;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
+  skos:prefLabel "Festival"@en .
 
 <https://homernetwork.github.io/vocabulary/organisation/> a skos:ConceptScheme;
-  dct:title "Organisation"@en;
+  dct:title "Organisations"@en;
   skos:hasTopConcept organisations:Church, organisations:Club, organisations:Community,
     organisations:Military, organisations:NGO, organisations:Private, organisations:Society,
     organisations:State .
@@ -578,6 +707,11 @@ organisations:Platform a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
   skos:prefLabel "Platform"@en .
 
+<https://homernetwork.github.io/vocabulary/identifiers/> a skos:ConceptScheme;
+  dct:title "Identifiers"@en;
+  skos:hasTopConcept identifiers:Address, identifiers:Location_Point, identifiers:Movie_identifier,
+    identifiers:Venue_identifier .
+
 identifiers:Address a skos:Concept;
   skos:definition "addresses of the cinema venues and their geolocation. In some cases it contains a link to information on the buildings located at these addresses."@en;
   skos:inScheme <https://homernetwork.github.io/vocabulary/identifiers/>;
@@ -633,12 +767,9 @@ identifiers:Venue_identifier a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/identifiers/>;
   skos:prefLabel "Wikidata ID (Venue)"@en .
 
-<https://homernetwork.github.io/vocabulary/identifiers/> skos:hasTopConcept identifiers:Address,
-    identifiers:Location_Point, identifiers:Movie_identifier, identifiers:Venue_identifier .
-
 <https://homernetwork.github.io/vocabulary/programmings/> a skos:ConceptScheme;
   dct:description "Cinema typology based on programming"@en;
-  dct:title "Programming"@en;
+  dct:title "Programmings"@en;
   skos:hasTopConcept programmings:Mixed_programming, programmings:Sex_cinema .
 
 programmings:Mixed_programming a skos:Concept;
@@ -653,7 +784,7 @@ programmings:Sex_cinema a skos:Concept;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/programmings/> .
 
 <https://homernetwork.github.io/vocabulary/categories/> a skos:ConceptScheme;
-  dct:title "Category"@en;
+  dct:title "Categories"@en;
   skos:hasTopConcept categories:Category, categories:ECA-Rank, categories:First_run,
     categories:Opening_type, categories:Second_run .
 
@@ -722,24 +853,24 @@ categories:Opening_type a skos:Concept;
   skos:prefLabel "Opening type"@en;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/categories/> .
 
-<https://homernetwork.github.io/vocabulary/subvenue/> a skos:ConceptScheme;
-  dct:title "subvenue"@en;
+<https://homernetwork.github.io/vocabulary/subvenues/> a skos:ConceptScheme;
+  dct:title "subvenues"@en;
   skos:hasTopConcept subvenue:Home_cinema, subvenue:Screening_room, subvenue:Subvenue .
 
 subvenue:Subvenue a skos:Concept;
   skos:definition "Subdivision of venue, equipped with a screen and a projector for viewing movies."@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/subvenue/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/subvenues/>;
   skos:prefLabel "Subvenue"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/subvenue/> .
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/subvenues/> .
 
 subvenue:Home_cinema a skos:Concept;
   skos:definition "a specific area within a house furnished with the essential equipment for enjoying cinematic works. These spaces emulate the atmosphere of public cinemas while being located within a private home."@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/subvenue/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/subvenues/>;
   skos:prefLabel "Home cinema"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/subvenue/> .
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/subvenues/> .
 
 subvenue:Screening_room a skos:Concept;
   skos:definition "A screening room is a facility equipped with a screen and a projector for viewing movies."@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/subvenue/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/subvenues/>;
   skos:prefLabel "Auditorium"@sv, "Screening room"@en, "sala di proiezione"@it;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/subvenue/> .
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/subvenues/> .
