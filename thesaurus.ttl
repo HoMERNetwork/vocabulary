@@ -178,8 +178,8 @@ venues:Stand-alone_purpose-built_venue skos:altLabel "Stand-alone purpose-built 
 
 venues:Theatre skos:altLabel "Theatre"@en;
   skos:broader venues:Public_venue;
-  a skos:Concept;
   skos:definition "Theatre - here referring not in the US synonym for cinema but to a theatre which mostly hosted live shows but showed films occasionally or in the case of variety theatres, incorporated film into its offerings on a regular basis for a substantial period (years), particularly if the proprietors had invested in a projector."@en;
+  a skos:Concept;
   skos:prefLabel "Theatre"@en, "Varieté"@de .
 
 venues:Travelling_cinema a skos:Concept;
@@ -205,6 +205,7 @@ venues:Warehouse_building a skos:Concept;
 
 venues:Streaming_Platform a skos:Concept;
   skos:altLabel "Streaming Platform"@en;
+  skos:broader venues:Venue;
   skos:prefLabel "Streaming Platform"@en .
 
 venues:Cinema a skos:Concept;
@@ -284,7 +285,8 @@ venues:Saal a skos:Concept;
 venues:Venue a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
   skos:narrower venues:Private_venue, venues:Public_venue, venues:Saal, venues:Single_purpose_venue,
-    venues:Teatro, venues:Travelling_venue, venues:Venue_with_fixed_location, venues:Virtual_Venue;
+    venues:Streaming_Platform, venues:Teatro, venues:Travelling_venue, venues:Venue_with_fixed_location,
+    venues:Virtual_Venue;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Kommunales_Kino a skos:Concept;
