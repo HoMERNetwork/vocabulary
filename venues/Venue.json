@@ -44,6 +44,12 @@
       }
     },
     {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Streaming_Platform",
+      "prefLabel": {
+        "en": "Streaming Platform"
+      }
+    },
+    {
       "id": "https://homernetwork.github.io/vocabulary/venues/Single_purpose_venue",
       "prefLabel": {
         "en": "Single purpose venue"
