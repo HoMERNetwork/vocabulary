@@ -16,15 +16,6 @@
   "definition": {
     "en": "Drive-ins are outdoor venues where audiences watch movies from their own vehicles. These locations provide all the necessary screening facilities for enjoying films."
   },
-  "narrower": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Drive-in_cinema",
-      "prefLabel": {
-        "en": "Drive-in cinema",
-        "de": "Autokino"
-      }
-    }
-  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",

@@ -5,11 +5,8 @@
     "en": "Category",
     "de": "Category"
   },
-  "altLabel": {
-    "es": [
-      "(defined by Italian",
-      "UK or US authorities and pertains to the 'tier' of the cinema)"
-    ]
+  "definition": {
+    "en": "(defined by Italian, UK or US authorities and pertains to the 'tier' of the cinema)"
   },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Venues_by_category",

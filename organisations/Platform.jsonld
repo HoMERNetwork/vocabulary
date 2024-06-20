@@ -12,7 +12,7 @@
   },
   "inScheme": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/organisation/",
+      "id": "https://homernetwork.github.io/vocabulary/organisations/",
       "title": {
         "en": "Organisations"
       }
@@ -20,7 +20,7 @@
   ],
   "inSchemeAll": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/organisation/"
+      "id": "https://homernetwork.github.io/vocabulary/organisations/"
     }
   ],
   "@context": {
