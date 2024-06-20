@@ -130,7 +130,7 @@ venues:Converted_premises skos:altLabel "Converted premises"@en;
   skos:prefLabel "Converted premises"@en .
 
 venues:Drive-in_cinema skos:altLabel "Autokino"@de, "Drive-in cinema"@en;
-  skos:broader venues:Drive-in_cinema, venues:Public_venue, venues:Venue_with_fixed_location;
+  skos:broader venues:Public_venue, venues:Venue_with_fixed_location;
   skos:definition "Drive-ins are outdoor venues where audiences watch movies from their own vehicles. These locations provide all the necessary screening facilities for enjoying films."@en;
   skos:prefLabel "Autokino"@de, "Drive-in cinema"@en .
 
@@ -284,11 +284,12 @@ venues:Franchise skos:broader venues:Dependent;
   skos:prefLabel "Franchise"@en .
 
 venues:Vertically_integrated_company skos:broader venues:Dependent;
-  skos:prefLabel "Vertically integrated company"@en .
-
-venues:Dependent skos:broader venues:Venue_by_ownership;
-  skos:prefLabel "Dependent"@en;
+  skos:prefLabel "Vertically integrated company"@en;
   a skos:Concept .
+
+venues:Dependent a skos:Concept;
+  skos:broader venues:Venue_by_ownership;
+  skos:prefLabel "Dependent"@en .
 
 venues:Art_house_cinema a skos:Concept;
   skos:altLabel "Art house cinema"@es;
@@ -359,8 +360,8 @@ venues:Major a skos:Concept;
   skos:prefLabel "Major"@en .
 
 venues:Category a skos:Concept;
-  skos:altLabel "(defined by Italian"@es, "UK or US authorities and pertains to the 'tier' of the cinema)"@es;
   skos:broader venues:Venues_by_category;
+  skos:definition "(defined by Italian, UK or US authorities and pertains to the 'tier' of the cinema)"@en;
   skos:prefLabel "Category"@de, "Category"@en .
 
 venues:Tier a skos:Concept;
@@ -410,8 +411,7 @@ venues:Commercial_building_converted_into_cinema a skos:Concept .
 
 venues:Converted_premises a skos:Concept .
 
-venues:Drive-in_cinema a skos:Concept;
-  skos:narrower venues:Drive-in_cinema .
+venues:Drive-in_cinema a skos:Concept .
 
 venues:Electric_theatre a skos:Concept .
 
@@ -471,11 +471,11 @@ venues:Public_venue a skos:Concept;
     venues:Cinematograph_theatre, venues:Commercial_building_converted_into_cinema, venues:Converted_premises,
     venues:Drive-in_cinema, venues:Electric_theatre, venues:Filmhuis, venues:Folkbiografer,
     venues:Folkets_Hus_Biografer, venues:Folkets_bio, <https://homernetwork.github.io/vocabulary/venues/Kinematograf_(venue)>,
-    venues:Kinematographentheater, venues:Kommunales_Kino, venues:Multiplex, venues:Multiplex_and_Multi-screen_cinema;
+    venues:Kinematographentheater, venues:Kommunales_Kino, venues:Multiplex;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
-  skos:narrower venues:Open-air, venues:Picture_House, venues:Picture_palace, venues:Picture_theatre,
-    venues:Registered_cinema, venues:Stand-alone_purpose-built_venue, venues:Tent, venues:Theatre,
-    venues:Utomhusbio, venues:Warehouse_building .
+  skos:narrower venues:Multiplex_and_Multi-screen_cinema, venues:Open-air, venues:Picture_House,
+    venues:Picture_palace, venues:Picture_theatre, venues:Registered_cinema, venues:Stand-alone_purpose-built_venue,
+    venues:Tent, venues:Theatre, venues:Utomhusbio, venues:Warehouse_building .
 
 venues:Private_venue a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
@@ -512,9 +512,6 @@ venues:Independent a skos:Concept;
   skos:narrower venues:Cinema_chain .
 
 venues:Franchise a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
-
-venues:Vertically_integrated_company a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Venue skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
@@ -630,6 +627,8 @@ venues:Venue_with_fixed_location skos:inScheme <https://homernetwork.github.io/v
 
 venues:Adult_cinema skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
+venues:Vertically_integrated_company skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+
 venues:Art_house_cinema skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:Nieuwsbioscoop skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
@@ -665,7 +664,7 @@ venues:Category skos:inScheme <https://homernetwork.github.io/vocabulary/venues/
 venues:Venue_by_ownership skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
 <https://homernetwork.github.io/vocabulary/audiences/> a skos:ConceptScheme;
-  dct:description "Terms to describe audeiences."@en;
+  dct:description "Terms to describe audiences."@en;
   dct:title "Audiences"@en;
   skos:hasTopConcept audiences:audience_per_age_category, audiences:audience_per_ethnicity,
     audiences:audience_per_gender, audiences:audience_per_ideology, audiences:audience_per_language .
@@ -792,79 +791,79 @@ screenings:Festival a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
   skos:prefLabel "Festival"@en .
 
-<https://homernetwork.github.io/vocabulary/organisation/> a skos:ConceptScheme;
+<https://homernetwork.github.io/vocabulary/organisations/> a skos:ConceptScheme;
   dct:title "Organisations"@en;
   skos:hasTopConcept organisations:Church, organisations:Club, organisations:Community,
     organisations:Military, organisations:NGO, organisations:Private, organisations:Society,
     organisations:State .
 
 organisations:Military a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "Military"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:State a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:narrower organisations:Municipality;
   skos:prefLabel "State"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:Church a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:narrower organisations:Parish;
   skos:prefLabel "Church"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:Community a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "Community"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:Club a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "Club"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:Private a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:narrower organisations:Company;
   skos:prefLabel "Private"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:Parish a skos:Concept;
   skos:broader organisations:Church;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "Parish"@en .
 
 organisations:NGO a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "NGO"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:Municipality a skos:Concept;
   skos:broader organisations:State;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "Municipality"@en .
 
 organisations:Society a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "Society"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisation/> .
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:Corporation a skos:Concept;
   skos:broader organisations:Company;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "Corporation"@en .
 
 organisations:Company a skos:Concept;
   skos:broader organisations:Private;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:narrower organisations:Corporation, organisations:Platform;
   skos:prefLabel "Company"@en .
 
 organisations:Platform a skos:Concept;
   skos:broader organisations:Company;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisation/>;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "Platform"@en .
 
 <https://homernetwork.github.io/vocabulary/identifiers/> a skos:ConceptScheme;
