@@ -4,4 +4,4 @@ The goal of the HoMER Vocabulary of Moviegoing project is to create a shared voc
 
 Through a series of surveys we are gradually building this vocabulary. We use this repository to share the results of the surveys and to discuss the vocabulary.
 
-Interested in joining the working group? Please send an email to l.vanwissen@uva.nl.
+Interested in joining the working group? Join the Discussion Group: https://groups.google.com/g/homer-vocabulary-working-group
