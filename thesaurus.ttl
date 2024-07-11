@@ -666,8 +666,9 @@ venues:Venue_by_ownership skos:topConceptOf <https://homernetwork.github.io/voca
 <https://homernetwork.github.io/vocabulary/audiences/> a skos:ConceptScheme;
   dct:description "Terms to describe audiences."@en;
   dct:title "Audiences"@en;
-  skos:hasTopConcept audiences:audience_per_age_category, audiences:audience_per_ethnicity,
-    audiences:audience_per_gender, audiences:audience_per_ideology, audiences:audience_per_language .
+  skos:hasTopConcept audiences:audience_per_affluence, audiences:audience_per_age_category,
+    audiences:audience_per_ethnicity, audiences:audience_per_gender, audiences:audience_per_ideology,
+    audiences:audience_per_language, audiences:audience_per_skin_color, audiences:jungalass .
 
 audiences:audience_per_age_category a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
@@ -732,6 +733,39 @@ audiences:catholic_audience a skos:Concept;
   skos:broader audiences:religious_audience;
   skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
   skos:prefLabel "catholic audience"@en .
+
+audiences:jungalass a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "jungalass"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:boujee_crowd a skos:Concept;
+  skos:broader audiences:affluent_audience;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "boujee crowd"@en .
+
+audiences:audience_per_affluence a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:narrower audiences:affluent_audience;
+  skos:prefLabel "audience per affluence"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:affluent_audience a skos:Concept;
+  skos:broader audiences:audience_per_affluence;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:narrower audiences:boujee_crowd;
+  skos:prefLabel "affluent audience"@en .
+
+audiences:audience_per_skin_color a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:narrower audiences:black_audience;
+  skos:prefLabel "audience per skin color"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:black_audience a skos:Concept;
+  skos:broader audiences:audience_per_skin_color;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "black audience"@en .
 
 <https://homernetwork.github.io/vocabulary/screenings/> a skos:ConceptScheme;
   dct:title "Screenings"@en;
