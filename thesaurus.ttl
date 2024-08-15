@@ -668,7 +668,8 @@ venues:Venue_by_ownership skos:topConceptOf <https://homernetwork.github.io/voca
   dct:title "Audiences"@en;
   skos:hasTopConcept audiences:audience_per_affluence, audiences:audience_per_age_category,
     audiences:audience_per_ethnicity, audiences:audience_per_gender, audiences:audience_per_ideology,
-    audiences:audience_per_language, audiences:audience_per_skin_color, audiences:jungalass .
+    audiences:audience_per_language, audiences:audience_per_religion, audiences:audience_per_skin_color,
+    audiences:catholic_audience .
 
 audiences:audience_per_age_category a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
@@ -703,8 +704,7 @@ audiences:audience_per_language a skos:Concept;
 
 audiences:audience_per_ideology a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:narrower audiences:communist_audience, audiences:fascist_audience, audiences:religious_audience,
-    audiences:socialist_audience;
+  skos:narrower audiences:communist_audience, audiences:fascist_audience, audiences:socialist_audience;
   skos:prefLabel "audience per ideology"@en;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
 
@@ -723,20 +723,14 @@ audiences:fascist_audience a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
   skos:prefLabel "fascist audience"@en .
 
-audiences:religious_audience a skos:Concept;
-  skos:broader audiences:audience_per_ideology;
+audiences:audience_per_religion a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:narrower audiences:catholic_audience;
-  skos:prefLabel "religious audience"@en .
+  skos:prefLabel "audience per religion"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
 
 audiences:catholic_audience a skos:Concept;
-  skos:broader audiences:religious_audience;
   skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:prefLabel "catholic audience"@en .
-
-audiences:jungalass a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:prefLabel "jungalass"@en;
+  skos:prefLabel "catholic audience"@en;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
 
 audiences:boujee_crowd a skos:Concept;
