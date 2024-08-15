@@ -1,8 +1,8 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/audiences/jungalass",
+  "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_religion",
   "type": "Concept",
   "prefLabel": {
-    "en": "jungalass"
+    "en": "audience per religion"
   },
   "inScheme": [
     {
