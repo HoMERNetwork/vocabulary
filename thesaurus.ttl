@@ -663,103 +663,256 @@ venues:Category skos:inScheme <https://homernetwork.github.io/vocabulary/venues/
 
 venues:Venue_by_ownership skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
-<https://homernetwork.github.io/vocabulary/audiences/> a skos:ConceptScheme;
-  dct:description "Terms to describe audiences."@en;
-  dct:title "Audiences"@en;
-  skos:hasTopConcept audiences:audience_per_affluence, audiences:audience_per_age_category,
-    audiences:audience_per_ethnicity, audiences:audience_per_gender, audiences:audience_per_ideology,
-    audiences:audience_per_language, audiences:audience_per_religion, audiences:audience_per_skin_color,
-    audiences:catholic_audience .
+<https://homernetwork.github.io/vocabulary/audiences/> dct:description "Terms to describe audiences."@en;
+  dct:title "Audiences"@en .
 
 audiences:audience_per_age_category a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:narrower audiences:adults, audiences:children;
-  skos:prefLabel "audience per age category"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+  skos:prefLabel "audience per age category"@en .
 
 audiences:adults a skos:Concept;
   skos:broader audiences:audience_per_age_category;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
   skos:prefLabel "adults"@en .
 
 audiences:children a skos:Concept;
   skos:broader audiences:audience_per_age_category;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
   skos:prefLabel "children"@en .
 
+audiences:young_adults a skos:Concept;
+  skos:broader audiences:audience_per_age_category;
+  skos:prefLabel "young adults"@en .
+
+audiences:senior_citizens a skos:Concept;
+  skos:altLabel "elderly"@en;
+  skos:broader audiences:audience_per_age_category;
+  skos:prefLabel "senior citizens"@en .
+
 audiences:audience_per_gender a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:prefLabel "audience per gender"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+  skos:prefLabel "audience per gender"@en .
+
+audiences:female a skos:Concept;
+  skos:altLabel "women"@en;
+  skos:broader audiences:audience_per_gender;
+  skos:prefLabel "female"@en .
+
+audiences:male a skos:Concept;
+  skos:altLabel "men"@en;
+  skos:broader audiences:audience_per_gender;
+  skos:prefLabel "male"@en .
+
+audiences:non-binary a skos:Concept;
+  skos:broader audiences:audience_per_gender;
+  skos:prefLabel "non-binary"@en .
+
+audiences:trans a skos:Concept;
+  skos:broader audiences:audience_per_gender;
+  skos:prefLabel "trans"@en .
+
+audiences:other a skos:Concept;
+  skos:broader audiences:audience_per_gender;
+  skos:prefLabel "other"@en .
+
+audiences:audience_per_sexuality a skos:Concept;
+  skos:prefLabel "audience per sexuality"@en .
 
 audiences:audience_per_ethnicity a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:prefLabel "audience per ethnicity"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+  skos:prefLabel "audience per ethnicity"@en .
 
 audiences:audience_per_language a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:prefLabel "audience per language"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+  skos:prefLabel "audience per language"@en .
 
 audiences:audience_per_ideology a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:narrower audiences:communist_audience, audiences:fascist_audience, audiences:socialist_audience;
-  skos:prefLabel "audience per ideology"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
-
-audiences:communist_audience a skos:Concept;
-  skos:broader audiences:audience_per_ideology;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:prefLabel "communist audience"@en .
-
-audiences:socialist_audience a skos:Concept;
-  skos:broader audiences:audience_per_ideology;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:prefLabel "socialist audience"@en .
-
-audiences:fascist_audience a skos:Concept;
-  skos:broader audiences:audience_per_ideology;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:prefLabel "fascist audience"@en .
+  skos:prefLabel "audience per ideology"@en .
 
 audiences:audience_per_religion a skos:Concept;
+  skos:prefLabel "audience per religion"@en .
+
+audiences:audience_per_household_income a skos:Concept;
+  skos:narrower audiences:high_income, audiences:low_income, audiences:middle_income;
+  skos:prefLabel "audience per household income"@en .
+
+audiences:low_income a skos:Concept;
+  skos:broader audiences:audience_per_household_income;
+  skos:prefLabel "low income"@en .
+
+audiences:middle_income a skos:Concept;
+  skos:broader audiences:audience_per_household_income;
+  skos:prefLabel "middle income"@en .
+
+audiences:high_income a skos:Concept;
+  skos:broader audiences:audience_per_household_income;
+  skos:prefLabel "high income"@en .
+
+audiences:audience_per_class a skos:Concept;
+  skos:narrower audiences:middle_class, audiences:working_class;
+  skos:prefLabel "audience per class"@en .
+
+audiences:working_class a skos:Concept;
+  skos:broader audiences:audience_per_class;
+  skos:prefLabel "working class"@en .
+
+audiences:middle_class a skos:Concept;
+  skos:broader audiences:audience_per_class;
   skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:prefLabel "audience per religion"@en;
+  skos:prefLabel "middle class"@en .
+
+audiences:audience_per_occupation a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:narrower audiences:firemen, audiences:military_audience;
+  skos:prefLabel "audience per occupation"@en .
+
+audiences:military_audience a skos:Concept;
+  skos:broader audiences:audience_per_occupation;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "military audience"@en .
+
+audiences:firemen a skos:Concept;
+  skos:broader audiences:audience_per_occupation;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "firemen"@en .
+
+audiences:biografpublik a skos:Concept;
+  skos:broader audiences:cinema_audience;
+  skos:definition "Audience that goes to the movies to watch film"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "Biografpublik"@sv, "biografpublik"@en .
+
+audiences:film_viewer a skos:Concept;
+  skos:broader audiences:film_audience;
+  skos:definition "an individual watching a film"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "film viewer"@en .
+
+audiences:film_audience a skos:Concept;
+  skos:definition "A body of individuals watching and/or listening to a show, concert, film, or speech. The cinema audience comprises people who assemble to watch films in cinemas and other venues, both public and private, as well as those who consume films via alternative platforms such as video, DVD, home cinema, and television."@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:narrower audiences:film_viewer, audiences:filmpublik, audiences:pubblico, audiences:spettatore;
+  skos:prefLabel "film audience"@en .
+
+audiences:cinema_audience a skos:Concept;
+  skos:definition "They are the sum of individual consumers who have chosen to buy a cinema ticket in a particular location/locality during a specific (period of) time."@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:narrower audiences:biografpublik, audiences:cinemagoers;
+  skos:prefLabel "cinema audience"@en .
+
+audiences:cinemagoers a skos:Concept;
+  skos:broader audiences:cinema_audience;
+  skos:definition "members of the public, connected to the cinema. Not as simple as simply saying 'cinemagoers' although this is a preferred term. But also including those who may not be attending, but still connected to the cinema through physical proximity (they pass a marquee) or through social media/online marketing and comms"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "cinemagoers"@en .
+
+audiences:filmpublik a skos:Concept;
+  skos:broader audiences:film_audience;
+  skos:definition "Film audience (regardless of which kind of screen the film is shown on). Doesn't necessarily have to be on a regular basis"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "Filmpublik"@sv, "filmpublik"@en .
+
+audiences:pubblico a skos:Concept;
+  skos:broader audiences:film_audience;
+  skos:definition "The group of people who frequent a place open to the public, e.g. shops, offices, theatres, libraries or general of entertainment"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "Pubblico"@it, "pubblico"@en .
+
+audiences:spettatore a skos:Concept;
+  skos:broader audiences:film_audience;
+  skos:definition "A person who takes part in a show, a ceremony or a sporting event [definition, used most frequently in the plural form \"spettatori\"]"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "Spettatore"@it, "spettatore"@en .
+
+audiences:audience_per_location a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:narrower audiences:city-centre_audience, audiences:rural_audience, audiences:small-town_audience,
+    audiences:suburban_audience;
+  skos:prefLabel "audience per location"@en;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
 
-audiences:catholic_audience a skos:Concept;
+audiences:city-centre_audience a skos:Concept;
+  skos:broader audiences:audience_per_location;
   skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:prefLabel "catholic audience"@en;
+  skos:prefLabel "city-centre audience"@en .
+
+audiences:suburban_audience a skos:Concept;
+  skos:broader audiences:audience_per_location;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "suburban audience"@en .
+
+audiences:small-town_audience a skos:Concept;
+  skos:broader audiences:audience_per_location;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "small-town audience"@en .
+
+audiences:rural_audience a skos:Concept;
+  skos:broader audiences:audience_per_location;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:prefLabel "rural audience"@en .
+
+audiences:audience_per_age_category skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:narrower audiences:adults, audiences:children, audiences:senior_citizens, audiences:young_adults;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
 
-audiences:boujee_crowd a skos:Concept;
-  skos:broader audiences:affluent_audience;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:prefLabel "boujee crowd"@en .
-
-audiences:audience_per_affluence a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:narrower audiences:affluent_audience;
-  skos:prefLabel "audience per affluence"@en;
+audiences:audience_per_gender skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:narrower audiences:female, audiences:male, audiences:non-binary, audiences:other,
+    audiences:trans;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
 
-audiences:affluent_audience a skos:Concept;
-  skos:broader audiences:audience_per_affluence;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:narrower audiences:boujee_crowd;
-  skos:prefLabel "affluent audience"@en .
+audiences:adults skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
 
-audiences:audience_per_skin_color a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:narrower audiences:black_audience;
-  skos:prefLabel "audience per skin color"@en;
+audiences:children skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:young_adults skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:senior_citizens skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:female skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:male skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:non-binary skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:trans skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:other skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:audience_per_sexuality skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
 
-audiences:black_audience a skos:Concept;
-  skos:broader audiences:audience_per_skin_color;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:prefLabel "black audience"@en .
+audiences:audience_per_ethnicity skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:audience_per_language skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:audience_per_ideology skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:audience_per_religion skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:audience_per_household_income skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:low_income skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:middle_income skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:high_income skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:audience_per_class skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:working_class skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+
+<https://homernetwork.github.io/vocabulary/audiences/> a skos:ConceptScheme;
+  skos:hasTopConcept audiences:audience_per_age_category, audiences:audience_per_class,
+    audiences:audience_per_ethnicity, audiences:audience_per_gender, audiences:audience_per_household_income,
+    audiences:audience_per_ideology, audiences:audience_per_language, audiences:audience_per_location,
+    audiences:audience_per_occupation, audiences:audience_per_religion, audiences:audience_per_sexuality,
+    audiences:cinema_audience, audiences:film_audience .
+
+audiences:audience_per_occupation skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:film_audience skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:cinema_audience skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
 
 <https://homernetwork.github.io/vocabulary/screenings/> a skos:ConceptScheme;
   dct:title "Screenings"@en;
