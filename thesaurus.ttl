@@ -742,18 +742,22 @@ audiences:high_income a skos:Concept;
   skos:broader audiences:audience_per_household_income;
   skos:prefLabel "high income"@en .
 
-audiences:audience_per_class a skos:Concept;
-  skos:narrower audiences:middle_class, audiences:working_class;
-  skos:prefLabel "audience per class"@en .
+audiences:audience_per_social_class a skos:Concept;
+  skos:narrower audiences:elite_social_class, audiences:middle_social_class, audiences:working_social_class;
+  skos:prefLabel "audience per social class"@en .
 
-audiences:working_class a skos:Concept;
-  skos:broader audiences:audience_per_class;
-  skos:prefLabel "working class"@en .
+audiences:working_social_class a skos:Concept;
+  skos:broader audiences:audience_per_social_class;
+  skos:prefLabel "working social class"@en .
 
-audiences:middle_class a skos:Concept;
-  skos:broader audiences:audience_per_class;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
-  skos:prefLabel "middle class"@en .
+audiences:middle_social_class a skos:Concept;
+  skos:broader audiences:audience_per_social_class;
+  skos:prefLabel "middle social class"@en .
+
+audiences:elite_social_class a skos:Concept;
+  skos:broader audiences:audience_per_social_class;
+  skos:prefLabel "elite social class"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
 
 audiences:audience_per_occupation a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
@@ -896,16 +900,18 @@ audiences:middle_income skos:inScheme <https://homernetwork.github.io/vocabulary
 
 audiences:high_income skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
 
-audiences:audience_per_class skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+audiences:audience_per_social_class skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
 
-audiences:working_class skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+audiences:working_social_class skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+
+audiences:middle_social_class skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
 
 <https://homernetwork.github.io/vocabulary/audiences/> a skos:ConceptScheme;
-  skos:hasTopConcept audiences:audience_per_age_category, audiences:audience_per_class,
-    audiences:audience_per_ethnicity, audiences:audience_per_gender, audiences:audience_per_household_income,
-    audiences:audience_per_ideology, audiences:audience_per_language, audiences:audience_per_location,
-    audiences:audience_per_occupation, audiences:audience_per_religion, audiences:audience_per_sexuality,
+  skos:hasTopConcept audiences:audience_per_age_category, audiences:audience_per_ethnicity,
+    audiences:audience_per_gender, audiences:audience_per_household_income, audiences:audience_per_ideology,
+    audiences:audience_per_language, audiences:audience_per_location, audiences:audience_per_occupation,
+    audiences:audience_per_religion, audiences:audience_per_sexuality, audiences:audience_per_social_class,
     audiences:cinema_audience, audiences:film_audience .
 
 audiences:audience_per_occupation skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
