@@ -4,6 +4,38 @@
   "prefLabel": {
     "en": "audience per gender"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/female",
+      "prefLabel": {
+        "en": "female"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/male",
+      "prefLabel": {
+        "en": "male"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/non-binary",
+      "prefLabel": {
+        "en": "non-binary"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/trans",
+      "prefLabel": {
+        "en": "trans"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/other",
+      "prefLabel": {
+        "en": "other"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/",

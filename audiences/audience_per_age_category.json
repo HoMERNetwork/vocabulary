@@ -16,6 +16,18 @@
       "prefLabel": {
         "en": "children"
       }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/young_adults",
+      "prefLabel": {
+        "en": "young adults"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/senior_citizens",
+      "prefLabel": {
+        "en": "senior citizens"
+      }
     }
   ],
   "inScheme": [
