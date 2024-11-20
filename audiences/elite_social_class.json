@@ -1,13 +1,13 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/audiences/middle_class",
+  "id": "https://homernetwork.github.io/vocabulary/audiences/elite_social_class",
   "type": "Concept",
   "prefLabel": {
-    "en": "middle class"
+    "en": "elite social class"
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_class",
+    "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_social_class",
     "prefLabel": {
-      "en": "audience per class"
+      "en": "audience per social class"
     }
   },
   "inScheme": [

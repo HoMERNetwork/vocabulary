@@ -1,23 +1,15 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_class",
+  "id": "https://homernetwork.github.io/vocabulary/audiences/working_social_class",
   "type": "Concept",
   "prefLabel": {
-    "en": "audience per class"
+    "en": "working social class"
   },
-  "narrower": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/audiences/middle_class",
-      "prefLabel": {
-        "en": "middle class"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/audiences/working_class",
-      "prefLabel": {
-        "en": "working class"
-      }
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_social_class",
+    "prefLabel": {
+      "en": "audience per social class"
     }
-  ],
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/",
@@ -29,14 +21,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/audiences/",
-      "title": {
-        "en": "Audiences"
-      }
     }
   ],
   "@context": {
