@@ -9,6 +9,14 @@
       "men"
     ]
   },
+  "definition": {
+    "en": "Audience who self-identify as male"
+  },
+  "editorialNote": {
+    "en": [
+      "sensitive"
+    ]
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_gender",
     "prefLabel": {

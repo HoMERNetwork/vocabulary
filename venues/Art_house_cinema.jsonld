@@ -3,18 +3,11 @@
   "type": "Concept",
   "prefLabel": {
     "en": "Art house cinema",
-    "fr": "Programmkino"
+    "nl": "Filmhuis",
+    "de": "Programmkino"
   },
-  "altLabel": {
-    "es": [
-      "Art house cinema"
-    ]
-  },
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Venue_by_programming",
-    "prefLabel": {
-      "en": "Venue by programming"
-    }
+  "definition": {
+    "en": "Art cinema, sometimes with financial support by the municipality"
   },
   "inScheme": [
     {

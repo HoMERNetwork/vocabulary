@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "Public venue"
   },
+  "definition": {
+    "en": "A venue open to everyone"
+  },
   "narrower": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/Kommunales_Kino",
@@ -13,24 +16,11 @@
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Filmhuis",
+      "id": "https://homernetwork.github.io/vocabulary/venues/Art_house_cinema",
       "prefLabel": {
-        "en": "Filmhuis",
-        "nl": "Filmhuis"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Folkbiografer",
-      "prefLabel": {
-        "en": "Folkbiografer",
-        "sv": "Folkbiografer"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Folkets_bio",
-      "prefLabel": {
-        "en": "Folkets bio",
-        "sv": "Folkets bio"
+        "en": "Art house cinema",
+        "nl": "Filmhuis",
+        "de": "Programmkino"
       }
     },
     {

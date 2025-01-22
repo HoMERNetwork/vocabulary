@@ -4,6 +4,14 @@
   "prefLabel": {
     "en": "non-binary"
   },
+  "definition": {
+    "en": "Audiences who self-identify as non-binary"
+  },
+  "editorialNote": {
+    "en": [
+      "sensitive"
+    ]
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_gender",
     "prefLabel": {

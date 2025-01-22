@@ -4,11 +4,8 @@
   "prefLabel": {
     "en": "young adults"
   },
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_age_category",
-    "prefLabel": {
-      "en": "audience per age category"
-    }
+  "definition": {
+    "en": "An adult in the age range of approximately 18-25"
   },
   "inScheme": [
     {
@@ -21,6 +18,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/",
+      "title": {
+        "en": "Audiences"
+      }
     }
   ],
   "@context": {

@@ -9,7 +9,8 @@
       "id": "https://homernetwork.github.io/vocabulary/venues/Art_house_cinema",
       "prefLabel": {
         "en": "Art house cinema",
-        "fr": "Programmkino"
+        "nl": "Filmhuis",
+        "de": "Programmkino"
       }
     },
     {
@@ -22,12 +23,6 @@
       "id": "https://homernetwork.github.io/vocabulary/venues/Mixed_programming_theatre_and_film",
       "prefLabel": {
         "en": "Mixed programming theatre and film"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Sex_cinema",
-      "prefLabel": {
-        "en": "Sex cinema"
       }
     }
   ],

@@ -2,15 +2,21 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Cinema_chain",
   "type": "Concept",
   "prefLabel": {
-    "en": "Cinema chain"
+    "en": "Cinema chain",
+    "nl": "bioscoopketen"
   },
   "definition": {
-    "en": "In Sweden: independent cinemas owned by a private person or a smaller firm. A cinema chain would include travelling companies that traveled on a rotating schedule to a number of small locations."
+    "en": "Series of cinemas owned by a single owner or company."
+  },
+  "editorialNote": {
+    "en": [
+      "former definition: In Sweden: independent cinemas owned by a private person or a smaller firm. A cinema chain would include travelling companies that traveled on a rotating schedule to a number of small locations. We changed to make the definition more generally applicable"
+    ]
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Independent",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Venue_by_ownership",
     "prefLabel": {
-      "en": "Independent"
+      "en": "Venue by ownership"
     }
   },
   "inScheme": [

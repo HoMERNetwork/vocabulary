@@ -2,19 +2,17 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Independent",
   "type": "Concept",
   "prefLabel": {
-    "en": "Independent"
+    "en": "Independent",
+    "nl": "onafhankelijk"
   },
   "definition": {
-    "en": "In Sweden: Owned by a private person or a smaller firm. This kind of ownership could involve a single cinema or a chain of cinemas. The latter type of cinema would include travelling companies that traveled on a rotating schedule to a number of small locations."
+    "en": "Cinema ownership that is independant of large (integrated) cinema chains."
   },
-  "narrower": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Cinema_chain",
-      "prefLabel": {
-        "en": "Cinema chain"
-      }
-    }
-  ],
+  "editorialNote": {
+    "en": [
+      "Former definition: In Sweden: Owned by a private person or a smaller firm. This kind of ownership could involve a single cinema or a chain of cinemas. The latter type of cinema would include travelling companies that traveled on a rotating schedule to a number of small locations. Definition modified to make more generally applicable"
+    ]
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Venue_by_ownership",
     "prefLabel": {

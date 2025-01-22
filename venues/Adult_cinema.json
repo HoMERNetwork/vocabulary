@@ -4,6 +4,19 @@
   "prefLabel": {
     "en": "Adult cinema"
   },
+  "altLabel": {
+    "en": [
+      "Sex cinema"
+    ]
+  },
+  "definition": {
+    "en": "Euphemistic term for a movie theater dedicated to the exhibition of pornographic films"
+  },
+  "editorialNote": {
+    "en": [
+      "former term \"venues:Sex_cinema\" merged into this term"
+    ]
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
     "prefLabel": {
@@ -11,6 +24,11 @@
       "es": "Cines"
     }
   },
+  "closeMatch": [
+    {
+      "id": "http://www.wikidata.org/entity/Q52815"
+    }
+  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/",

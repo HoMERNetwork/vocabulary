@@ -4,6 +4,14 @@
   "prefLabel": {
     "en": "trans"
   },
+  "definition": {
+    "en": "Audiences who self-identify as trans"
+  },
+  "editorialNote": {
+    "en": [
+      "sensitive"
+    ]
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_gender",
     "prefLabel": {

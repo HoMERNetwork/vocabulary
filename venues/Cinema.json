@@ -25,13 +25,6 @@
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Cinema_house",
-      "prefLabel": {
-        "en": "Cinema house",
-        "es": "Coliseum"
-      }
-    },
-    {
       "id": "https://homernetwork.github.io/vocabulary/venues/Single_screen_cinema",
       "prefLabel": {
         "en": "Single screen cinema"

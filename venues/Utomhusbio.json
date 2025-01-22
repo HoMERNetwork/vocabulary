@@ -5,6 +5,11 @@
     "en": "Utomhusbio",
     "sv": "Utomhusbio"
   },
+  "altLabel": {
+    "en": [
+      "Open air cinema?"
+    ]
+  },
   "definition": {
     "en": "Outdoor cinema, temporary"
   },

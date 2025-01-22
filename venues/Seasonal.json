@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "Seasonal"
   },
+  "definition": {
+    "en": "fluctuating or restricted according to the season or time of year."
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Venue_by_opening_type",
     "prefLabel": {

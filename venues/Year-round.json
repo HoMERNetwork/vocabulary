@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "Year-round"
   },
+  "definition": {
+    "en": "operational throughout the year"
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Venue_by_opening_type",
     "prefLabel": {

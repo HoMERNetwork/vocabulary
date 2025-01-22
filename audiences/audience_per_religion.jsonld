@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "audience per religion"
   },
+  "definition": {
+    "en": "Audiences who define themselves or are defined by others in relation to one or more religions"
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/",

@@ -9,6 +9,9 @@
       "Streaming Platform"
     ]
   },
+  "definition": {
+    "en": "on-demand online entertainment sources for TV shows, movies, and other streaming media"
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Virtual_Venue",
     "prefLabel": {

@@ -5,6 +5,14 @@
     "en": "Tent",
     "nl": "Tent"
   },
+  "altLabel": {
+    "en": [
+      "tent"
+    ]
+  },
+  "definition": {
+    "en": "a portable shelter"
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {

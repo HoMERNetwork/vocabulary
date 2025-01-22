@@ -4,6 +4,14 @@
   "prefLabel": {
     "en": "audience per gender"
   },
+  "definition": {
+    "en": "Audiences defined by their gender self-definition"
+  },
+  "editorialNote": {
+    "en": [
+      "sensitive"
+    ]
+  },
   "narrower": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/female",

@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "Wikidata ID"
   },
+  "definition": {
+    "en": "ID of the movie in Wikidata"
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/identifiers/",

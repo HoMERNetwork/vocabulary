@@ -9,6 +9,9 @@
       "elderly"
     ]
   },
+  "definition": {
+    "en": "An older adult of retirement aga and above"
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_age_category",
     "prefLabel": {

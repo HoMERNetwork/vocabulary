@@ -9,6 +9,14 @@
       "women"
     ]
   },
+  "definition": {
+    "en": "Audiences who self-identify as female"
+  },
+  "editorialNote": {
+    "en": [
+      "sensitive"
+    ]
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_gender",
     "prefLabel": {

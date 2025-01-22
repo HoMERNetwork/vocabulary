@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "Vertically integrated company"
   },
+  "definition": {
+    "en": "Ownership of two or more branches in a company's supply chain, in the case of cinema this usually means control of at least 2 of 3 areas: exhibition, distribution and production"
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Dependent",
     "prefLabel": {

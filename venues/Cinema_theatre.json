@@ -8,14 +8,23 @@
   },
   "altLabel": {
     "en": [
+      "Cinema house",
       "Cinema theatre"
     ],
     "de": [
       "Kino"
+    ],
+    "es": [
+      "Coliseum"
     ]
   },
   "definition": {
     "en": "A building in which films were shown for a public that pays an entrance fee (so commercial cinema operations, in our data restricted to members of the national cinema union NBB)"
+  },
+  "editorialNote": {
+    "en": [
+      "Merged 'Cinema House' into this concept. It's Spanish label applies to US only Spanish language areas."
+    ]
   },
   "narrower": [
     {

@@ -9,6 +9,9 @@
       "Private home"
     ]
   },
+  "definition": {
+    "en": "A private venue that offers occasional film screenings"
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Private_venue",
     "prefLabel": {

@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "audience per ideology"
   },
+  "definition": {
+    "en": "Audiences who define themselves or are defined by others in relation to one or more ideologies"
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/",

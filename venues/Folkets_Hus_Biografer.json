@@ -5,6 +5,12 @@
     "en": "Folkets Hus Biografer",
     "sv": "Folkets Hus Biografer"
   },
+  "altLabel": {
+    "sv": [
+      "Folkbiografer",
+      "Folkets bio"
+    ]
+  },
   "definition": {
     "en": "Cinemas driven by temperence societies and other independent cinemas and a smaller number of other kinds of grassroots organisations, such as local youth and sports clubs. This kind of ownership could involve a single cinema or a chain of cinemas."
   },

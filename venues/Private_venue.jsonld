@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "Private venue"
   },
+  "definition": {
+    "en": "A venue that provides restricted access to certain groups of people"
+  },
   "narrower": [
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/Frontline_cinema",

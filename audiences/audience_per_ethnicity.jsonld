@@ -4,6 +4,14 @@
   "prefLabel": {
     "en": "audience per ethnicity"
   },
+  "definition": {
+    "en": "Audiences who define themselves or are defined by others based on their ethnicity"
+  },
+  "editorialNote": {
+    "en": [
+      "sensitive"
+    ]
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/",

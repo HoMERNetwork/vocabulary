@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "Single purpose venue"
   },
+  "definition": {
+    "en": "A venue specifically dedicated to one activity"
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Venue",
     "prefLabel": {

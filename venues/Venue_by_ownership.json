@@ -6,9 +6,23 @@
   },
   "narrower": [
     {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Cinema_chain",
+      "prefLabel": {
+        "en": "Cinema chain",
+        "nl": "bioscoopketen"
+      }
+    },
+    {
       "id": "https://homernetwork.github.io/vocabulary/venues/Independent",
       "prefLabel": {
-        "en": "Independent"
+        "en": "Independent",
+        "nl": "onafhankelijk"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Single_venue",
+      "prefLabel": {
+        "en": "Single venue"
       }
     },
     {

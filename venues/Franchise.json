@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "Franchise"
   },
+  "definition": {
+    "en": "an authorization granted by a government or company to an individual or group enabling them to carry out specified commercial activities, for example acting as an agent for a company's products"
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Dependent",
     "prefLabel": {

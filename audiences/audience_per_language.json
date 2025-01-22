@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "audience per language"
   },
+  "definition": {
+    "en": "Audiences who define themselves in relation to one or more languages"
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/",

@@ -5,9 +5,15 @@
     "en": "Nieuwsbioscoop"
   },
   "altLabel": {
+    "en": [
+      "newsreel cinema"
+    ],
     "de": [
       "Nieuwsbioscoop"
     ]
+  },
+  "definition": {
+    "en": "Cinema specialised in the screening of newsreels"
   },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Venue_by_programming",

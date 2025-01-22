@@ -65,7 +65,8 @@
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/Saal",
       "prefLabel": {
-        "en": "Saal"
+        "en": "Saal",
+        "nl": "zaal"
       }
     }
   ],

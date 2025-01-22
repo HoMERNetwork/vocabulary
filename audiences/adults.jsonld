@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "adults"
   },
+  "definition": {
+    "en": "A person who is fully grown or developed."
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_age_category",
     "prefLabel": {
