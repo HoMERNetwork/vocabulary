@@ -27,13 +27,7 @@
       "id": "https://homernetwork.github.io/vocabulary/venues/Multiplex",
       "prefLabel": {
         "en": "Multiplex",
-        "sv": "Filmstaden"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Multiplex_and_Multi-screen_cinema",
-      "prefLabel": {
-        "en": "Multiplex and Multi-screen cinema",
+        "sv": "Filmstaden",
         "it": "multisala"
       }
     },
@@ -41,13 +35,6 @@
       "id": "https://homernetwork.github.io/vocabulary/venues/Open-air",
       "prefLabel": {
         "en": "Open-air"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Utomhusbio",
-      "prefLabel": {
-        "en": "Utomhusbio",
-        "sv": "Utomhusbio"
       }
     },
     {
@@ -67,7 +54,8 @@
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/Bioscope_theatre",
       "prefLabel": {
-        "en": "Bioscope theatre"
+        "en": "Bioscope theatre",
+        "nl": "bioscooptheater"
       }
     },
     {
@@ -82,6 +70,7 @@
       "id": "https://homernetwork.github.io/vocabulary/venues/Kinematographentheater",
       "prefLabel": {
         "en": "Kinematographentheater",
+        "nl": "bioscoop",
         "de": "Kinematographentheater"
       }
     },
@@ -107,6 +96,7 @@
       "id": "https://homernetwork.github.io/vocabulary/venues/Drive-in_cinema",
       "prefLabel": {
         "en": "Drive-in cinema",
+        "nl": "drive-in bioscoop",
         "de": "Autokino"
       }
     },

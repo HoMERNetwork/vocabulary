@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "audience per occupation"
   },
+  "definition": {
+    "en": "Audiences defined by occupation"
+  },
   "narrower": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/firemen",

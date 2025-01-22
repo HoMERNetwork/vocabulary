@@ -1,23 +1,16 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/venues/Terraza",
+  "id": "https://homernetwork.github.io/vocabulary/venues/Repertory_cinema",
   "type": "Concept",
   "prefLabel": {
-    "en": "Terraza",
-    "es": "Terraza",
-    "it": "Terraza"
-  },
-  "altLabel": {
-    "en": [
-      "open air cinema?"
-    ]
+    "en": "Repertory cinema"
   },
   "definition": {
-    "en": "when we refer to humble neighborhood cinema places with no roof, we tend to qualify the description, saying \"open-air cinemas\" or \"terrazas.\" DOI: https://doi.org/10.1007/978-3-031-38789-0_5, DOI: 10.1386/slac.14.3.277_1"
+    "en": "Venue which mainly programmes films out of regular distribution, such as significantly older films and 'classics'"
   },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Open-air",
+    "id": "https://homernetwork.github.io/vocabulary/venues/Venue_by_programming",
     "prefLabel": {
-      "en": "Open-air"
+      "en": "Venue by programming"
     }
   },
   "inScheme": [

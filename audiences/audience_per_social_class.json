@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "audience per social class"
   },
+  "definition": {
+    "en": "Audiences who identify or are identified as belonging to a particular social class"
+  },
   "narrower": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/elite_social_class",

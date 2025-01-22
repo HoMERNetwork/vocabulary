@@ -24,6 +24,12 @@
       "prefLabel": {
         "en": "Mixed programming theatre and film"
       }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Repertory_cinema",
+      "prefLabel": {
+        "en": "Repertory cinema"
+      }
     }
   ],
   "inScheme": [

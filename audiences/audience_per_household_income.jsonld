@@ -4,13 +4,10 @@
   "prefLabel": {
     "en": "audience per household income"
   },
+  "definition": {
+    "en": "Audiences defined by household income"
+  },
   "narrower": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/audiences/high_income",
-      "prefLabel": {
-        "en": "high income"
-      }
-    },
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/low_income",
       "prefLabel": {
@@ -21,6 +18,12 @@
       "id": "https://homernetwork.github.io/vocabulary/audiences/middle_income",
       "prefLabel": {
         "en": "middle income"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/high_income",
+      "prefLabel": {
+        "en": "high income"
       }
     }
   ],

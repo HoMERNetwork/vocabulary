@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "middle income"
   },
+  "definition": {
+    "en": "Audiences defined as belonging to a middle-income group"
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_household_income",
     "prefLabel": {

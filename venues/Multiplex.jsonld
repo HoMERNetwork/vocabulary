@@ -3,10 +3,21 @@
   "type": "Concept",
   "prefLabel": {
     "en": "Multiplex",
-    "sv": "Filmstaden"
+    "sv": "Filmstaden",
+    "it": "multisala"
+  },
+  "altLabel": {
+    "en": [
+      "Multi-screen cinema"
+    ]
   },
   "definition": {
-    "en": "A multiplex belonging to a large chain of cinemas"
+    "en": "A multiplex is a facility that accommodates multiple screens for the simultaneous screening of films."
+  },
+  "editorialNote": {
+    "en": [
+      "Merged with: \"venues:Multiplex_and_Multi-screen_cinema\""
+    ]
   },
   "inScheme": [
     {

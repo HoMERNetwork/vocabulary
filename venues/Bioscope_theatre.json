@@ -2,7 +2,8 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Bioscope_theatre",
   "type": "Concept",
   "prefLabel": {
-    "en": "Bioscope theatre"
+    "en": "Bioscope theatre",
+    "nl": "bioscooptheater"
   },
   "altLabel": {
     "en": [

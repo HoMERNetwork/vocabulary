@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "First run"
   },
+  "definition": {
+    "en": "Cinema specialised in screening premiere films, available for public viewing for the first time in a certain geographical area"
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Tier",
     "prefLabel": {

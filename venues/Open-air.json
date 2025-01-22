@@ -16,22 +16,10 @@
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/Open-air_cinema",
       "prefLabel": {
-        "en": "Open-air cinema"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Terraza",
-      "prefLabel": {
-        "en": "Terraza",
-        "es": "Terraza",
-        "it": "Terraza"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Utomhusbio",
-      "prefLabel": {
-        "en": "Utomhusbio",
-        "sv": "Utomhusbio"
+        "en": "Open-air cinema",
+        "sv": "Utomhusbio",
+        "nl": "openluchtbioscoop",
+        "es": "Terraza"
       }
     }
   ],

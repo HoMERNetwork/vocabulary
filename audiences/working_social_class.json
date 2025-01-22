@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "working social class"
   },
+  "definition": {
+    "en": "Audiences who identify or are identified as belonging to the working class"
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_social_class",
     "prefLabel": {

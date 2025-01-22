@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "military audience"
   },
+  "definition": {
+    "en": "Audiences defined as belonging to the military"
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_occupation",
     "prefLabel": {

@@ -3,7 +3,11 @@
   "type": "Concept",
   "prefLabel": {
     "en": "Kinematographentheater",
+    "nl": "bioscoop",
     "de": "Kinematographentheater"
+  },
+  "definition": {
+    "en": "Cinema theatre"
   },
   "scopeNote": {
     "en": [

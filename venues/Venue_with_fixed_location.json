@@ -18,13 +18,7 @@
       "id": "https://homernetwork.github.io/vocabulary/venues/Multiplex",
       "prefLabel": {
         "en": "Multiplex",
-        "sv": "Filmstaden"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/venues/Multiplex_and_Multi-screen_cinema",
-      "prefLabel": {
-        "en": "Multiplex and Multi-screen cinema",
+        "sv": "Filmstaden",
         "it": "multisala"
       }
     },
@@ -63,6 +57,7 @@
       "id": "https://homernetwork.github.io/vocabulary/venues/Drive-in_cinema",
       "prefLabel": {
         "en": "Drive-in cinema",
+        "nl": "drive-in bioscoop",
         "de": "Autokino"
       }
     },

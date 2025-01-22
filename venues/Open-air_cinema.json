@@ -2,7 +2,10 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Open-air_cinema",
   "type": "Concept",
   "prefLabel": {
-    "en": "Open-air cinema"
+    "en": "Open-air cinema",
+    "sv": "Utomhusbio",
+    "nl": "openluchtbioscoop",
+    "es": "Terraza"
   },
   "altLabel": {
     "en": [
@@ -10,7 +13,12 @@
     ]
   },
   "definition": {
-    "en": "An open air cinema, often temporary"
+    "en": "An open air or outdoor cinema, often temporary"
+  },
+  "editorialNote": {
+    "en": [
+      "Merged Terraza into this concept. It's definition was: when we refer to humble neighborhood cinema places with no roof, we tend to qualify the description, saying \"open-air cinemas\" or \"terrazas.\" DOI: https://doi.org/10.1007/978-3-031-38789-0_5, DOI: 10.1386/slac.14.3.277_1."
+    ]
   },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Open-air",

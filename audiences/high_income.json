@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "high income"
   },
+  "definition": {
+    "en": "Audiences defined as belonging to a high-income group"
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_household_income",
     "prefLabel": {

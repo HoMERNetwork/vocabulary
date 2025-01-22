@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "Second run"
   },
+  "definition": {
+    "en": "Cinema specialised in screening films for a second 'run', after the film has previously been screened for its first run in a different cinema in the same geographical area (city)."
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Tier",
     "prefLabel": {
