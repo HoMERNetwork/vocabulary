@@ -2,7 +2,8 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Seasonal",
   "type": "Concept",
   "prefLabel": {
-    "en": "Seasonal"
+    "en": "Seasonal",
+    "nl": "seizoensgebonden"
   },
   "definition": {
     "en": "fluctuating or restricted according to the season or time of year."

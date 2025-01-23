@@ -15,7 +15,8 @@
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {
-      "en": "Public venue"
+      "en": "Public venue",
+      "nl": "openbare ruimte"
     }
   },
   "inScheme": [

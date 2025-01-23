@@ -23,7 +23,8 @@
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Open-air",
     "prefLabel": {
-      "en": "Open-air"
+      "en": "Open-air",
+      "nl": "open lucht"
     }
   },
   "inScheme": [

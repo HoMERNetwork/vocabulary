@@ -2,7 +2,8 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
   "type": "Concept",
   "prefLabel": {
-    "en": "Public venue"
+    "en": "Public venue",
+    "nl": "openbare ruimte"
   },
   "definition": {
     "en": "A venue open to everyone"
@@ -34,7 +35,8 @@
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/Open-air",
       "prefLabel": {
-        "en": "Open-air"
+        "en": "Open-air",
+        "nl": "open lucht"
       }
     },
     {
@@ -70,7 +72,6 @@
       "id": "https://homernetwork.github.io/vocabulary/venues/Kinematographentheater",
       "prefLabel": {
         "en": "Kinematographentheater",
-        "nl": "bioscoop",
         "de": "Kinematographentheater"
       }
     },
@@ -154,6 +155,7 @@
       "id": "https://homernetwork.github.io/vocabulary/venues/Cinema",
       "prefLabel": {
         "en": "Cinema",
+        "nl": "bioscoop",
         "es": "Cines"
       }
     },
@@ -168,6 +170,12 @@
       "id": "https://homernetwork.github.io/vocabulary/venues/Registered_cinema",
       "prefLabel": {
         "en": "Registered cinema"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Inbouwbioscoop",
+      "prefLabel": {
+        "en": "Inbouwbioscoop"
       }
     }
   ],

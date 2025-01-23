@@ -2,7 +2,8 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Private_venue",
   "type": "Concept",
   "prefLabel": {
-    "en": "Private venue"
+    "en": "Private venue",
+    "nl": "besloten ruimte"
   },
   "definition": {
     "en": "A venue that provides restricted access to certain groups of people"

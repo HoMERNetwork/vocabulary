@@ -31,7 +31,6 @@
       "id": "https://homernetwork.github.io/vocabulary/venues/Kinematographentheater",
       "prefLabel": {
         "en": "Kinematographentheater",
-        "nl": "bioscoop",
         "de": "Kinematographentheater"
       }
     }
@@ -39,7 +38,8 @@
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
     "prefLabel": {
-      "en": "Public venue"
+      "en": "Public venue",
+      "nl": "openbare ruimte"
     }
   },
   "inScheme": [

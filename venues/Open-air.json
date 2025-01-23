@@ -2,7 +2,8 @@
   "id": "https://homernetwork.github.io/vocabulary/venues/Open-air",
   "type": "Concept",
   "prefLabel": {
-    "en": "Open-air"
+    "en": "Open-air",
+    "nl": "open lucht"
   },
   "altLabel": {
     "en": [
@@ -11,6 +12,11 @@
   },
   "definition": {
     "en": "It can be a square, a courtyard, a field. source: Europeancinemaaudiences.org"
+  },
+  "editorialNote": {
+    "en": [
+      "merge with \"venues:Open-air_cinema\"?"
+    ]
   },
   "narrower": [
     {

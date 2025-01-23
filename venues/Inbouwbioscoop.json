@@ -1,24 +1,11 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/venues/Bioscope_theatre",
+  "id": "https://homernetwork.github.io/vocabulary/venues/Inbouwbioscoop",
   "type": "Concept",
   "prefLabel": {
-    "en": "Bioscope theatre",
-    "nl": "bioscooptheater"
-  },
-  "altLabel": {
-    "en": [
-      "Bioscope theatre"
-    ]
+    "en": "Inbouwbioscoop"
   },
   "definition": {
-    "en": "Similar to cinematograph theatre but less common becasue bioscope did not become the most common word for projector. The London-based trade journal The Bioscope kept it in circulation."
-  },
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/venues/Public_venue",
-    "prefLabel": {
-      "en": "Public venue",
-      "nl": "openbare ruimte"
-    }
+    "en": "Dutch term for early multiplex cinemas, where in the existing single-screen cinema multiple extra screenings rooms were created."
   },
   "inScheme": [
     {

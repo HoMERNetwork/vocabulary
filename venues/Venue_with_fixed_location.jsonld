@@ -25,7 +25,8 @@
     {
       "id": "https://homernetwork.github.io/vocabulary/venues/Open-air",
       "prefLabel": {
-        "en": "Open-air"
+        "en": "Open-air",
+        "nl": "open lucht"
       }
     },
     {
@@ -95,6 +96,12 @@
       "id": "https://homernetwork.github.io/vocabulary/venues/Warehouse_building",
       "prefLabel": {
         "en": "Warehouse building"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/venues/Inbouwbioscoop",
+      "prefLabel": {
+        "en": "Inbouwbioscoop"
       }
     }
   ],

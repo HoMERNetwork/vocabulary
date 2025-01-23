@@ -15,7 +15,8 @@
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/venues/Private_venue",
     "prefLabel": {
-      "en": "Private venue"
+      "en": "Private venue",
+      "nl": "besloten ruimte"
     }
   },
   "inScheme": [

@@ -7,6 +7,11 @@
   "definition": {
     "en": "Individuals connected to the cinema. Not as simple as simply saying 'cinemagoers' although this is a preferred term. But also including those who may not be attending, but still connected to the cinema through physical proximity (they pass a marquee) or through social media/online marketing and comms"
   },
+  "editorialNote": {
+    "en": [
+      "The current definition seems like it is defining another word (since it says it is not as simple as calling them cinemagoers)."
+    ]
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/audiences/cinema_audience",
     "prefLabel": {
