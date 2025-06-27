@@ -12,9 +12,24 @@
       }
     },
     {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Film_exhibition_company",
+      "prefLabel": {
+        "en": "Film exhibition company",
+        "it": "Società di esercizio cinematografico"
+      }
+    },
+    {
       "id": "https://homernetwork.github.io/vocabulary/organisations/Platform",
       "prefLabel": {
         "en": "Platform"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Production_company",
+      "prefLabel": {
+        "en": "Production company",
+        "it": "Società di produzione",
+        "gr": "εταιρεία παραγωγής"
       }
     }
   ],

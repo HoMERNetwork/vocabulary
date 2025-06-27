@@ -10,6 +10,12 @@
       "prefLabel": {
         "en": "Municipality"
       }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/State_agency",
+      "prefLabel": {
+        "en": "State agency"
+      }
     }
   ],
   "inScheme": [
