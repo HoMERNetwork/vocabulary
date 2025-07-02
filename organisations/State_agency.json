@@ -4,12 +4,14 @@
   "prefLabel": {
     "en": "State agency"
   },
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/organisations/State",
-    "prefLabel": {
-      "en": "State"
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Municipality",
+      "prefLabel": {
+        "en": "Municipality"
+      }
     }
-  },
+  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/",
@@ -21,6 +23,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/",
+      "title": {
+        "en": "Organisations"
+      }
     }
   ],
   "@context": {

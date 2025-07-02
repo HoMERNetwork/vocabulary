@@ -8,6 +8,13 @@
   "definition": {
     "en": "Cultural institutions. The workers':or popular Ateneo emerge from the tradition of Republicans in Spain in the last decades of the 19th Century. They still exist and are frequently venues of cultural activities among them screenings of cinema in the neighborhoods"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/organisations/Non-profit_organization",
+    "prefLabel": {
+      "en": "Non-profit organization",
+      "gr": "σωματείο"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/",
@@ -19,14 +26,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organisations/",
-      "title": {
-        "en": "Organisations"
-      }
     }
   ],
   "@context": {

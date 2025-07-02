@@ -6,6 +6,12 @@
     "it": "Società di distribuzione",
     "gr": "εταιρεία διανομής"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/organisations/Company",
+    "prefLabel": {
+      "en": "Company"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/",
@@ -17,14 +23,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organisations/",
-      "title": {
-        "en": "Organisations"
-      }
     }
   ],
   "@context": {

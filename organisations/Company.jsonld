@@ -12,6 +12,14 @@
       }
     },
     {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Distribution_company",
+      "prefLabel": {
+        "en": "Distribution company",
+        "it": "Società di distribuzione",
+        "gr": "εταιρεία διανομής"
+      }
+    },
+    {
       "id": "https://homernetwork.github.io/vocabulary/organisations/Film_exhibition_company",
       "prefLabel": {
         "en": "Film exhibition company",
