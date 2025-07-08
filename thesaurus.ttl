@@ -1051,52 +1051,41 @@ screenings:Festival a skos:Concept;
 <https://homernetwork.github.io/vocabulary/organisations/> dct:title "Organisations"@en .
 
 organisations:Military a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "Military"@en .
 
 organisations:Church a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:narrower organisations:Parish;
   skos:prefLabel "Church"@en .
 
 organisations:Community a skos:Concept;
   skos:broader organisations:Non-profit_organization;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "Community"@en .
 
 organisations:Club a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "CineClub"@es, "Club"@en .
 
 organisations:Private a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:narrower organisations:Company;
   skos:prefLabel "Private"@en .
 
 organisations:Parish a skos:Concept;
   skos:broader organisations:Church;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "Parish"@en, "Parrocchia"@it .
 
 organisations:NGO a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
-  skos:prefLabel "NGO"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+  skos:prefLabel "NGO"@en .
 
 organisations:Municipality a skos:Concept;
-  skos:broader organisations:State_agency;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:broader organisations:State_organisation;
   skos:prefLabel "Municipality"@en .
 
 organisations:Society a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
-  skos:prefLabel "Society"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+  skos:prefLabel "Society"@en .
 
 organisations:Corporation a skos:Concept;
   skos:broader organisations:Company;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
-  skos:prefLabel "Corporation"@en .
+  skos:prefLabel "Corporation"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:Company a skos:Concept;
   skos:broader organisations:Private;
@@ -1121,22 +1110,19 @@ organisations:Ateneo_Cultural a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "Ateneo Cultural"@en, "Ateneo Cultural"@es .
 
-organisations:State_agency a skos:Concept;
+organisations:State_organisation a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
-  skos:narrower organisations:Municipality;
-  skos:prefLabel "State agency"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+  skos:narrower organisations:Customs_organisation, organisations:Municipality;
+  skos:prefLabel "State organisation"@en .
 
 organisations:Cinema_circuits a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
-  skos:prefLabel "Cinema circuits"@en, "αλυσίδα"@gr;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+  skos:prefLabel "Cinema circuits"@en, "αλυσίδα"@gr .
 
 organisations:Non-profit_organization a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:narrower organisations:Ateneo_Cultural, organisations:Community, organisations:Temperance_organisation;
-  skos:prefLabel "Non-profit organization"@en, "σωματείο"@gr;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+  skos:prefLabel "Non-profit organization"@en, "σωματείο"@gr .
 
 organisations:Production_company a skos:Concept;
   skos:broader organisations:Company;
@@ -1167,11 +1153,12 @@ organisations:Trade_association a skos:Concept;
 organisations:Union a skos:Concept;
   skos:broader organisations:Syndicate;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:narrower organisations:Trade_union;
   skos:prefLabel "Union"@en .
 
 organisations:Association a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
-  skos:narrower organisations:Political_party;
+  skos:narrower organisations:Ideological_association, organisations:Political_party;
   skos:prefLabel "Association"@en;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -1185,19 +1172,91 @@ organisations:Film_exhibition_company a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
   skos:prefLabel "Film exhibition company"@en, "Società di esercizio cinematografico"@it .
 
+organisations:Transport a skos:Concept;
+  skos:definition "Organisation that transports films"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:prefLabel "Transport"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:Customs_organisation a skos:Concept;
+  skos:broader organisations:State_organisation;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:prefLabel "Customs organisation"@en .
+
+organisations:Educational_organisation a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:prefLabel "Educational organisation"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:Ideological_association a skos:Concept;
+  skos:broader organisations:Association;
+  skos:definition "Association based on ideologiy with the goal of spreading that ideology"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:prefLabel "Ideological association"@en, "Zuil"@nl .
+
+organisations:Trade_union a skos:Concept;
+  skos:broader organisations:Union;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:prefLabel "Trade union"@en .
+
+organisations:Printers_and_artists a skos:Concept;
+  skos:definition "Organisations that do the art for the films,"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:prefLabel "Printers and artists"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:Catering a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:prefLabel "Catering"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:Formal a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:prefLabel "Formal"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:Informal a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:prefLabel "Informal"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:Military skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:Church skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:Community skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:Club skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:Private skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:Parish skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:NGO skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:Municipality skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:Society skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
 <https://homernetwork.github.io/vocabulary/organisations/> a skos:ConceptScheme;
-  skos:hasTopConcept organisations:Association, organisations:Church, organisations:Cinema_circuits,
-    organisations:Club, organisations:Cooperative, organisations:Military, organisations:NGO,
-    organisations:Non-profit_organization, organisations:Private, organisations:Society,
-    organisations:State_agency, organisations:Syndicate .
+  skos:hasTopConcept organisations:Association, organisations:Catering, organisations:Church,
+    organisations:Cinema_circuits, organisations:Club, organisations:Cooperative, organisations:Educational_organisation,
+    organisations:Formal, organisations:Informal, organisations:Military, organisations:NGO,
+    organisations:Non-profit_organization, organisations:Printers_and_artists, organisations:Private,
+    organisations:Society, organisations:State_organisation, organisations:Syndicate,
+    organisations:Transport .
 
-organisations:Military skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:State_organisation skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
-organisations:Church skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:Cinema_circuits skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
-organisations:Club skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
-
-organisations:Private skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:Non-profit_organization skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 <https://homernetwork.github.io/vocabulary/identifiers/> a skos:ConceptScheme;
   dct:title "Identifiers"@en;
