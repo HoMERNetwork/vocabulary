@@ -1,21 +1,13 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/organisations/Union",
+  "id": "https://homernetwork.github.io/vocabulary/organisations/Trade_union",
   "type": "Concept",
   "prefLabel": {
-    "en": "Union"
+    "en": "Trade union"
   },
-  "narrower": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organisations/Trade_union",
-      "prefLabel": {
-        "en": "Trade union"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/organisations/Syndicate",
+    "id": "https://homernetwork.github.io/vocabulary/organisations/Union",
     "prefLabel": {
-      "en": "Syndicate"
+      "en": "Union"
     }
   },
   "inScheme": [

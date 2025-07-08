@@ -10,6 +10,13 @@
       "prefLabel": {
         "en": "Political party"
       }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Ideological_association",
+      "prefLabel": {
+        "en": "Ideological association",
+        "nl": "Zuil"
+      }
     }
   ],
   "inScheme": [

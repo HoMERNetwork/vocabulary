@@ -4,6 +4,14 @@
   "prefLabel": {
     "en": "Union"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Trade_union",
+      "prefLabel": {
+        "en": "Trade union"
+      }
+    }
+  ],
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/organisations/Syndicate",
     "prefLabel": {

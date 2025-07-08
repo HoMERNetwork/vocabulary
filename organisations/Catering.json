@@ -1,22 +1,8 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/organisations/Union",
+  "id": "https://homernetwork.github.io/vocabulary/organisations/Catering",
   "type": "Concept",
   "prefLabel": {
-    "en": "Union"
-  },
-  "narrower": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organisations/Trade_union",
-      "prefLabel": {
-        "en": "Trade union"
-      }
-    }
-  ],
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/organisations/Syndicate",
-    "prefLabel": {
-      "en": "Syndicate"
-    }
+    "en": "Catering"
   },
   "inScheme": [
     {
@@ -29,6 +15,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/",
+      "title": {
+        "en": "Organisations"
+      }
     }
   ],
   "@context": {

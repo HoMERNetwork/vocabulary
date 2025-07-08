@@ -1,23 +1,23 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/organisations/Union",
+  "id": "https://homernetwork.github.io/vocabulary/organisations/State_organisation",
   "type": "Concept",
   "prefLabel": {
-    "en": "Union"
+    "en": "State organisation"
   },
   "narrower": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/organisations/Trade_union",
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Municipality",
       "prefLabel": {
-        "en": "Trade union"
+        "en": "Municipality"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Customs_organisation",
+      "prefLabel": {
+        "en": "Customs organisation"
       }
     }
   ],
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/organisations/Syndicate",
-    "prefLabel": {
-      "en": "Syndicate"
-    }
-  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/",
@@ -29,6 +29,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/",
+      "title": {
+        "en": "Organisations"
+      }
     }
   ],
   "@context": {

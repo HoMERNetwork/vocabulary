@@ -1,21 +1,17 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/organisations/Union",
+  "id": "https://homernetwork.github.io/vocabulary/organisations/Ideological_association",
   "type": "Concept",
   "prefLabel": {
-    "en": "Union"
+    "en": "Ideological association",
+    "nl": "Zuil"
   },
-  "narrower": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organisations/Trade_union",
-      "prefLabel": {
-        "en": "Trade union"
-      }
-    }
-  ],
+  "definition": {
+    "en": "Association based on ideologiy with the goal of spreading that ideology"
+  },
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/organisations/Syndicate",
+    "id": "https://homernetwork.github.io/vocabulary/organisations/Association",
     "prefLabel": {
-      "en": "Syndicate"
+      "en": "Association"
     }
   },
   "inScheme": [

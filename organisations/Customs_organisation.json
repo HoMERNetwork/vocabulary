@@ -1,21 +1,13 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/organisations/Union",
+  "id": "https://homernetwork.github.io/vocabulary/organisations/Customs_organisation",
   "type": "Concept",
   "prefLabel": {
-    "en": "Union"
+    "en": "Customs organisation"
   },
-  "narrower": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organisations/Trade_union",
-      "prefLabel": {
-        "en": "Trade union"
-      }
-    }
-  ],
   "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/organisations/Syndicate",
+    "id": "https://homernetwork.github.io/vocabulary/organisations/State_organisation",
     "prefLabel": {
-      "en": "Syndicate"
+      "en": "State organisation"
     }
   },
   "inScheme": [
