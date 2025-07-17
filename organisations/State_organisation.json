@@ -16,6 +16,18 @@
       "prefLabel": {
         "en": "Customs organisation"
       }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/ministry_of_culture_and_tourism",
+      "prefLabel": {
+        "en": "ministry of culture and tourism"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/state_proxies",
+      "prefLabel": {
+        "en": "state proxies"
+      }
     }
   ],
   "inScheme": [

@@ -9,9 +9,9 @@
   },
   "narrower": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/audiences/elite_social_class",
+      "id": "https://homernetwork.github.io/vocabulary/audiences/working_social_class",
       "prefLabel": {
-        "en": "elite social class"
+        "en": "working social class"
       }
     },
     {
@@ -21,9 +21,9 @@
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/audiences/working_social_class",
+      "id": "https://homernetwork.github.io/vocabulary/audiences/elite_social_class",
       "prefLabel": {
-        "en": "working social class"
+        "en": "elite social class"
       }
     }
   ],

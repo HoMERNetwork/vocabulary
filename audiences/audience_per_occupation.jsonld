@@ -9,15 +9,15 @@
   },
   "narrower": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/audiences/firemen",
-      "prefLabel": {
-        "en": "firemen"
-      }
-    },
-    {
       "id": "https://homernetwork.github.io/vocabulary/audiences/military_audience",
       "prefLabel": {
         "en": "military audience"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/firemen",
+      "prefLabel": {
+        "en": "firemen"
       }
     }
   ],

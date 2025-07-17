@@ -4,6 +4,14 @@
   "prefLabel": {
     "en": "Political party"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/communist_party",
+      "prefLabel": {
+        "en": "communist party"
+      }
+    }
+  ],
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/organisations/Association",
     "prefLabel": {
