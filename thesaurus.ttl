@@ -724,8 +724,7 @@ venues:church_hall skos:altLabel "parish hall"@en;
   skos:broader venues:religious_venue;
   skos:prefLabel "church hall"@en .
 
-venues:Virtual_and_non-physical_cinema skos:broader venues:Virtual_and_non-physical_cinema;
-  skos:prefLabel "Virtual and non-physical cinema"@en .
+venues:Virtual_and_non-physical_cinema skos:prefLabel "Virtual and non-physical cinema"@en .
 
 venues:reilgious_venue skos:broader venues:Non-cinema_venues_used_for_screenings;
   skos:prefLabel "reilgious venue"@en .
@@ -1306,7 +1305,7 @@ venues:culturally_regional_cinema skos:narrower venues:Jewish_neighborhood_movie
 venues:mobile_cinemas skos:narrower <https://homernetwork.github.io/vocabulary/venues/mobile_cinema_vans_(partial_venue?)>,
     <https://homernetwork.github.io/vocabulary/venues/mule_drawn_cart_(partial)> .
 
-venues:Virtual_and_non-physical_cinema skos:narrower venues:VR_screenings, venues:Virtual_and_non-physical_cinema .
+venues:Virtual_and_non-physical_cinema skos:narrower venues:VR_screenings .
 
 venues:shopping_area skos:narrower venues:department_store, venues:shop .
 
@@ -1650,7 +1649,8 @@ venues:Non-cinema_venues_used_for_screenings skos:inScheme <https://homernetwork
 
 venues:church_hall skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
-venues:Virtual_and_non-physical_cinema skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
+venues:Virtual_and_non-physical_cinema skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
 venues:reilgious_venue skos:inScheme <https://homernetwork.github.io/vocabulary/venues/> .
 
@@ -1709,9 +1709,9 @@ venues:ghetto skos:inScheme <https://homernetwork.github.io/vocabulary/venues/>;
 <https://homernetwork.github.io/vocabulary/venues/> a skos:ConceptScheme;
   skos:hasTopConcept venues:Passage_cinema, venues:Venue, venues:Venue_by_opening_type,
     venues:Venue_by_ownership, venues:Venue_by_programming, venues:Venues_by_category,
-    venues:campus, venues:garden, venues:ghetto, venues:in_army_camp, venues:miniplex,
-    venues:soviet_cinema_category_1, venues:soviet_cinema_category_2, venues:soviet_cinema_category_3,
-    venues:venue_part .
+    venues:Virtual_and_non-physical_cinema, venues:campus, venues:garden, venues:ghetto,
+    venues:in_army_camp, venues:miniplex, venues:soviet_cinema_category_1, venues:soviet_cinema_category_2,
+    venues:soviet_cinema_category_3, venues:venue_part .
 
 venues:Venue skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
