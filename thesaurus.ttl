@@ -24,6 +24,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://homernetwork.github.io/vocabulary/venues/> dct:description "Terms to describe venues."@en;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
   dct:title "Venues"@en .
 
 venues:Venue skos:definition "A place"@en;
@@ -1736,6 +1737,7 @@ venues:soviet_cinema_category_2 skos:topConceptOf <https://homernetwork.github.i
 venues:soviet_cinema_category_3 skos:topConceptOf <https://homernetwork.github.io/vocabulary/venues/> .
 
 <https://homernetwork.github.io/vocabulary/audiences/> dct:description "Terms to describe audiences."@en;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
   dct:title "Audiences"@en .
 
 audiences:audience_per_age_category skos:altLabel "age groups"@en;
@@ -2631,6 +2633,7 @@ audiences:teenager skos:topConceptOf <https://homernetwork.github.io/vocabulary/
 audiences:audience_per_gender skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
 
 <https://homernetwork.github.io/vocabulary/screenings/> a skos:ConceptScheme;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
   dct:title "Screenings"@en;
   skos:hasTopConcept screenings:Screening_by_admission_price, screenings:Screening_per_audience,
     screenings:Screening_per_event, screenings:screening_by_audience_and_film_type, screenings:screening_by_film_age,
@@ -2724,7 +2727,8 @@ screenings:screening_by_audience_and_film_type a skos:Concept;
   skos:prefLabel "screening by audience and film type"@en;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/screenings/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/> dct:title "Organisations"@en .
+<https://homernetwork.github.io/vocabulary/organisations/> dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  dct:title "Organisations"@en .
 
 organisations:Military skos:broader organisations:security_organization;
   skos:prefLabel "Military"@en .
@@ -6295,6 +6299,7 @@ organisations:country skos:topConceptOf <https://homernetwork.github.io/vocabula
 organisations:organisation_by_distance skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 <https://homernetwork.github.io/vocabulary/identifiers/> a skos:ConceptScheme;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
   dct:title "Identifiers"@en;
   skos:hasTopConcept identifiers:Cinema_Context_ID, identifiers:IMDb_ID, identifiers:Location_Point,
     identifiers:Wikidata_ID .
@@ -6324,6 +6329,7 @@ identifiers:Wikidata_ID a skos:Concept;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/identifiers/> .
 
 <https://homernetwork.github.io/vocabulary/rooms/> a skos:ConceptScheme;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
   dct:title "Rooms"@en;
   skos:hasTopConcept subvenue:Room .
 
