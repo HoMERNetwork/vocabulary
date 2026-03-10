@@ -27,9 +27,10 @@
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
   dct:title "Venues"@en .
 
-venues:Venue skos:altLabel "bioscoop"@nl, "plaats"@nl, "theater"@nl, "zaal"@nl;
+venues:Venue skos:altLabel "Salle obscure"@fr, "bioscoop"@nl, "plaats"@nl, "theater"@nl,
+    "zaal"@nl;
   skos:definition "A place"@en;
-  skos:prefLabel "Biograf"@sv, "Salle de cinéma"@fr, "Salle obscure"@fr, "Venue"@en .
+  skos:prefLabel "Biograf"@sv, "Salle de cinéma"@fr, "Venue"@en .
 
 venues:Kommunales_Kino skos:altLabel "Kommunales Kino"@de;
   skos:broader venues:Public_venue;
@@ -171,9 +172,10 @@ venues:Private_home skos:altLabel "Private home"@en;
   skos:definition "A private venue that offers occasional film screenings"@en;
   skos:prefLabel "Private home"@en .
 
-venues:Sala_cinematografica skos:broader venues:Venue_with_fixed_location;
+venues:Sala_cinematografica skos:altLabel "Sala"@it;
+  skos:broader venues:Venue_with_fixed_location;
   skos:definition "Every single place, usually a building, where a movie was shown. It could be a real movie theatre, a theatre, a cinema-theatre, a multipurpose venue, a building used for something else (e.g. hospital), an open-air cinema, etc. It is an address, usually, and correspond to specific geographic coordinates. The building, the management, the architecture, the name, etc., all can change, but it stays the same 'sala cinematografica' as long as it shows movies. Travelling cinemas are exluded for now. To account for moving exhibitors, societies etc, we have other categories (such as people and companies)."@en;
-  skos:prefLabel "Sala"@it, "Sala cinematografica"@en, "Sala cinematografica"@it .
+  skos:prefLabel "Sala cinematografica"@en, "Sala cinematografica"@it .
 
 venues:Stand-alone_purpose-built_venue skos:altLabel "Stand-alone purpose-built venue"@en;
   skos:broader venues:Public_venue, venues:Venue_with_fixed_location;
@@ -229,12 +231,12 @@ venues:Venue_with_fixed_location skos:broader venues:Venue;
   skos:definition "Geographically fixed (with a street address) building"@en;
   skos:prefLabel "Venue with fixed location"@en .
 
-venues:Adult_cinema skos:altLabel "Sex cinema"@en, "x-rated cinema"@en;
+venues:Adult_cinema skos:altLabel "Sex cinema"@en, "Sexbioscoop"@nl, "x-rated cinema"@en;
   skos:broader venues:niche_cinema;
   skos:closeMatch <http://www.wikidata.org/entity/Q52815>;
   skos:definition "Euphemistic term for a movie theater dedicated to the exhibition of pornographic films"@en;
   skos:editorialNote "former term \"venues:Sex_cinema\" merged into this term"@en;
-  skos:prefLabel "Adult cinema"@en, "Seksbioscoop"@nl, "Sexbioscoop"@nl .
+  skos:prefLabel "Adult cinema"@en, "Seksbioscoop"@nl .
 
 venues:Public_venue skos:broader venues:Venue;
   skos:definition "A venue open to everyone"@en;
