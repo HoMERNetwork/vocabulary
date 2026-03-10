@@ -2694,11 +2694,11 @@ screenings:Festival a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
   skos:prefLabel "Festival"@en .
 
-<https://homernetwork.github.io/vocabulary/screenings/documentary?> a skos:Concept;
+screenings:documentary a skos:Concept;
   skos:broader screenings:screening_by_film_genre;
   skos:definition "Maria Luna Rassa - this is about the Colombian documentaries"@en;
   skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
-  skos:prefLabel "documentary?"@en .
+  skos:prefLabel "documentary"@en .
 
 screenings:screening_by_film_age a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
@@ -2714,7 +2714,7 @@ screenings:screening_by_programming_spot a skos:Concept;
 
 screenings:screening_by_film_genre a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/screenings/>;
-  skos:narrower <https://homernetwork.github.io/vocabulary/screenings/documentary?>;
+  skos:narrower screenings:documentary;
   skos:prefLabel "screening by film genre"@en;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/screenings/> .
 
@@ -2856,10 +2856,6 @@ organisations:prefecture skos:definition "Foteini Klini"@en;
 organisations:distribution_chain skos:definition "Foteini Klini"@en;
   skos:prefLabel "distribution chain"@en .
 
-<https://homernetwork.github.io/vocabulary/organisations/(foundation)_branch> skos:definition
-    "Foteini Klini"@en;
-  skos:prefLabel "(foundation) branch"@en .
-
 organisations:information_service skos:definition "Foteini Klini"@en;
   skos:prefLabel "information service"@en .
 
@@ -2930,10 +2926,6 @@ organisations:entente_powers skos:definition "Zahide Nihan Doğan"@en;
 
 organisations:intelligence_agency skos:definition "Zahide Nihan Doğan"@en;
   skos:prefLabel "intelligence agency"@en .
-
-<https://homernetwork.github.io/vocabulary/organisations/..._association> skos:definition
-    "culture dissemination association? zahide Nihan Doğan"@en;
-  skos:prefLabel "... association"@en .
 
 organisations:activists skos:definition "Kristina Tanis"@en;
   skos:prefLabel "activists"@en .
@@ -3079,10 +3071,6 @@ organisations:certificate_issuing_org skos:definition "Josh Carney"@en;
 
 organisations:PKk_guerillas skos:definition "Josh Carney"@en;
   skos:prefLabel "PKk guerillas"@en .
-
-<https://homernetwork.github.io/vocabulary/organisations/moct_(censorship_org?)> skos:definition
-    "Josh Carney"@en;
-  skos:prefLabel "moct (censorship org?)"@en .
 
 organisations:Istanbul_film_festival skos:definition "Josh Carney"@en;
   skos:prefLabel "Istanbul film festival"@en .
@@ -3290,9 +3278,8 @@ organisations:peacekeeping_forces skos:definition "François Beaurain- ENSA Pari
 organisations:movie_poster_painters skos:definition "François Beaurain- ENSA Paris la Villette)"@en;
   skos:prefLabel "movie poster painters"@en .
 
-<https://homernetwork.github.io/vocabulary/organisations/cinema_bureau_(Tunisia)>
-  skos:definition "Morgan Corriou"@en;
-  skos:prefLabel "cinema bureau (Tunisia)"@en .
+organisations:cinema_bureau skos:definition "Morgan Corriou"@en;
+  skos:prefLabel "cinema bureau"@en .
 
 organisations:film_industry skos:definition "Morgan Corriou"@en;
   skos:prefLabel "film industry"@en .
@@ -3312,9 +3299,8 @@ organisations:maghrabi_jews skos:definition "Morgan Corriou"@en;
 organisations:Jewish_algerians skos:definition "Morgan Corriou"@en;
   skos:prefLabel "Jewish algerians"@en .
 
-<https://homernetwork.github.io/vocabulary/organisations/french_nationals/subjects>
-  skos:definition "Morgan Corriou"@en;
-  skos:prefLabel "french nationals/subjects"@en .
+organisations:french_nationals skos:definition "Morgan Corriou"@en;
+  skos:prefLabel "french nationals"@en .
 
 organisations:colonial_subjects skos:definition "Morgan Corriou"@en;
   skos:prefLabel "colonial subjects"@en .
@@ -3401,9 +3387,8 @@ organisations:rural_cinema skos:prefLabel "rural cinema"@en .
 
 organisations:non_mainstream_film_markets skos:prefLabel "non mainstream film markets"@en .
 
-<https://homernetwork.github.io/vocabulary/organisations/small_gage_exhibitors/dist_17.5_mm_24mm_16mm>
-  skos:definition "Caroline Damiens"@en;
-  skos:prefLabel "small gage exhibitors/dist 17.5 mm 24mm 16mm"@en .
+organisations:small_gage_exhibitors-dist_17.5_mm_24mm_16mm skos:definition "Caroline Damiens"@en;
+  skos:prefLabel "small gage exhibitors-dist 17.5 mm 24mm 16mm"@en .
 
 organisations:pathe_rural skos:prefLabel "pathe rural"@en .
 
@@ -3608,14 +3593,12 @@ organisations:global_networks skos:broader organisations:informal_organisation;
   skos:definition "claire"@en;
   skos:prefLabel "global networks"@en .
 
-<https://homernetwork.github.io/vocabulary/organisations/colonizing_institution_(_hebrr_Univ)>
-  skos:definition "Tex Quatar"@en;
-  skos:prefLabel "colonizing institution ( hebrr Univ)"@en .
+organisations:colonizing_institution-hebrr_Univ skos:definition "Tex Quatar"@en;
+  skos:prefLabel "colonizing institution-hebrr Univ"@en .
 
-<https://homernetwork.github.io/vocabulary/organisations/Jamaica_welfare_ltd_(BA_farmers_donating_bit_per_sale)>
-  skos:broader organisations:civic_organisation;
+organisations:Jamaica_welfare_ltd_BA_farmers_donating_bit_per_sale skos:broader organisations:civic_organisation;
   skos:definition "Rachel Moseley-Wood"@en;
-  skos:prefLabel "Jamaica welfare ltd (BA farmers donating bit per sale)"@en .
+  skos:prefLabel "Jamaica welfare ltd BA farmers donating bit per sale"@en .
 
 <https://homernetwork.github.io/vocabulary/organisations/banana_growers/banana_farmers_>
   skos:broader organisations:agricultural_organisation;
@@ -3650,10 +3633,10 @@ organisations:teachers skos:broader organisations:Educational_organisation;
   skos:definition "Rachel Moseley-Wood"@en;
   skos:prefLabel "teachers"@en .
 
-<https://homernetwork.github.io/vocabulary/organisations/lecturers_(involved_in_delivering_film_service_to_communities)>
-  skos:broader organisations:film_exhibitor_organisation;
+organisations:lecturers_involved_in_delivering_film_service_to_communities skos:broader
+    organisations:film_exhibitor_organisation;
   skos:definition "Rachel Moseley-Wood"@en;
-  skos:prefLabel "lecturers (involved in delivering film service to communities)"@en .
+  skos:prefLabel "lecturers involved in delivering film service to communities"@en .
 
 organisations:police skos:broader organisations:government_organisation;
   skos:definition "Rachel Moseley-Wood"@en;
@@ -3750,14 +3733,13 @@ organisations:theatre_owners skos:broader organisations:film_exhibitor_organisat
   skos:definition "Monique Toppin-"@en;
   skos:prefLabel "theatre owners"@en .
 
-organisations:Bahamas_film_and_TV_commission skos:broader "#REF!"@en;
+organisations:Bahamas_film_and_TV_commission skos:broader organisations:censorship_organisation;
   skos:definition "Monique Toppin-"@en;
   skos:prefLabel "Bahamas film and TV commission"@en .
 
-<https://homernetwork.github.io/vocabulary/organisations/foreign_film._(companies?)>
-  skos:broader organisations:film_production_organisation;
+organisations:foreign_film_companies skos:broader organisations:film_production_organisation;
   skos:definition "Monique Toppin-"@en;
-  skos:prefLabel "foreign film. (companies?)"@en .
+  skos:prefLabel "foreign film companies"@en .
 
 <https://homernetwork.github.io/vocabulary/organisations/Javanese_(Surinam)> skos:broader
     organisations:cultural_organisation;
@@ -3785,11 +3767,11 @@ organisations:districts skos:broader organisations:geopolitical_organisation;
   skos:definition "james"@en;
   skos:prefLabel "Tamil talkies (company set up to operate without profit)"@en .
 
-organisations:censors_for_Chinese_films skos:broader "#REF!"@en;
+organisations:censors_for_Chinese_films skos:broader organisations:censorship_organisation;
   skos:definition "tvo"@en;
   skos:prefLabel "censors for Chinese films"@en .
 
-organisations:national_board_of_film_censorsship skos:broader "#REF!"@en;
+organisations:national_board_of_film_censorsship skos:broader organisations:censorship_organisation;
   skos:definition "Taichi Niibori"@en;
   skos:prefLabel "national board of film censorsship"@en .
 
@@ -3840,6 +3822,8 @@ organisations:commercial_organisation skos:prefLabel "commercial organisation"@e
 
 organisations:school skos:broader organisations:Educational_organisation;
   skos:prefLabel "school"@en .
+
+organisations:censorship_organisation skos:prefLabel "censorship organisation"@en .
 
 organisations:geopolitical_organisation skos:prefLabel "geopolitical organisation"@en .
 
@@ -4004,8 +3988,6 @@ organisations:prefecture a skos:Concept .
 
 organisations:distribution_chain a skos:Concept .
 
-<https://homernetwork.github.io/vocabulary/organisations/(foundation)_branch> a skos:Concept .
-
 organisations:information_service a skos:Concept .
 
 <https://homernetwork.github.io/vocabulary/organisations/news/war_correspondents>
@@ -4053,8 +4035,6 @@ organisations:state a skos:Concept .
 organisations:entente_powers a skos:Concept .
 
 organisations:intelligence_agency a skos:Concept .
-
-<https://homernetwork.github.io/vocabulary/organisations/..._association> a skos:Concept .
 
 organisations:activists a skos:Concept .
 
@@ -4151,9 +4131,6 @@ organisations:fara_is_cinema_foundation a skos:Concept .
 organisations:certificate_issuing_org a skos:Concept .
 
 organisations:PKk_guerillas a skos:Concept .
-
-<https://homernetwork.github.io/vocabulary/organisations/moct_(censorship_org?)> a
-    skos:Concept .
 
 organisations:Istanbul_film_festival a skos:Concept .
 
@@ -4290,8 +4267,7 @@ organisations:peacekeeping_forces a skos:Concept .
 
 organisations:movie_poster_painters a skos:Concept .
 
-<https://homernetwork.github.io/vocabulary/organisations/cinema_bureau_(Tunisia)>
-  a skos:Concept .
+organisations:cinema_bureau a skos:Concept .
 
 organisations:film_industry a skos:Concept .
 
@@ -4305,8 +4281,7 @@ organisations:maghrabi_jews a skos:Concept .
 
 organisations:Jewish_algerians a skos:Concept .
 
-<https://homernetwork.github.io/vocabulary/organisations/french_nationals/subjects>
-  a skos:Concept .
+organisations:french_nationals a skos:Concept .
 
 organisations:colonial_subjects a skos:Concept .
 
@@ -4382,8 +4357,7 @@ organisations:rural_cinema a skos:Concept .
 
 organisations:non_mainstream_film_markets a skos:Concept .
 
-<https://homernetwork.github.io/vocabulary/organisations/small_gage_exhibitors/dist_17.5_mm_24mm_16mm>
-  a skos:Concept .
+organisations:small_gage_exhibitors-dist_17.5_mm_24mm_16mm a skos:Concept .
 
 organisations:pathe_rural a skos:Concept .
 
@@ -4441,8 +4415,6 @@ organisations:audience_communities a skos:Concept .
 organisations:spectators a skos:Concept .
 
 organisations:Christian_refugees a skos:Concept .
-
-organisations:Turkish_speakers a skos:Concept .
 
 organisations:mass_culture_consumers a skos:Concept .
 
@@ -4523,11 +4495,9 @@ organisations:support_networks a skos:Concept .
 
 organisations:global_networks a skos:Concept .
 
-<https://homernetwork.github.io/vocabulary/organisations/colonizing_institution_(_hebrr_Univ)>
-  a skos:Concept .
+organisations:colonizing_institution-hebrr_Univ a skos:Concept .
 
-<https://homernetwork.github.io/vocabulary/organisations/Jamaica_welfare_ltd_(BA_farmers_donating_bit_per_sale)>
-  a skos:Concept .
+organisations:Jamaica_welfare_ltd_BA_farmers_donating_bit_per_sale a skos:Concept .
 
 <https://homernetwork.github.io/vocabulary/organisations/banana_growers/banana_farmers_>
   a skos:Concept .
@@ -4545,8 +4515,7 @@ organisations:Jamaican_agricultural_society a skos:Concept .
 
 organisations:teachers a skos:Concept .
 
-<https://homernetwork.github.io/vocabulary/organisations/lecturers_(involved_in_delivering_film_service_to_communities)>
-  a skos:Concept .
+organisations:lecturers_involved_in_delivering_film_service_to_communities a skos:Concept .
 
 organisations:police a skos:Concept .
 
@@ -4597,8 +4566,7 @@ organisations:theatre_owners a skos:Concept .
 
 organisations:Bahamas_film_and_TV_commission a skos:Concept .
 
-<https://homernetwork.github.io/vocabulary/organisations/foreign_film._(companies?)>
-  a skos:Concept .
+organisations:foreign_film_companies a skos:Concept .
 
 <https://homernetwork.github.io/vocabulary/organisations/Javanese_(Surinam)> a skos:Concept .
 
@@ -4651,6 +4619,8 @@ organisations:commercial_organisation a skos:Concept;
 
 organisations:school a skos:Concept .
 
+organisations:censorship_organisation a skos:Concept .
+
 organisations:geopolitical_organisation a skos:Concept .
 
 organisations:cultural_organisation a skos:Concept;
@@ -4667,11 +4637,11 @@ organisations:national_organisation a skos:Concept;
     organisations:Palestinian_cinema_institution .
 
 organisations:civic_organisation a skos:Concept;
-  skos:narrower <https://homernetwork.github.io/vocabulary/organisations/Jamaica_welfare_ltd_(BA_farmers_donating_bit_per_sale)>,
+  skos:narrower organisations:Jamaica_welfare_ltd_BA_farmers_donating_bit_per_sale,
     organisations:kkk, organisations:community_sectors .
 
 organisations:film_exhibitor_organisation a skos:Concept;
-  skos:narrower organisations:educational_film_service, <https://homernetwork.github.io/vocabulary/organisations/lecturers_(involved_in_delivering_film_service_to_communities)> .
+  skos:narrower organisations:educational_film_service, organisations:lecturers_involved_in_delivering_film_service_to_communities .
 
 organisations:religions_organisation a skos:Concept;
   skos:narrower organisations:Christian_converts, organisations:church_groups, organisations:community_sectors,
@@ -4802,10 +4772,12 @@ organisations:national_organisation skos:narrower organisations:modern_rising_po
     organisations:surnamese_society_at_large .
 
 organisations:film_production_organisation skos:narrower <https://homernetwork.github.io/vocabulary/organisations/film_cleanup_organisation_(editors)>,
-    <https://homernetwork.github.io/vocabulary/organisations/foreign_film._(companies?)>,
-    organisations:the_allied_cinema_company .
+    organisations:foreign_film_companies, organisations:the_allied_cinema_company .
 
 organisations:film_exhibitor_organisation skos:narrower organisations:theatre_owners .
+
+organisations:censorship_organisation skos:narrower organisations:Bahamas_film_and_TV_commission,
+    organisations:censors_for_Chinese_films, organisations:national_board_of_film_censorsship .
 
 organisations:cultural_organisation skos:narrower organisations:Hindustani_community,
     organisations:Hindustani_enterpreneurs, <https://homernetwork.github.io/vocabulary/organisations/Javanese_(Surinam)>,
@@ -4899,9 +4871,6 @@ organisations:prefecture skos:inScheme <https://homernetwork.github.io/vocabular
 
 organisations:distribution_chain skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/(foundation)_branch> skos:inScheme
-    <https://homernetwork.github.io/vocabulary/organisations/> .
-
 organisations:information_service skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 <https://homernetwork.github.io/vocabulary/organisations/news/war_correspondents>
@@ -4949,9 +4918,6 @@ organisations:state skos:inScheme <https://homernetwork.github.io/vocabulary/org
 organisations:entente_powers skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:intelligence_agency skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
-
-<https://homernetwork.github.io/vocabulary/organisations/..._association> skos:inScheme
-    <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:activists skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -5048,9 +5014,6 @@ organisations:fara_is_cinema_foundation skos:inScheme <https://homernetwork.gith
 organisations:certificate_issuing_org skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:PKk_guerillas skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
-
-<https://homernetwork.github.io/vocabulary/organisations/moct_(censorship_org?)> skos:inScheme
-    <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:Istanbul_film_festival skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -5187,8 +5150,7 @@ organisations:peacekeeping_forces skos:inScheme <https://homernetwork.github.io/
 
 organisations:movie_poster_painters skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/cinema_bureau_(Tunisia)>
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:cinema_bureau skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:film_industry skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -5202,8 +5164,7 @@ organisations:maghrabi_jews skos:inScheme <https://homernetwork.github.io/vocabu
 
 organisations:Jewish_algerians skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/french_nationals/subjects>
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:french_nationals skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:colonial_subjects skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -5279,8 +5240,7 @@ organisations:rural_cinema skos:inScheme <https://homernetwork.github.io/vocabul
 
 organisations:non_mainstream_film_markets skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/small_gage_exhibitors/dist_17.5_mm_24mm_16mm>
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:small_gage_exhibitors-dist_17.5_mm_24mm_16mm skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:pathe_rural skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -5339,8 +5299,6 @@ organisations:audience_communities skos:inScheme <https://homernetwork.github.io
 organisations:spectators skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:Christian_refugees skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
-
-organisations:Turkish_speakers skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:mass_culture_consumers skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -5421,11 +5379,9 @@ organisations:support_networks skos:inScheme <https://homernetwork.github.io/voc
 
 organisations:global_networks skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/colonizing_institution_(_hebrr_Univ)>
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:colonizing_institution-hebrr_Univ skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/Jamaica_welfare_ltd_(BA_farmers_donating_bit_per_sale)>
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:Jamaica_welfare_ltd_BA_farmers_donating_bit_per_sale skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 <https://homernetwork.github.io/vocabulary/organisations/banana_growers/banana_farmers_>
   skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
@@ -5443,8 +5399,8 @@ organisations:Jamaican_agricultural_society skos:inScheme <https://homernetwork.
 
 organisations:teachers skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/lecturers_(involved_in_delivering_film_service_to_communities)>
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:lecturers_involved_in_delivering_film_service_to_communities skos:inScheme
+    <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:police skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -5495,8 +5451,7 @@ organisations:theatre_owners skos:inScheme <https://homernetwork.github.io/vocab
 
 organisations:Bahamas_film_and_TV_commission skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/foreign_film._(companies?)>
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:foreign_film_companies skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 <https://homernetwork.github.io/vocabulary/organisations/Javanese_(Surinam)> skos:inScheme
     <https://homernetwork.github.io/vocabulary/organisations/> .
@@ -5546,6 +5501,8 @@ organisations:official_organisation skos:inScheme <https://homernetwork.github.i
 organisations:commercial_organisation skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:school skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:censorship_organisation skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:geopolitical_organisation skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -5610,41 +5567,40 @@ organisations:film_organisation skos:inScheme <https://homernetwork.github.io/vo
 organisations:organisation_by_distance skos:inScheme <https://homernetwork.github.io/vocabulary/organisations/> .
 
 <https://homernetwork.github.io/vocabulary/organisations/> a skos:ConceptScheme;
-  skos:hasTopConcept <https://homernetwork.github.io/vocabulary/organisations/(foundation)_branch>,
-    organisations:African_American_regiments, organisations:Artificial_intelligence, organisations:Association,
-    organisations:Catering, organisations:Church, <https://homernetwork.github.io/vocabulary/organisations/..._association>,
-    organisations:Cinema_circuits, organisations:Club, organisations:Cooperative, organisations:Cannes_film_festiival,
+  skos:hasTopConcept organisations:African_American_regiments, organisations:Artificial_intelligence,
+    organisations:Association, organisations:Catering, organisations:Church, organisations:Cinema_circuits,
+    organisations:Cannes_film_festiival, organisations:Club, organisations:Cooperative,
     organisations:Educational_organisation, organisations:European_film_industry, organisations:Exhibitor_families,
     organisations:Festivals, organisations:Foreign_companies, organisations:Formal, organisations:Informal,
     organisations:NGO, organisations:Non-profit_organization, organisations:Printers_and_artists,
-    organisations:Private, organisations:Quincy_club, organisations:Society, organisations:State_organisation,
-    organisations:Syndicate, organisations:Irish_diaspora, organisations:Transport, organisations:activists,
-    organisations:amateur_film_producers, organisations:army, organisations:bollywood,
-    organisations:camera_equipment_transport_teams, organisations:cinema_experts, organisations:commercial_distributors,
-    organisations:committee, organisations:chosen_ethnic_group, organisations:communist_culture,
-    organisations:ancestors, organisations:descendants, organisations:distribution_center,
-    organisations:distribution_chain, organisations:entente_powers, organisations:film_club,
-    organisations:film_critics, organisations:foundation, organisations:enterpreneurs,
-    organisations:generation, organisations:civil_rights_activists, organisations:global_tribe,
-    organisations:charities, organisations:hollywood, organisations:danish_informational_cinema_thompalson,
-    organisations:influential_Irish_americans, organisations:information_service, organisations:innovators,
-    organisations:institute, organisations:intelligence_agency, organisations:city_council,
-    organisations:island_nation, organisations:cinema_inspectors, organisations:local_press,
-    organisations:informal_governance, organisations:mass_media, organisations:media_indusry,
-    organisations:monarchy, organisations:central_gibernment, organisations:museum, organisations:municipal_police,
-    <https://homernetwork.github.io/vocabulary/organisations/news/war_correspondents>,
-    organisations:nollywood, organisations:noncommercial_distributors, organisations:city,
+    organisations:Private, organisations:Quincy_club, organisations:Society, organisations:Irish_diaspora,
+    organisations:State_organisation, organisations:Syndicate, organisations:Transport,
+    organisations:activists, organisations:amateur_film_producers, organisations:army,
+    organisations:bollywood, organisations:camera_equipment_transport_teams, organisations:cinema_experts,
+    organisations:chosen_ethnic_group, organisations:commercial_distributors, organisations:ancestors,
+    organisations:committee, organisations:communist_culture, organisations:descendants,
+    organisations:distribution_center, organisations:distribution_chain, organisations:entente_powers,
+    organisations:film_club, organisations:enterpreneurs, organisations:film_critics,
+    organisations:civil_rights_activists, organisations:foundation, organisations:charities,
+    organisations:generation, organisations:danish_informational_cinema_thompalson, organisations:global_tribe,
+    organisations:hollywood, organisations:influential_Irish_americans, organisations:information_service,
+    organisations:innovators, organisations:city_council, organisations:institute, organisations:cinema_inspectors,
+    organisations:intelligence_agency, organisations:informal_governance, organisations:island_nation,
+    organisations:local_press, organisations:mass_media, organisations:central_gibernment,
+    organisations:media_indusry, organisations:monarchy, organisations:municipal_police,
+    organisations:museum, <https://homernetwork.github.io/vocabulary/organisations/news/war_correspondents>,
+    organisations:city, organisations:nollywood, organisations:noncommercial_distributors,
     organisations:occupying_force, organisations:permanent, organisations:prefecture,
-    organisations:propaganda, organisations:resistance_group, organisations:black_market_agents,
-    organisations:soviet_cinema, organisations:single_screen_multi_venue_distributed_multiplex,
+    organisations:black_market_agents, organisations:propaganda, organisations:resistance_group,
+    organisations:single_screen_multi_venue_distributed_multiplex, organisations:soviet_cinema,
     <https://homernetwork.github.io/vocabulary/organisations/special_effect_makers,_re-enactors>,
-    organisations:sports_club, organisations:state, organisations:highest_court, organisations:surveillance,
-    organisations:censorship_office, organisations:tax_agency, organisations:marketing,
-    organisations:temporary, organisations:Venice_festival_awards, organisations:tourism_ireland,
-    organisations:Sarajevo_festival_awards, organisations:town, organisations:protestors,
-    organisations:village, organisations:fara_is_cinema_foundation, organisations:volunteers,
-    organisations:certificate_issuing_org, organisations:youth-branch_inspection_teams,
-    organisations:PKk_guerillas .
+    organisations:highest_court, organisations:sports_club, organisations:censorship_office,
+    organisations:state, organisations:marketing, organisations:surveillance, organisations:Venice_festival_awards,
+    organisations:tax_agency, organisations:Sarajevo_festival_awards, organisations:temporary,
+    organisations:protestors, organisations:tourism_ireland, organisations:fara_is_cinema_foundation,
+    organisations:town, organisations:certificate_issuing_org, organisations:village,
+    organisations:PKk_guerillas, organisations:volunteers, organisations:Istanbul_film_festival,
+    organisations:youth-branch_inspection_teams, organisations:presidency_of_communications .
 
 organisations:Church skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -5704,9 +5660,6 @@ organisations:prefecture skos:topConceptOf <https://homernetwork.github.io/vocab
 
 organisations:distribution_chain skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/(foundation)_branch> skos:topConceptOf
-    <https://homernetwork.github.io/vocabulary/organisations/> .
-
 organisations:information_service skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 <https://homernetwork.github.io/vocabulary/organisations/news/war_correspondents>
@@ -5754,9 +5707,6 @@ organisations:state skos:topConceptOf <https://homernetwork.github.io/vocabulary
 organisations:entente_powers skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:intelligence_agency skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
-
-<https://homernetwork.github.io/vocabulary/organisations/..._association> skos:topConceptOf
-    <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:activists skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -5852,48 +5802,46 @@ organisations:certificate_issuing_org skos:topConceptOf <https://homernetwork.gi
 
 organisations:PKk_guerillas skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/> skos:hasTopConcept organisations:Armenian_widows,
-    organisations:CEnSORSHIP_TYPOLOGIEs, organisations:German_forces, organisations:Istanbul_film_festival,
-    organisations:NGOs_tied_to_large_corporations, organisations:actors, organisations:art_institutions,
-    organisations:artists, organisations:authoritarian_regime, organisations:character_actors,
-    organisations:cinema_actors, organisations:civil_society_activists, organisations:circulation_licensers,
-    organisations:critics, organisations:crowd, organisations:cultural_producers, organisations:empire,
-    organisations:film_commissioners, organisations:film_festival_organisors, organisations:film_panel,
-    organisations:cinema_de_rua, organisations:film_shooting_crew, organisations:cinecarioca_cinema,
-    organisations:firing_squad, organisations:government, organisations:governors_office,
-    organisations:greek-soviet_league, organisations:informal_network_of_videoclubs, organisations:journaiısts,
-    organisations:lawyers, <https://homernetwork.github.io/vocabulary/organisations/cinema_bureau_(Tunisia)>,
-    organisations:lead_actors, organisations:film_industry, organisations:left-wing_guerilla_organisations,
-    organisations:Vichy_regime, organisations:leftist_press, organisations:branch_office,
-    organisations:local_collaborators, organisations:Muslim_algerians, <https://homernetwork.github.io/vocabulary/organisations/local_population_(in_favela)>,
-    organisations:maghrabi_jews, organisations:management, organisations:Jewish_algerians,
-    organisations:missionaries, <https://homernetwork.github.io/vocabulary/organisations/french_nationals/subjects>,
-    <https://homernetwork.github.io/vocabulary/organisations/moct_(censorship_org?)>,
-    organisations:colonial_subjects, organisations:movie_poster_painters, organisations:agency_nordafricaine_de_film,
-    organisations:nation, organisations:males, organisations:national_liberation_frint,
-    organisations:ethnic_group, organisations:nationalist_historiographers, organisations:distribution_agency,
-    organisations:nazi_occupiers, organisations:non-naturalized, organisations:orphans,
-    organisations:indigenous_Algerian, organisations:paramilitary_groups, organisations:non-naturalized_ppl,
-    organisations:peacekeeping_forces, organisations:film_department, organisations:philantropists,
-    organisations:indigenous_distributors, organisations:poor_people, organisations:family_network,
-    organisations:presidency_of_communications, organisations:Muslim_distributors, organisations:pro-government_groups,
-    organisations:north_African_distributors, organisations:procarioca_audiovisual_programme,
-    organisations:producers_of_cinematic_meaning, organisations:prosoners, organisations:marginal_circuits,
-    organisations:prostate_financial_institutions, organisations:colonial_authority, organisations:right-wing_newspapers,
-    organisations:national_archive, organisations:screen_personas, organisations:Moroccan_owned_conemas,
-    organisations:soldiers, organisations:bookshop, organisations:soviet_agitators, organisations:liberation_movement,
-    organisations:supporting_actors, organisations:Palestinian_nationalist, organisations:the_Greek_public,
-    organisations:Arab_mation, organisations:the_public, organisations:tourists, organisations:trade_press,
-    organisations:producers, organisations:tunesian_distributors, organisations:Jewish_led_companies,
-    organisations:twitter, organisations:Muslim_investors, organisations:united_studios_of_moscow,
-    organisations:local_distributor, organisations:university_students, organisations:Arab_speaking_minorities .
-
-<https://homernetwork.github.io/vocabulary/organisations/moct_(censorship_org?)> skos:topConceptOf
-    <https://homernetwork.github.io/vocabulary/organisations/> .
-
 organisations:Istanbul_film_festival skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:presidency_of_communications skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+<https://homernetwork.github.io/vocabulary/organisations/> skos:hasTopConcept organisations:Armenian_widows,
+    organisations:CEnSORSHIP_TYPOLOGIEs, organisations:German_forces, organisations:NGOs_tied_to_large_corporations,
+    organisations:actors, organisations:art_institutions, organisations:artists, organisations:authoritarian_regime,
+    organisations:character_actors, organisations:cinema_actors, organisations:circulation_licensers,
+    organisations:civil_society_activists, organisations:critics, organisations:crowd,
+    organisations:cinema_de_rua, organisations:cultural_producers, organisations:cinecarioca_cinema,
+    organisations:empire, organisations:film_commissioners, organisations:film_festival_organisors,
+    organisations:film_panel, organisations:film_shooting_crew, organisations:firing_squad,
+    organisations:government, organisations:cinema_bureau, organisations:governors_office,
+    organisations:film_industry, organisations:greek-soviet_league, organisations:Vichy_regime,
+    organisations:informal_network_of_videoclubs, organisations:branch_office, organisations:journaiısts,
+    organisations:Muslim_algerians, organisations:lawyers, organisations:lead_actors,
+    organisations:left-wing_guerilla_organisations, organisations:Jewish_algerians, organisations:leftist_press,
+    organisations:french_nationals, organisations:local_collaborators, organisations:colonial_subjects,
+    <https://homernetwork.github.io/vocabulary/organisations/local_population_(in_favela)>,
+    organisations:agency_nordafricaine_de_film, organisations:maghrabi_jews, organisations:males,
+    organisations:management, organisations:ethnic_group, organisations:missionaries,
+    organisations:distribution_agency, organisations:movie_poster_painters, organisations:nation,
+    organisations:national_liberation_frint, organisations:indigenous_Algerian, organisations:nationalist_historiographers,
+    organisations:nazi_occupiers, organisations:non-naturalized, organisations:film_department,
+    organisations:non-naturalized_ppl, organisations:indigenous_distributors, organisations:orphans,
+    organisations:family_network, organisations:paramilitary_groups, organisations:Muslim_distributors,
+    organisations:peacekeeping_forces, organisations:north_African_distributors, organisations:philantropists,
+    organisations:poor_people, organisations:pro-government_groups, organisations:marginal_circuits,
+    organisations:procarioca_audiovisual_programme, organisations:colonial_authority,
+    organisations:producers_of_cinematic_meaning, organisations:national_archive, organisations:prosoners,
+    organisations:Moroccan_owned_conemas, organisations:prostate_financial_institutions,
+    organisations:bookshop, organisations:right-wing_newspapers, organisations:liberation_movement,
+    organisations:screen_personas, organisations:Palestinian_nationalist, organisations:soldiers,
+    organisations:Arab_mation, organisations:soviet_agitators, organisations:supporting_actors,
+    organisations:the_Greek_public, organisations:producers, organisations:the_public,
+    organisations:Jewish_led_companies, organisations:tourists, organisations:Muslim_investors,
+    organisations:trade_press, organisations:local_distributor, organisations:tunesian_distributors,
+    organisations:Arab_speaking_minorities, organisations:twitter, organisations:companies_headquartered_in_france,
+    organisations:united_studios_of_moscow, organisations:local_elites, organisations:university_students,
+    organisations:homo_islamicus .
 
 organisations:twitter skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -6020,8 +5968,7 @@ organisations:peacekeeping_forces skos:topConceptOf <https://homernetwork.github
 
 organisations:movie_poster_painters skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/cinema_bureau_(Tunisia)>
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:cinema_bureau skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:film_industry skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -6035,8 +5982,7 @@ organisations:maghrabi_jews skos:topConceptOf <https://homernetwork.github.io/vo
 
 organisations:Jewish_algerians skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/french_nationals/subjects>
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:french_nationals skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:colonial_subjects skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -6094,46 +6040,45 @@ organisations:local_distributor skos:topConceptOf <https://homernetwork.github.i
 
 organisations:Arab_speaking_minorities skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/> skos:hasTopConcept organisations:Asia_minor,
-    organisations:Christian_refugees, organisations:German_military_administration_in_France,
-    <https://homernetwork.github.io/vocabulary/organisations/Sydney_Cohen's_NYC_circuit>,
-    <https://homernetwork.github.io/vocabulary/organisations/Tamil_talkies_(company_set_up_to_operate_without_profit)>,
-    <https://homernetwork.github.io/vocabulary/organisations/Turkish_film/cinema>, organisations:Turkish_speakers,
-    organisations:agent_for_exhibitir, organisations:anti-government_organisation, organisations:archives,
-    organisations:audience_communities, organisations:black_market_buyers_and_sellers,
-    organisations:cinema_sector, <https://homernetwork.github.io/vocabulary/organisations/colonizing_institution_(_hebrr_Univ)>,
-    organisations:commercial_organisation, organisations:companies_headquartered_in_france,
-    organisations:consumers, organisations:cultural_organisation, <https://homernetwork.github.io/vocabulary/organisations/distribution_circuits/networks>,
-    organisations:essential_customers, organisations:civic_organisation, organisations:exhibition_sector,
-    organisations:exhibitors, organisations:film_exhibitor_organisation, organisations:film_production_organisation,
-    organisations:former_colony, organisations:french_countryside, organisations:geopolitical_organisation,
-    organisations:global_south, organisations:gray_market, organisations:colonial_organisation,
-    organisations:homo_economicus, organisations:homo_islamicus, organisations:itinerant_exhibitors,
-    organisations:audience_organisation, organisations:local_elites, organisations:government_organisation,
-    organisations:mass_culture_consumers, organisations:micro_region, organisations:militias,
-    organisations:mobile_exhibitors, organisations:national_organisation, organisations:development_organisation,
-    organisations:non_mainstream_film_markets, organisations:northern_greece, organisations:official_organisation,
-    organisations:organisation_by_governmental_structure, organisations:organisation_by_relative_location,
-    organisations:organisation_by_social_status, organisations:organisation_by_subjugation_level,
-    organisations:agricultural_organisation, organisations:organisations_by_lawlessness,
-    organisations:informal_organisation, organisations:organised_crime, organisations:ottoman_empire,
-    organisations:part_of_organisation, organisations:pathe_rural, organisations:plo,
-    organisations:academic_organisation, organisations:potential_spectators, organisations:country,
-    organisations:production_center, organisations:organisation_by_distance, organisations:professional_organisation,
-    <https://homernetwork.github.io/vocabulary/organisations/projection_points_(venue)>,
-    organisations:religions_organisation, organisations:remote_rural, organisations:republic,
-    organisations:rural_cinema, organisations:rural_exhibitors, organisations:rural_municipalities,
-    organisations:rural_small_gauge_exhibitor, organisations:seciruty_organisation, organisations:security_organization,
-    <https://homernetwork.github.io/vocabulary/organisations/small_gage_exhibitors/dist_17.5_mm_24mm_16mm>,
-    organisations:small_independent_distributors, organisations:sociopolitical_organisation,
-    organisations:special_interest_organisation, organisations:spectators, organisations:suppliers,
-    organisations:virtual_organisation, organisations:welfare_organisation .
-
 organisations:companies_headquartered_in_france skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:local_elites skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:homo_islamicus skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+<https://homernetwork.github.io/vocabulary/organisations/> skos:hasTopConcept organisations:Asia_minor,
+    organisations:Christian_refugees, organisations:German_military_administration_in_France,
+    <https://homernetwork.github.io/vocabulary/organisations/Sydney_Cohen's_NYC_circuit>,
+    <https://homernetwork.github.io/vocabulary/organisations/Tamil_talkies_(company_set_up_to_operate_without_profit)>,
+    <https://homernetwork.github.io/vocabulary/organisations/Turkish_film/cinema>, organisations:agent_for_exhibitir,
+    organisations:anti-government_organisation, organisations:archives, organisations:audience_communities,
+    organisations:black_market_buyers_and_sellers, organisations:censorship_organisation,
+    organisations:cinema_sector, organisations:colonizing_institution-hebrr_Univ, organisations:civic_organisation,
+    organisations:commercial_organisation, organisations:consumers, organisations:cultural_organisation,
+    <https://homernetwork.github.io/vocabulary/organisations/distribution_circuits/networks>,
+    organisations:essential_customers, organisations:exhibition_sector, organisations:exhibitors,
+    organisations:film_exhibitor_organisation, organisations:film_production_organisation,
+    organisations:colonial_organisation, organisations:former_colony, organisations:french_countryside,
+    organisations:geopolitical_organisation, organisations:audience_organisation, organisations:global_south,
+    organisations:government_organisation, organisations:gray_market, organisations:homo_economicus,
+    organisations:itinerant_exhibitors, organisations:mass_culture_consumers, organisations:micro_region,
+    organisations:development_organisation, organisations:militias, organisations:mobile_exhibitors,
+    organisations:national_organisation, organisations:non_mainstream_film_markets, organisations:northern_greece,
+    organisations:official_organisation, organisations:organisation_by_governmental_structure,
+    organisations:agricultural_organisation, organisations:organisation_by_relative_location,
+    organisations:informal_organisation, organisations:organisation_by_social_status,
+    organisations:organisation_by_subjugation_level, organisations:organisations_by_lawlessness,
+    organisations:organised_crime, organisations:ottoman_empire, organisations:academic_organisation,
+    organisations:part_of_organisation, organisations:country, organisations:pathe_rural,
+    organisations:organisation_by_distance, organisations:plo, organisations:potential_spectators,
+    organisations:production_center, organisations:professional_organisation, <https://homernetwork.github.io/vocabulary/organisations/projection_points_(venue)>,
+    organisations:religions_organisation, organisations:remote_rural, organisations:republic,
+    organisations:rural_cinema, organisations:rural_exhibitors, organisations:rural_municipalities,
+    organisations:rural_small_gauge_exhibitor, organisations:seciruty_organisation, organisations:security_organization,
+    organisations:small_gage_exhibitors-dist_17.5_mm_24mm_16mm, organisations:small_independent_distributors,
+    organisations:sociopolitical_organisation, organisations:special_interest_organisation,
+    organisations:spectators, organisations:suppliers, organisations:virtual_organisation,
+    organisations:welfare_organisation .
 
 organisations:homo_economicus skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -6147,8 +6092,7 @@ organisations:rural_cinema skos:topConceptOf <https://homernetwork.github.io/voc
 
 organisations:non_mainstream_film_markets skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/small_gage_exhibitors/dist_17.5_mm_24mm_16mm>
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:small_gage_exhibitors-dist_17.5_mm_24mm_16mm skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:pathe_rural skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -6206,8 +6150,6 @@ organisations:spectators skos:topConceptOf <https://homernetwork.github.io/vocab
 
 organisations:Christian_refugees skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
-organisations:Turkish_speakers skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
-
 organisations:mass_culture_consumers skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:small_independent_distributors skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
@@ -6226,8 +6168,7 @@ organisations:archives skos:topConceptOf <https://homernetwork.github.io/vocabul
 
 organisations:anti-government_organisation skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
-<https://homernetwork.github.io/vocabulary/organisations/colonizing_institution_(_hebrr_Univ)>
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+organisations:colonizing_institution-hebrr_Univ skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:former_colony skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
@@ -6247,6 +6188,8 @@ organisations:organisations_by_lawlessness skos:topConceptOf <https://homernetwo
 organisations:official_organisation skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:commercial_organisation skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
+
+organisations:censorship_organisation skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
 organisations:geopolitical_organisation skos:topConceptOf <https://homernetwork.github.io/vocabulary/organisations/> .
 
