@@ -1820,8 +1820,7 @@ audiences:audience_per_religion skos:definition "Audiences who define themselves
 audiences:audience_per_political_orientation skos:definition "Audiences who define themselves or are defined by others in relation to one or more political orientations"@en;
   skos:prefLabel "audience per political orientation"@en .
 
-audiences:audience_per_household_income skos:broader audiences:audience_per_household_income;
-  skos:definition "Audiences defined by household income"@en;
+audiences:audience_per_household_income skos:definition "Audiences defined by household income"@en;
   skos:prefLabel "audience per household income"@en .
 
 audiences:low_income skos:broader audiences:audience_per_household_income;
@@ -2145,8 +2144,7 @@ audiences:audience_per_religion a skos:Concept .
 audiences:audience_per_political_orientation a skos:Concept .
 
 audiences:audience_per_household_income a skos:Concept;
-  skos:narrower audiences:audience_per_household_income, audiences:high_income, audiences:low_income,
-    audiences:middle_income .
+  skos:narrower audiences:high_income, audiences:low_income, audiences:middle_income .
 
 audiences:low_income a skos:Concept .
 
@@ -2394,7 +2392,8 @@ audiences:audience_per_religion skos:inScheme <https://homernetwork.github.io/vo
 audiences:audience_per_political_orientation skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
 
-audiences:audience_per_household_income skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
+audiences:audience_per_household_income skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/audiences/> .
 
 audiences:low_income skos:inScheme <https://homernetwork.github.io/vocabulary/audiences/> .
 
@@ -2614,14 +2613,14 @@ audiences:Turkish_speakers skos:inScheme <https://homernetwork.github.io/vocabul
     audiences:audience_by_heritage, audiences:audience_by_level_of_subjugation, audiences:audience_by_profession,
     audiences:audience_by_purpose_of_screening, audiences:audience_by_skin_color, audiences:audience_per_activity_level,
     audiences:audience_per_age_category, audiences:audience_per_civic_status, audiences:audience_per_education,
-    audiences:audience_per_ethnicity, audiences:audience_per_gender, audiences:audience_per_ideology,
-    audiences:audience_per_language, audiences:audience_per_location, audiences:audience_per_medium,
-    audiences:audience_per_nationality, audiences:audience_per_occupation, audiences:audience_per_political_orientation,
-    audiences:audience_per_region, audiences:audience_per_religion, audiences:audience_per_sexual_orientation,
-    audiences:audience_per_social_class, audiences:child_audiences, audiences:cinema_audience,
-    audiences:college_graduates, audiences:conservative_americans, audiences:film_audience,
-    audiences:indirect_audience, audiences:industrial_workers, audiences:locals, audiences:palestinians,
-    audiences:peasants, <https://homernetwork.github.io/vocabulary/audiences/senior_experts/professionals>,
+    audiences:audience_per_ethnicity, audiences:audience_per_gender, audiences:audience_per_household_income,
+    audiences:audience_per_ideology, audiences:audience_per_language, audiences:audience_per_location,
+    audiences:audience_per_medium, audiences:audience_per_nationality, audiences:audience_per_occupation,
+    audiences:audience_per_political_orientation, audiences:audience_per_region, audiences:audience_per_religion,
+    audiences:audience_per_sexual_orientation, audiences:audience_per_social_class, audiences:child_audiences,
+    audiences:cinema_audience, audiences:college_graduates, audiences:conservative_americans,
+    audiences:film_audience, audiences:indirect_audience, audiences:industrial_workers,
+    audiences:locals, audiences:palestinians, audiences:peasants, <https://homernetwork.github.io/vocabulary/audiences/senior_experts/professionals>,
     audiences:students, audiences:teenager, audiences:teenager_13-19, audiences:wasp,
     audiences:whites .
 
