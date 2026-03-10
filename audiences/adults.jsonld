@@ -7,6 +7,14 @@
   "definition": {
     "en": "A person who is fully grown or developed."
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/young_adults",
+      "prefLabel": {
+        "en": "young adults"
+      }
+    }
+  ],
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_age_category",
     "prefLabel": {
@@ -52,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

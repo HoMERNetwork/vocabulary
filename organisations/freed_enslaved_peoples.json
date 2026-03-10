@@ -7,6 +7,12 @@
   "definition": {
     "en": "James Burns- Clemson"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/organisations/organisation_by_subjugation_level",
+    "prefLabel": {
+      "en": "organisation by subjugation level"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/",
@@ -18,14 +24,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organisations/",
-      "title": {
-        "en": "Organisations"
-      }
     }
   ],
   "@context": {
@@ -54,6 +52,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

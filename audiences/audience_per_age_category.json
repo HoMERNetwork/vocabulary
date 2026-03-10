@@ -4,6 +4,14 @@
   "prefLabel": {
     "en": "audience per age category"
   },
+  "altLabel": {
+    "en": [
+      "age groups"
+    ]
+  },
+  "definition": {
+    "en": "Ivana Šešlek- Restart"
+  },
   "narrower": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/adults",
@@ -71,6 +79,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

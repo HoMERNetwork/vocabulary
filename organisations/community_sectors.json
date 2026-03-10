@@ -7,6 +7,11 @@
   "definition": {
     "en": "James Burns- Clemson"
   },
+  "scopeNote": {
+    "en": [
+      "Community sectors refer to various groups and organizations within a community that operate based on shared social, political, economic, cultural, or religious interests. (copilot)"
+    ]
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/",
@@ -18,14 +23,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organisations/",
-      "title": {
-        "en": "Organisations"
-      }
     }
   ],
   "@context": {
@@ -54,6 +51,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

@@ -39,6 +39,18 @@
         "en": "Film exhibition company",
         "it": "Società di esercizio cinematografico"
       }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/company_importing_films",
+      "prefLabel": {
+        "en": "company importing films"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/the_allied_cinema_company",
+      "prefLabel": {
+        "en": "the allied cinema company"
+      }
     }
   ],
   "broader": {
@@ -86,6 +98,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

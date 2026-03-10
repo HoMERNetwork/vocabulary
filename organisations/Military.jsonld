@@ -4,6 +4,26 @@
   "prefLabel": {
     "en": "Military"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Zionist_forces",
+      "prefLabel": {
+        "en": "Zionist forces"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/idf",
+      "prefLabel": {
+        "en": "idf"
+      }
+    }
+  ],
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/organisations/security_organization",
+    "prefLabel": {
+      "en": "security organization"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/",
@@ -15,14 +35,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organisations/",
-      "title": {
-        "en": "Organisations"
-      }
     }
   ],
   "@context": {
@@ -51,6 +63,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

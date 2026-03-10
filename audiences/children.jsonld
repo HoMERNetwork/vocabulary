@@ -7,6 +7,14 @@
   "definition": {
     "en": "A young person below the age of majority"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/audiences/schoolchildren",
+      "prefLabel": {
+        "en": "schoolchildren"
+      }
+    }
+  ],
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_age_category",
     "prefLabel": {
@@ -52,6 +60,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

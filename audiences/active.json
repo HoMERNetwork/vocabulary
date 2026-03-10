@@ -7,6 +7,12 @@
   "definition": {
     "en": "Maria Luna Rassa, el drama del 15 octubte"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/audiences/audience_per_activity_level",
+    "prefLabel": {
+      "en": "audience per activity level"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/",
@@ -18,14 +24,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/audiences/",
-      "title": {
-        "en": "Audiences"
-      }
     }
   ],
   "@context": {
@@ -54,6 +52,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

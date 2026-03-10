@@ -7,6 +7,12 @@
   "definition": {
     "en": "Rachel Moseley-Wood"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/organisations/colonial_organisation",
+    "prefLabel": {
+      "en": "colonial organisation"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/",
@@ -18,14 +24,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organisations/",
-      "title": {
-        "en": "Organisations"
-      }
     }
   ],
   "@context": {
@@ -54,6 +52,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

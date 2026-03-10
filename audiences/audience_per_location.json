@@ -12,9 +12,9 @@
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/audiences/rural_audience",
+      "id": "https://homernetwork.github.io/vocabulary/audiences/suburban_audience",
       "prefLabel": {
-        "en": "rural audience"
+        "en": "suburban audience"
       }
     },
     {
@@ -24,9 +24,9 @@
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/audiences/suburban_audience",
+      "id": "https://homernetwork.github.io/vocabulary/audiences/rural_audience",
       "prefLabel": {
-        "en": "suburban audience"
+        "en": "rural audience"
       }
     }
   ],
@@ -77,6 +77,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

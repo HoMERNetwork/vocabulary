@@ -4,6 +4,14 @@
   "prefLabel": {
     "en": "Community"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/Hindustani_community",
+      "prefLabel": {
+        "en": "Hindustani community"
+      }
+    }
+  ],
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/organisations/Non-profit_organization",
     "prefLabel": {
@@ -50,6 +58,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

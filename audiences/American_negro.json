@@ -7,6 +7,12 @@
   "definition": {
     "en": "Kristina Tanis"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/audiences/audience_by_cultural_makeup",
+    "prefLabel": {
+      "en": "audience by cultural makeup"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/",
@@ -18,14 +24,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/audiences/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/audiences/",
-      "title": {
-        "en": "Audiences"
-      }
     }
   ],
   "@context": {
@@ -54,6 +52,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

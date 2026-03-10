@@ -4,6 +4,32 @@
   "prefLabel": {
     "en": "Educational organisation"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/teachers",
+      "prefLabel": {
+        "en": "teachers"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/school",
+      "prefLabel": {
+        "en": "school"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/educational_institutions",
+      "prefLabel": {
+        "en": "educational institutions"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organisations/educational_industry",
+      "prefLabel": {
+        "en": "educational industry"
+      }
+    }
+  ],
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/",
@@ -51,6 +77,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

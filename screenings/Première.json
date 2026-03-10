@@ -4,6 +4,12 @@
   "prefLabel": {
     "en": "Première"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/screenings/screening_by_film_age",
+    "prefLabel": {
+      "en": "screening by film age"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/screenings/",
@@ -15,14 +21,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/screenings/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/screenings/",
-      "title": {
-        "en": "Screenings"
-      }
     }
   ],
   "@context": {
@@ -51,6 +49,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

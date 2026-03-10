@@ -4,6 +4,12 @@
   "prefLabel": {
     "en": "Mediterranean distribution networks"
   },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/organisations/local_organisation",
+    "prefLabel": {
+      "en": "local organisation"
+    }
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/",
@@ -15,14 +21,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organisations/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organisations/",
-      "title": {
-        "en": "Organisations"
-      }
     }
   ],
   "@context": {
@@ -51,6 +49,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

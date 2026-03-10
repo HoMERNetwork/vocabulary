@@ -20,14 +20,6 @@
       "id": "https://homernetwork.github.io/vocabulary/organisations/"
     }
   ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organisations/",
-      "title": {
-        "en": "Organisations"
-      }
-    }
-  ],
   "@context": {
     "@version": 1.1,
     "id": "@id",
@@ -54,6 +46,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {

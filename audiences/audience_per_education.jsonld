@@ -5,7 +5,7 @@
     "en": "audience per education"
   },
   "definition": {
-    "en": "Audiences defined by level of edication"
+    "en": "Audiences defined by level of education"
   },
   "inScheme": [
     {
@@ -54,6 +54,10 @@
     },
     "description": {
       "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
       "@container": "@language"
     },
     "issued": {
