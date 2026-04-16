@@ -2643,187 +2643,249 @@ audiences:audience_per_gender skos:topConceptOf <https://homernetwork.github.io/
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
   dct:title "Film-related organization types"@en .
 
-organizations:Organizations_by_legal_status a skos:Concept;
-  skos:narrower organizations:Private_organization, organizations:Public_organization;
-  skos:prefLabel "Organizations by legal status"@en .
-
 organizations:Public_organization a skos:Concept;
-  skos:broader organizations:Organizations_by_legal_status;
-  skos:narrower organizations:Council, organizations:State_agency;
   skos:prefLabel "Public organization"@en .
 
 organizations:Private_organization a skos:Concept;
-  skos:broader organizations:Organizations_by_legal_status;
-  skos:narrower organizations:Association, organizations:Cooperative, organizations:Corporation,
-    organizations:Partnership, organizations:Sole_proprietorship;
   skos:prefLabel "Private organization"@en .
+
+organizations:Informal_organization a skos:Concept;
+  skos:definition "Informal organizations usually don't have a true legal status and are usually less organized than cooperative organizations."@en;
+  skos:example "Film clubs and other communities that engage in film related activities"@en;
+  skos:prefLabel "Informal organization"@en .
 
 organizations:State_agency a skos:Concept;
   skos:broader organizations:Public_organization;
   skos:prefLabel "State agency"@en .
 
-organizations:Council a skos:Concept;
+organizations:Local_authority a skos:Concept;
   skos:broader organizations:Public_organization;
-  skos:prefLabel "Council"@en .
+  skos:example "Councils, counties, provinces and municipalities. Usually chosen by or influenced by local bodies."@en;
+  skos:prefLabel "Local authority"@en .
 
 organizations:Sole_proprietorship a skos:Concept;
   skos:broader organizations:Private_organization;
-  skos:prefLabel "Sole proprietorship"@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+  skos:prefLabel "Sole proprietorship"@en .
 
 organizations:Partnership a skos:Concept;
   skos:broader organizations:Private_organization;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
   skos:prefLabel "Partnership"@en .
 
 organizations:Corporation a skos:Concept;
   skos:broader organizations:Private_organization;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
   skos:prefLabel "Corporation"@en .
 
 organizations:Cooperative a skos:Concept;
   skos:broader organizations:Private_organization;
   skos:definition <https://en.wikipedia.org/wiki/Cooperative>;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
   skos:prefLabel "Cooperative"@en .
 
 organizations:Association a skos:Concept;
   skos:broader organizations:Private_organization;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+  skos:example "Film societies, ..."@en;
   skos:prefLabel "Association"@en .
 
+organizations:Military_organization a skos:Concept;
+  skos:broader organizations:State_agency;
+  skos:definition "Can have subdivisions: regiments, units, etc."@en;
+  skos:prefLabel "Military organization"@en .
+
+organizations:NGO a skos:Concept;
+  skos:definition "Organizations independent from the state: https://en.wikipedia.org/wiki/Non-governmental_organization"@en;
+  skos:prefLabel "NGO"@en .
+
 organizations:Organizations_by_goal a skos:Concept;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:narrower organizations:Commercial_organizations, organizations:Confessional_organizations,
-    organizations:Educational_organizations, organizations:Political_organizations, organizations:Professional_organizations,
-    organizations:Recreational_organizations;
+  skos:narrower organizations:Commercial_organization, organizations:Confessional_organization,
+    organizations:Educational_organization, organizations:Political_organization, organizations:Professional_organization,
+    organizations:Recreational_organization, organizations:Security_organization;
   skos:prefLabel "Organizations by goal"@en .
 
-organizations:Educational_organizations a skos:Concept;
+organizations:Educational_organization a skos:Concept;
   skos:broader organizations:Organizations_by_goal;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Educational organizations"@en .
+  skos:prefLabel "Educational organization"@en .
 
-organizations:Commercial_organizations a skos:Concept;
+organizations:Commercial_organization a skos:Concept;
   skos:broader organizations:Organizations_by_goal;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Commercial organizations"@en .
+  skos:prefLabel "Commercial organization"@en .
 
-organizations:Confessional_organizations a skos:Concept;
+organizations:Confessional_organization a skos:Concept;
   skos:broader organizations:Organizations_by_goal;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Confessional organizations"@en .
+  skos:example "Churches and Parishes"@en;
+  skos:prefLabel "Confessional organization"@en .
 
-organizations:Recreational_organizations a skos:Concept;
+organizations:Recreational_organization a skos:Concept;
   skos:broader organizations:Organizations_by_goal;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Recreational organizations"@en .
+  skos:prefLabel "Recreational organization"@en .
 
-organizations:Professional_organizations a skos:Concept;
+organizations:Professional_organization a skos:Concept;
   skos:broader organizations:Organizations_by_goal;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Professional organizations"@en .
+  skos:prefLabel "Professional organization"@en .
 
-organizations:Political_organizations a skos:Concept;
+organizations:Political_organization a skos:Concept;
+  skos:broader organizations:Organizations_by_goal;
+  skos:definition "Political parties"@en;
+  skos:prefLabel "Political organization"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Security_organization a skos:Concept;
   skos:broader organizations:Organizations_by_goal;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Political organizations"@en .
+  skos:narrower organizations:Paramilitary_organization;
+  skos:prefLabel "Security organization"@en .
+
+organizations:Paramilitary_organization a skos:Concept;
+  skos:broader organizations:Security_organization;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+  skos:prefLabel "Paramilitary organization"@en;
+  skos:related "Military organizations"@en .
+
+<https://homernetwork.github.io/vocabulary/organizations/University/research_organization>
+  a skos:Concept;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+  skos:prefLabel "University/research organization"@en .
 
 organizations:Organizations_by_activity a skos:Concept;
+  skos:definition "Should it be film-related or broader?"@en;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:narrower organizations:Censorship, organizations:Event_organization, organizations:Film_distribution,
-    organizations:Film_exhibition, organizations:Film_preservation, organizations:Film_rating_and_classification,
-    organizations:Funding_organizations, organizations:Lobbying, organizations:Marketing_organizations;
-  skos:prefLabel "Organizations by activity"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
+  skos:narrower organizations:Censorship_organization, organizations:Event_organization,
+    organizations:Film_distributor, organizations:Film_exhibitor, organizations:Film_preservation_organization,
+    organizations:Film_producer, organizations:Film_rating_and_classification_organization,
+    organizations:Funding_organization, organizations:Lobbying_organization, organizations:Marketing_organization;
+  skos:prefLabel "Organizations by activity"@en .
 
-organizations:Film_distribution a skos:Concept;
+organizations:Film_distributor a skos:Concept;
+  skos:broader organizations:Organizations_by_activity;
+  skos:example "Platforms and ..."@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+  skos:prefLabel "Film distributor"@en .
+
+organizations:Film_exhibitor a skos:Concept;
   skos:broader organizations:Organizations_by_activity;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Film distribution"@en .
+  skos:prefLabel "Film exhibitor"@en .
 
-organizations:Film_exhibition a skos:Concept;
+organizations:Film_producer a skos:Concept;
   skos:broader organizations:Organizations_by_activity;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Film exhibition"@en .
+  skos:prefLabel "Film producer"@en .
 
-organizations:Lobbying a skos:Concept;
+organizations:Lobbying_organization a skos:Concept;
   skos:broader organizations:Organizations_by_activity;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Lobbying"@en .
+  skos:prefLabel "Lobbying organization"@en .
 
 organizations:Event_organization a skos:Concept;
   skos:broader organizations:Organizations_by_activity;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
   skos:prefLabel "Event organization"@en .
 
-organizations:Marketing_organizations a skos:Concept;
+organizations:Marketing_organization a skos:Concept;
   skos:broader organizations:Organizations_by_activity;
+  skos:definition "includes artwork (e.g. posters) production?"@en;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Marketing organizations"@en .
+  skos:prefLabel "Marketing organization"@en .
 
-organizations:Film_preservation a skos:Concept;
+organizations:Film_preservation_organization a skos:Concept;
   skos:broader organizations:Organizations_by_activity;
   skos:example "Eye Filmmuseum (Amsterdam) or the Cineteca di Bologna."@en;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Film preservation"@en .
+  skos:prefLabel "Film preservation organization"@en .
 
-organizations:Censorship a skos:Concept;
+organizations:Censorship_organization a skos:Concept;
   skos:broader organizations:Organizations_by_activity;
   skos:definition "State censorship enforced by public security agencies"@en;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Censorship"@en .
+  skos:prefLabel "Censorship organization"@en .
 
-organizations:Film_rating_and_classification a skos:Concept;
+organizations:Film_rating_and_classification_organization a skos:Concept;
   skos:broader organizations:Organizations_by_activity;
+  skos:definition "Advisory in nature"@en;
   skos:example "Centro Cattolico Cinematografico, Metacritic, Rotten Tomatoes"@en;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Film rating and classification"@en .
+  skos:prefLabel "Film rating and classification organization"@en .
 
-organizations:Funding_organizations a skos:Concept;
+organizations:Funding_organization a skos:Concept;
   skos:broader organizations:Organizations_by_activity;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Funding organizations"@en .
+  skos:prefLabel "Funding organization"@en .
 
 organizations:Organizations_by_scale_of_activity a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:narrower organizations:International_organizations, organizations:Local_organizations,
-    organizations:National_organizations;
+  skos:narrower organizations:International_organization, organizations:Local_organization,
+    organizations:National_organization;
   skos:prefLabel "Organizations by scale of activity"@en;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
 
-organizations:Local_organizations a skos:Concept;
+organizations:Local_organization a skos:Concept;
   skos:broader organizations:Organizations_by_scale_of_activity;
   skos:example "A single-screen neighborhood theater operator or a municipal film commission"@en;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Local organizations"@en .
+  skos:prefLabel "Local organization"@en .
 
-organizations:National_organizations a skos:Concept;
+organizations:National_organization a skos:Concept;
   skos:broader organizations:Organizations_by_scale_of_activity;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "National organizations"@en .
+  skos:prefLabel "National organization"@en .
 
-organizations:International_organizations a skos:Concept;
+organizations:International_organization a skos:Concept;
   skos:broader organizations:Organizations_by_scale_of_activity;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "International organizations"@en .
+  skos:prefLabel "International organization"@en .
 
-organizations:Organizations_by_legal_status skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+organizations:Public_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+  skos:narrower organizations:Local_authority, organizations:State_agency;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
 
-organizations:Public_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+organizations:Private_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+  skos:narrower organizations:Association, organizations:Cooperative, organizations:Corporation,
+    organizations:Partnership, organizations:Sole_proprietorship;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
 
-organizations:Private_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+organizations:State_agency skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+  skos:narrower organizations:Military_organization .
 
-organizations:State_agency skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+organizations:Informal_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
 
-organizations:Council skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+organizations:Local_authority skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Sole_proprietorship skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Partnership skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Corporation skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Cooperative skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Association skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Military_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:NGO skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Organizations_by_goal skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Educational_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Commercial_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Confessional_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Recreational_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Professional_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
 
 <https://homernetwork.github.io/vocabulary/organizations/> a skos:ConceptScheme;
-  skos:hasTopConcept organizations:Organizations_by_activity, organizations:Organizations_by_goal,
-    organizations:Organizations_by_legal_status, organizations:Organizations_by_scale_of_activity .
+  skos:hasTopConcept organizations:Informal_organization, organizations:NGO, organizations:Organizations_by_activity,
+    organizations:Organizations_by_goal, organizations:Organizations_by_scale_of_activity,
+    organizations:Private_organization, organizations:Public_organization, <https://homernetwork.github.io/vocabulary/organizations/University/research_organization> .
 
-organizations:Organizations_by_goal skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
+<https://homernetwork.github.io/vocabulary/organizations/University/research_organization>
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Organizations_by_activity skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
 
 <https://homernetwork.github.io/vocabulary/identifiers/> a skos:ConceptScheme;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
