@@ -2724,8 +2724,8 @@ organizations:Professional_organization a skos:Concept;
 organizations:Political_organization a skos:Concept;
   skos:broader organizations:Organizations_by_goal;
   skos:definition "Political parties"@en;
-  skos:prefLabel "Political organization"@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+  skos:prefLabel "Political organization"@en .
 
 organizations:Security_organization a skos:Concept;
   skos:broader organizations:Organizations_by_goal;
@@ -2736,8 +2736,7 @@ organizations:Security_organization a skos:Concept;
 organizations:Paramilitary_organization a skos:Concept;
   skos:broader organizations:Security_organization;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Paramilitary organization"@en;
-  skos:related "Military organizations"@en .
+  skos:prefLabel "Paramilitary organization"@en .
 
 <https://homernetwork.github.io/vocabulary/organizations/University/research_organization>
   a skos:Concept;
