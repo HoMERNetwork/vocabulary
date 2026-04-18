@@ -4,6 +4,14 @@
   "prefLabel": {
     "en": "State agency"
   },
+  "narrower": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Military_organization",
+      "prefLabel": {
+        "en": "Military organization"
+      }
+    }
+  ],
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/organizations/Public_organization",
     "prefLabel": {

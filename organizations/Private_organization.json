@@ -6,21 +6,9 @@
   },
   "narrower": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Association",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Sole_proprietorship",
       "prefLabel": {
-        "en": "Association"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Cooperative",
-      "prefLabel": {
-        "en": "Cooperative"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Corporation",
-      "prefLabel": {
-        "en": "Corporation"
+        "en": "Sole proprietorship"
       }
     },
     {
@@ -30,18 +18,24 @@
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Sole_proprietorship",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Corporation",
       "prefLabel": {
-        "en": "Sole proprietorship"
+        "en": "Corporation"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Cooperative",
+      "prefLabel": {
+        "en": "Cooperative"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Association",
+      "prefLabel": {
+        "en": "Association"
       }
     }
   ],
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/organizations/Organizations_by_legal_status",
-    "prefLabel": {
-      "en": "Organizations by legal status"
-    }
-  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organizations/",
@@ -53,6 +47,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organizations/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organizations/",
+      "title": {
+        "en": "Film-related organization types"
+      }
     }
   ],
   "@context": {

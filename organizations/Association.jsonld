@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "Association"
   },
+  "example": {
+    "en": "Film societies, ..."
+  },
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/organizations/Private_organization",
     "prefLabel": {

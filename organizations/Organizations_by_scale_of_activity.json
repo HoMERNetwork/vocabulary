@@ -6,21 +6,21 @@
   },
   "narrower": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/International_organizations",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/International_organization",
       "prefLabel": {
-        "en": "International organizations"
+        "en": "International organization"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Local_organizations",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Local_organization",
       "prefLabel": {
-        "en": "Local organizations"
+        "en": "Local organization"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/National_organizations",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/National_organization",
       "prefLabel": {
-        "en": "National organizations"
+        "en": "National organization"
       }
     }
   ],

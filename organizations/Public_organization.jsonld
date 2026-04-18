@@ -6,24 +6,18 @@
   },
   "narrower": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Council",
-      "prefLabel": {
-        "en": "Council"
-      }
-    },
-    {
       "id": "https://homernetwork.github.io/vocabulary/organizations/State_agency",
       "prefLabel": {
         "en": "State agency"
       }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Local_authority",
+      "prefLabel": {
+        "en": "Local authority"
+      }
     }
   ],
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/organizations/Organizations_by_legal_status",
-    "prefLabel": {
-      "en": "Organizations by legal status"
-    }
-  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organizations/",
@@ -35,6 +29,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organizations/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organizations/",
+      "title": {
+        "en": "Film-related organization types"
+      }
     }
   ],
   "@context": {

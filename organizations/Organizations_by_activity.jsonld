@@ -4,11 +4,14 @@
   "prefLabel": {
     "en": "Organizations by activity"
   },
+  "definition": {
+    "en": "Should it be film-related or broader?"
+  },
   "narrower": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Censorship",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Censorship_organization",
       "prefLabel": {
-        "en": "Censorship"
+        "en": "Censorship organization"
       }
     },
     {
@@ -18,45 +21,51 @@
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Film_distribution",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Film_distributor",
       "prefLabel": {
-        "en": "Film distribution"
+        "en": "Film distributor"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Film_exhibition",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Film_exhibitor",
       "prefLabel": {
-        "en": "Film exhibition"
+        "en": "Film exhibitor"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Film_preservation",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Film_preservation_organization",
       "prefLabel": {
-        "en": "Film preservation"
+        "en": "Film preservation organization"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Film_rating_and_classification",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Film_producer",
       "prefLabel": {
-        "en": "Film rating and classification"
+        "en": "Film producer"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Funding_organizations",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Film_rating_and_classification_organization",
       "prefLabel": {
-        "en": "Funding organizations"
+        "en": "Film rating and classification organization"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Lobbying",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Funding_organization",
       "prefLabel": {
-        "en": "Lobbying"
+        "en": "Funding organization"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Marketing_organizations",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Lobbying_organization",
       "prefLabel": {
-        "en": "Marketing organizations"
+        "en": "Lobbying organization"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Marketing_organization",
+      "prefLabel": {
+        "en": "Marketing organization"
       }
     }
   ],

@@ -6,39 +6,45 @@
   },
   "narrower": [
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Commercial_organizations",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Commercial_organization",
       "prefLabel": {
-        "en": "Commercial organizations"
+        "en": "Commercial organization"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Confessional_organizations",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Confessional_organization",
       "prefLabel": {
-        "en": "Confessional organizations"
+        "en": "Confessional organization"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Educational_organizations",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Educational_organization",
       "prefLabel": {
-        "en": "Educational organizations"
+        "en": "Educational organization"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Political_organizations",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Political_organization",
       "prefLabel": {
-        "en": "Political organizations"
+        "en": "Political organization"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Professional_organizations",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Professional_organization",
       "prefLabel": {
-        "en": "Professional organizations"
+        "en": "Professional organization"
       }
     },
     {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Recreational_organizations",
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Recreational_organization",
       "prefLabel": {
-        "en": "Recreational organizations"
+        "en": "Recreational organization"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Security_organization",
+      "prefLabel": {
+        "en": "Security organization"
       }
     }
   ],
