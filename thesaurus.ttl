@@ -2656,6 +2656,7 @@ organizations:Informal_organization a skos:Concept;
 
 organizations:State_agency a skos:Concept;
   skos:broader organizations:Public_organization;
+  skos:example "Ministry, departments, agencies and their local ramifications (such as prefectures for the Italian ministry of the Interior)"@en;
   skos:prefLabel "State agency"@en .
 
 organizations:Local_authority a skos:Concept;
@@ -2886,6 +2887,30 @@ organizations:Professional_organization skos:inScheme <https://homernetwork.gith
 
 organizations:Organizations_by_activity skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
 
+<https://homernetwork.github.io/vocabulary/rooms/> a skos:ConceptScheme;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  dct:title "Rooms"@en;
+  skos:hasTopConcept subvenue:Room .
+
+subvenue:Room a skos:Concept;
+  skos:definition "Subdivision of venue, equipped with a screen and a projector for viewing movies."@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/rooms/>;
+  skos:narrower subvenue:Home_cinema, subvenue:Screening_room;
+  skos:prefLabel "Room"@en;
+  skos:topConceptOf <https://homernetwork.github.io/vocabulary/rooms/> .
+
+subvenue:Home_cinema a skos:Concept;
+  skos:broader subvenue:Room;
+  skos:definition "a specific area within a house furnished with the essential equipment for enjoying cinematic works. These spaces emulate the atmosphere of public cinemas while being located within a private home."@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/rooms/>;
+  skos:prefLabel "Home cinema"@en .
+
+subvenue:Screening_room a skos:Concept;
+  skos:broader subvenue:Room;
+  skos:definition "A screening room is a facility equipped with a screen and a projector for viewing movies."@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/rooms/>;
+  skos:prefLabel "Auditorium"@sv, "Screening room"@en, "sala di proiezione"@it .
+
 <https://homernetwork.github.io/vocabulary/identifiers/> a skos:ConceptScheme;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
   dct:title "Identifiers"@en;
@@ -2915,30 +2940,6 @@ identifiers:Wikidata_ID a skos:Concept;
   skos:inScheme <https://homernetwork.github.io/vocabulary/identifiers/>;
   skos:prefLabel "Wikidata ID"@en;
   skos:topConceptOf <https://homernetwork.github.io/vocabulary/identifiers/> .
-
-<https://homernetwork.github.io/vocabulary/rooms/> a skos:ConceptScheme;
-  dct:license <https://creativecommons.org/licenses/by/4.0/>;
-  dct:title "Rooms"@en;
-  skos:hasTopConcept subvenue:Room .
-
-subvenue:Room a skos:Concept;
-  skos:definition "Subdivision of venue, equipped with a screen and a projector for viewing movies."@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/rooms/>;
-  skos:narrower subvenue:Home_cinema, subvenue:Screening_room;
-  skos:prefLabel "Room"@en;
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/rooms/> .
-
-subvenue:Home_cinema a skos:Concept;
-  skos:broader subvenue:Room;
-  skos:definition "a specific area within a house furnished with the essential equipment for enjoying cinematic works. These spaces emulate the atmosphere of public cinemas while being located within a private home."@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/rooms/>;
-  skos:prefLabel "Home cinema"@en .
-
-subvenue:Screening_room a skos:Concept;
-  skos:broader subvenue:Room;
-  skos:definition "A screening room is a facility equipped with a screen and a projector for viewing movies."@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/rooms/>;
-  skos:prefLabel "Auditorium"@sv, "Screening room"@en, "sala di proiezione"@it .
 
 <https://homernetwork.github.io/vocabulary/roles/> a skos:ConceptScheme;
   dct:license <https://creativecommons.org/licenses/by/4.0/>;
