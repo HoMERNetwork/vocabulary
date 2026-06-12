@@ -4,6 +4,9 @@
   "prefLabel": {
     "en": "State agency"
   },
+  "example": {
+    "en": "Ministry, departments, agencies and their local ramifications (such as prefectures for the Italian ministry of the Interior)"
+  },
   "narrower": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organizations/Military_organization",
