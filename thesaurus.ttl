@@ -2697,8 +2697,9 @@ organizations:NGO a skos:Concept;
 
 organizations:Organizations_by_goal a skos:Concept;
   skos:narrower organizations:Commercial_organization, organizations:Confessional_organization,
-    organizations:Educational_organization, organizations:Political_organization, organizations:Professional_organization,
-    organizations:Recreational_organization, organizations:Security_organization;
+    organizations:Educational_organization, organizations:Judiciary_organization, organizations:Political_organization,
+    organizations:Professional_organization, organizations:Recreational_organization,
+    organizations:Research_organization, organizations:Security_organization;
   skos:prefLabel "Organizations by goal"@en .
 
 organizations:Educational_organization a skos:Concept;
@@ -2725,24 +2726,31 @@ organizations:Professional_organization a skos:Concept;
 organizations:Political_organization a skos:Concept;
   skos:broader organizations:Organizations_by_goal;
   skos:definition "Political parties"@en;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
   skos:prefLabel "Political organization"@en .
 
 organizations:Security_organization a skos:Concept;
   skos:broader organizations:Organizations_by_goal;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:narrower organizations:Paramilitary_organization;
   skos:prefLabel "Security organization"@en .
 
-organizations:Paramilitary_organization a skos:Concept;
-  skos:broader organizations:Security_organization;
-  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "Paramilitary organization"@en .
+organizations:Judiciary_organization a skos:Concept;
+  skos:broader organizations:Organizations_by_goal;
+  skos:prefLabel "Judiciary organization"@en .
 
-<https://homernetwork.github.io/vocabulary/organizations/University/research_organization>
-  a skos:Concept;
+organizations:Research_organization a skos:Concept;
+  skos:broader organizations:Organizations_by_goal;
+  skos:example "highest court"@en;
   skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
-  skos:prefLabel "University/research organization"@en .
+  skos:prefLabel "Research organization"@en .
+
+organizations:Communications_organization a skos:Concept;
+  skos:example "trade press, information service, news/war correspondents, mass media, local press"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+  skos:prefLabel "Communications organization"@en .
+
+organizations:Preservation_organization a skos:Concept;
+  skos:example "Archives"@en;
+  skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/>;
+  skos:prefLabel "Preservation organization"@en .
 
 organizations:Organizations_by_activity a skos:Concept;
   skos:definition "Should it be film-related or broader?"@en;
@@ -2877,13 +2885,21 @@ organizations:Recreational_organization skos:inScheme <https://homernetwork.gith
 
 organizations:Professional_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
 
-<https://homernetwork.github.io/vocabulary/organizations/> a skos:ConceptScheme;
-  skos:hasTopConcept organizations:Informal_organization, organizations:NGO, organizations:Organizations_by_activity,
-    organizations:Organizations_by_goal, organizations:Organizations_by_scale_of_activity,
-    organizations:Private_organization, organizations:Public_organization, <https://homernetwork.github.io/vocabulary/organizations/University/research_organization> .
+organizations:Political_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
 
-<https://homernetwork.github.io/vocabulary/organizations/University/research_organization>
-  skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
+organizations:Security_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Judiciary_organization skos:inScheme <https://homernetwork.github.io/vocabulary/organizations/> .
+
+<https://homernetwork.github.io/vocabulary/organizations/> a skos:ConceptScheme;
+  skos:hasTopConcept organizations:Communications_organization, organizations:Informal_organization,
+    organizations:NGO, organizations:Organizations_by_activity, organizations:Organizations_by_goal,
+    organizations:Organizations_by_scale_of_activity, organizations:Preservation_organization,
+    organizations:Private_organization, organizations:Public_organization .
+
+organizations:Communications_organization skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
+
+organizations:Preservation_organization skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
 
 organizations:Organizations_by_activity skos:topConceptOf <https://homernetwork.github.io/vocabulary/organizations/> .
 
