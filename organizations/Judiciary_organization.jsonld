@@ -1,65 +1,15 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/organizations/Organizations_by_goal",
+  "id": "https://homernetwork.github.io/vocabulary/organizations/Judiciary_organization",
   "type": "Concept",
   "prefLabel": {
-    "en": "Organizations by goal"
+    "en": "Judiciary organization"
   },
-  "narrower": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Commercial_organization",
-      "prefLabel": {
-        "en": "Commercial organization"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Confessional_organization",
-      "prefLabel": {
-        "en": "Confessional organization"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Educational_organization",
-      "prefLabel": {
-        "en": "Educational organization"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Judiciary_organization",
-      "prefLabel": {
-        "en": "Judiciary organization"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Political_organization",
-      "prefLabel": {
-        "en": "Political organization"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Professional_organization",
-      "prefLabel": {
-        "en": "Professional organization"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Recreational_organization",
-      "prefLabel": {
-        "en": "Recreational organization"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Research_organization",
-      "prefLabel": {
-        "en": "Research organization"
-      }
-    },
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Security_organization",
-      "prefLabel": {
-        "en": "Security organization"
-      }
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/organizations/Organizations_by_goal",
+    "prefLabel": {
+      "en": "Organizations by goal"
     }
-  ],
+  },
   "inScheme": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organizations/",
@@ -71,14 +21,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organizations/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/",
-      "title": {
-        "en": "Film-related organization types"
-      }
     }
   ],
   "@context": {

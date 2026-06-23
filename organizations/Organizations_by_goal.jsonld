@@ -24,6 +24,12 @@
       }
     },
     {
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Judiciary_organization",
+      "prefLabel": {
+        "en": "Judiciary organization"
+      }
+    },
+    {
       "id": "https://homernetwork.github.io/vocabulary/organizations/Political_organization",
       "prefLabel": {
         "en": "Political organization"
@@ -39,6 +45,12 @@
       "id": "https://homernetwork.github.io/vocabulary/organizations/Recreational_organization",
       "prefLabel": {
         "en": "Recreational organization"
+      }
+    },
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organizations/Research_organization",
+      "prefLabel": {
+        "en": "Research organization"
       }
     },
     {

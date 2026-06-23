@@ -4,14 +4,6 @@
   "prefLabel": {
     "en": "Security organization"
   },
-  "narrower": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/Paramilitary_organization",
-      "prefLabel": {
-        "en": "Paramilitary organization"
-      }
-    }
-  ],
   "broader": {
     "id": "https://homernetwork.github.io/vocabulary/organizations/Organizations_by_goal",
     "prefLabel": {

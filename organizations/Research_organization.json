@@ -1,8 +1,17 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/organizations/University/research_organization",
+  "id": "https://homernetwork.github.io/vocabulary/organizations/Research_organization",
   "type": "Concept",
   "prefLabel": {
-    "en": "University/research organization"
+    "en": "Research organization"
+  },
+  "example": {
+    "en": "highest court"
+  },
+  "broader": {
+    "id": "https://homernetwork.github.io/vocabulary/organizations/Organizations_by_goal",
+    "prefLabel": {
+      "en": "Organizations by goal"
+    }
   },
   "inScheme": [
     {
@@ -15,14 +24,6 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organizations/"
-    }
-  ],
-  "topConceptOf": [
-    {
-      "id": "https://homernetwork.github.io/vocabulary/organizations/",
-      "title": {
-        "en": "Film-related organization types"
-      }
     }
   ],
   "@context": {

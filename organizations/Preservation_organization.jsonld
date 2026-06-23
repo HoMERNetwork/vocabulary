@@ -1,14 +1,11 @@
 {
-  "id": "https://homernetwork.github.io/vocabulary/organizations/Paramilitary_organization",
+  "id": "https://homernetwork.github.io/vocabulary/organizations/Preservation_organization",
   "type": "Concept",
   "prefLabel": {
-    "en": "Paramilitary organization"
+    "en": "Preservation organization"
   },
-  "broader": {
-    "id": "https://homernetwork.github.io/vocabulary/organizations/Security_organization",
-    "prefLabel": {
-      "en": "Security organization"
-    }
+  "example": {
+    "en": "Archives"
   },
   "inScheme": [
     {
@@ -21,6 +18,14 @@
   "inSchemeAll": [
     {
       "id": "https://homernetwork.github.io/vocabulary/organizations/"
+    }
+  ],
+  "topConceptOf": [
+    {
+      "id": "https://homernetwork.github.io/vocabulary/organizations/",
+      "title": {
+        "en": "Film-related organization types"
+      }
     }
   ],
   "@context": {
